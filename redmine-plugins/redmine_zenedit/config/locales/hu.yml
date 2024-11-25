@@ -1,0 +1,12 @@
+# Hungarian translations for redmine_zenedit
+# by Lilla Basilides basilides.h.lilla@gmail.com)
+# Hungarian strings go here for Rails i18n
+hu:
+  label_zen_placeholder: Hagyj megjegyzést
+  label_click_for_edit: Kattints a szerkesztéshez
+  label_unsaved_issue: Van egy el nem mentett jegyed. Szeretnéd visszaállítani?
+  label_unsaved_wiki: Van egy el nem mentett wiki oldalad. Szeretnéd visszaállítani?
+  label_created_time: Létrehozva %{value} ezelőtt
+  label_zen_user_mentions: Felhasználói megemlítések
+  label_zen_issue_mentions: Jegyre vonatkozó említések
+  label_zen_draft_user_title: '%{user} szerkeszti ezt a jegyet (%{date})'

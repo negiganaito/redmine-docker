@@ -1,0 +1,10 @@
+# German strings go here for Rails i18n
+de:
+  label_zen_placeholder: Hinterlasse einen Kommentar
+  label_click_for_edit: Zum Editieren anklicken
+  label_unsaved_issue: Sie haben ein nicht gespeichertes Ticket. Möchten Sie es wiederherstellen?
+  label_unsaved_wiki: Sie haben eine nicht gespeicherte Wiki-Seite. Möchten Sie sie wiederherstellen?
+  label_created_time: Angelegt vor %{value}
+  label_zen_user_mentions: Erwähnungen von Benutzern
+  label_zen_issue_mentions: Erwähnungen von Tickets
+  label_zen_draft_user_title: '%{user} bearbeitet dieses Ticket (%{date})'

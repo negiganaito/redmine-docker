@@ -1,0 +1,12 @@
+== Redmine Highrise theme
+
+Copyright (C) 2011-2024 Kirill Bezrukov
+https://www.redmineup.com/pages/themes/highrise
+
+== 2024-06-11 v1.2.0
+
+* Redmine 6 support
+* Updated table styles
+* Fixed js errors with thumbnail resizing
+* Fixed header margins
+* Fixed overflow top menu

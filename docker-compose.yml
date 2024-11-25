@@ -1,0 +1,72 @@
+services:
+  postgresql:
+    image: sameersbn/postgresql:9.6-2
+    container_name: database
+    environment:
+      - DB_USER=redmine
+      - DB_PASS=password
+      - DB_NAME=redmine_production
+    volumes:
+      - postgresql-data:/var/lib/postgresql
+    healthcheck:
+      test: 'psql -U postgres'
+      interval: 3s
+      timeout: 3s
+      retries: 5
+      start_period: 10s
+
+  redmine:
+    image: sameersbn/redmine:5.1.4
+    container_name: redmine
+    depends_on:
+      - postgresql
+    environment:
+      - TZ=Asia/Ho_Chi_Minh
+
+      - DB_ADAPTER=postgresql
+      - DB_HOST=postgresql
+      - DB_PORT=5432
+      - DB_USER=redmine
+      - DB_PASS=password
+      - DB_NAME=redmine_production
+
+      - REDMINE_PORT=10083
+      - REDMINE_HTTPS=false
+      - REDMINE_RELATIVE_URL_ROOT=
+      - REDMINE_SECRET_TOKEN=
+
+      - REDMINE_SUDO_MODE_ENABLED=false
+      - REDMINE_SUDO_MODE_TIMEOUT=15
+
+      - REDMINE_CONCURRENT_UPLOADS=2
+
+      - REDMINE_BACKUP_SCHEDULE=
+      - REDMINE_BACKUP_EXPIRY=
+      - REDMINE_BACKUP_TIME=
+
+      - SMTP_HOST=smtp.gmail.com
+      - SMTP_USER=${SMTP_USER}
+      - SMTP_PASS=${SMTP_PASSWORD}
+      - SMTP_AUTHENTICATION=:plain
+
+      # - REDMINE_ADMIN_EMAIL=${ADMIN_EMAIL}
+      # - REDMINE_ADMIN_PASSWORD=${ADMIN_PASSWORD}
+      # - REDMINE_ADMIN_FIRSTNAME=Logistic
+      # - REDMINE_ADMIN_LASTNAME=DN
+
+    ports:
+      - '10083:80'
+    volumes:
+      - redmine_data:/home/redmine/data
+      - './redmine-themes:/home/redmine/data/themes'
+      - ./redmine-plugins:/home/redmine/data/plugins
+      # - './redmine-plugins:/home/redmine/data/plugins'
+      - './redmine-logs:/var/log/redmine/'
+
+volumes:
+  postgresql-data:
+    driver: local
+  redmine_data:
+    driver: local
+  redmine-plugins:
+    driver: local

@@ -1,0 +1,14 @@
+:root {
+  --a-color-dark: #555;
+  --a-color-black: #000;
+  --a-color-white: #fff;
+  --a-color-default: #169;
+  --a-color-even: #f6f7f8;
+  --a-color-odd: #fff;
+  --a-color-list-border: #d0d7de;
+  --a-color-input-border: #ccc;
+  --a-color-info: #777;
+  --a-color-success: green;
+  --a-color-warning: #c45736;
+  --a-color-alert: #cb2525;
+}
