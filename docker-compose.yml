@@ -3,9 +3,9 @@ services:
     image: sameersbn/postgresql:9.6-2
     container_name: database
     environment:
-      - DB_USER=redmine
-      - DB_PASS=password
-      - DB_NAME=redmine_production
+      - DB_USER=${DATABASE_USER}
+      - DB_PASS=${DATABASE_PASSWORD}
+      - DB_NAME=${DATABASE_NAME}
     volumes:
       - postgresql-data:/var/lib/postgresql
     healthcheck:
@@ -26,9 +26,9 @@ services:
       - DB_ADAPTER=postgresql
       - DB_HOST=postgresql
       - DB_PORT=5432
-      - DB_USER=redmine
-      - DB_PASS=password
-      - DB_NAME=redmine_production
+      - DB_USER=${DATABASE_USER}
+      - DB_PASS=${DATABASE_PASSWORD}
+      - DB_NAME=${DATABASE_NAME}
 
       - REDMINE_PORT=10083
       - REDMINE_HTTPS=false
@@ -48,21 +48,13 @@ services:
       - SMTP_USER=${SMTP_USER}
       - SMTP_PASS=${SMTP_PASSWORD}
       - SMTP_AUTHENTICATION=:plain
-
-      # - REDMINE_ADMIN_EMAIL=${ADMIN_EMAIL}
-      # - REDMINE_ADMIN_PASSWORD=${ADMIN_PASSWORD}
-      # - REDMINE_ADMIN_FIRSTNAME=Logistic
-      # - REDMINE_ADMIN_LASTNAME=DN
-
     ports:
       - '10083:80'
     volumes:
       - redmine_data:/home/redmine/data
       - './redmine-themes:/home/redmine/data/themes'
       - ./redmine-plugins:/home/redmine/data/plugins
-      # - './redmine-plugins:/home/redmine/data/plugins'
-      - './redmine-logs:/var/log/redmine/'
-
+      # - './redmine-logs:/var/log/redmine/'
 volumes:
   postgresql-data:
     driver: local
