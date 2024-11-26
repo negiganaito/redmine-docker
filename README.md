@@ -2,17 +2,21 @@
 
 ### Done
 
-- additional_tags
-- additionals
+- easy_baseline
+- easy_gantt
+- easy_gantt_pro
+- redmica_ui_extension
 - redmine_checklists
 - redmine_contacts
-- redmine_issue_templates
-- redmine_issue_view_columns
-- redmine_lightbox
+- redmine_drive
+- redmine_logs
+<!-- - redmine_helpdesk -->
+- redmine_people
 - redmine_questions
-- view_customize
-- easy gantt
-- easy gantt pro
+- redmine_resources
+- redmine_zenedit
+- redmineup_cms
+- redmineup_tags
 
 ### exec
 

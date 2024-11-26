@@ -20151,3 +20151,1376 @@ I, [2024-11-26T01:13:26.376911 #1022]  INFO -- : [cf8fbc5f-4930-4c4f-b6aa-7f3e6c
 I, [2024-11-26T01:13:26.380387 #1022]  INFO -- : [cf8fbc5f-4930-4c4f-b6aa-7f3e6cf3cc27]   Current user: admin (id=1)
 I, [2024-11-26T01:13:26.403865 #1022]  INFO -- : [cf8fbc5f-4930-4c4f-b6aa-7f3e6cf3cc27]   Rendered plugins/easy_gantt/app/views/easy_gantt/issues.api.rsb (Duration: 2.3ms | Allocations: 1313)
 I, [2024-11-26T01:13:26.404630 #1022]  INFO -- : [cf8fbc5f-4930-4c4f-b6aa-7f3e6cf3cc27] Completed 200 OK in 28ms (Views: 2.2ms | ActiveRecord: 10.0ms | Allocations: 11633)
+I, [2024-11-26T09:11:24.759523 #321]  INFO -- : Migrating to Setup (1)
+I, [2024-11-26T09:11:24.957104 #321]  INFO -- : Migrating to IssueMove (2)
+I, [2024-11-26T09:11:24.962973 #321]  INFO -- : Migrating to IssueAddNote (3)
+I, [2024-11-26T09:11:24.969024 #321]  INFO -- : Migrating to ExportPdf (4)
+I, [2024-11-26T09:11:24.974879 #321]  INFO -- : Migrating to IssueStartDate (5)
+I, [2024-11-26T09:11:24.989911 #321]  INFO -- : Migrating to CalendarAndActivity (6)
+I, [2024-11-26T09:11:24.997016 #321]  INFO -- : Migrating to CreateJournals (7)
+I, [2024-11-26T09:11:25.029037 #321]  INFO -- : Migrating to CreateUserPreferences (8)
+I, [2024-11-26T09:11:25.039893 #321]  INFO -- : Migrating to AddHideMailPref (9)
+I, [2024-11-26T09:11:25.050831 #321]  INFO -- : Migrating to CreateComments (10)
+I, [2024-11-26T09:11:25.062952 #321]  INFO -- : Migrating to AddNewsCommentsCount (11)
+I, [2024-11-26T09:11:25.076598 #321]  INFO -- : Migrating to AddCommentsPermissions (12)
+I, [2024-11-26T09:11:25.085080 #321]  INFO -- : Migrating to CreateQueries (13)
+I, [2024-11-26T09:11:25.095372 #321]  INFO -- : Migrating to AddQueriesPermissions (14)
+I, [2024-11-26T09:11:25.100638 #321]  INFO -- : Migrating to CreateRepositories (15)
+I, [2024-11-26T09:11:25.112236 #321]  INFO -- : Migrating to AddRepositoriesPermissions (16)
+I, [2024-11-26T09:11:25.123101 #321]  INFO -- : Migrating to CreateSettings (17)
+I, [2024-11-26T09:11:25.144453 #321]  INFO -- : Migrating to SetDocAndFilesNotifications (18)
+I, [2024-11-26T09:11:25.153421 #321]  INFO -- : Migrating to AddIssueStatusPosition (19)
+I, [2024-11-26T09:11:25.162092 #321]  INFO -- : Migrating to AddRolePosition (20)
+I, [2024-11-26T09:11:25.176711 #321]  INFO -- : Migrating to AddTrackerPosition (21)
+I, [2024-11-26T09:11:25.186739 #321]  INFO -- : Migrating to SerializePossiblesValues (22)
+I, [2024-11-26T09:11:25.189588 #321]  INFO -- : Migrating to AddTrackerIsInRoadmap (23)
+I, [2024-11-26T09:11:25.196075 #321]  INFO -- : Migrating to AddRoadmapPermission (24)
+I, [2024-11-26T09:11:25.201589 #321]  INFO -- : Migrating to AddSearchPermission (25)
+I, [2024-11-26T09:11:25.207708 #321]  INFO -- : Migrating to AddRepositoryLoginAndPassword (26)
+I, [2024-11-26T09:11:25.225560 #321]  INFO -- : Migrating to CreateWikis (27)
+I, [2024-11-26T09:11:25.235907 #321]  INFO -- : Migrating to CreateWikiPages (28)
+I, [2024-11-26T09:11:25.246572 #321]  INFO -- : Migrating to CreateWikiContents (29)
+I, [2024-11-26T09:11:25.275444 #321]  INFO -- : Migrating to AddProjectsFeedsPermissions (30)
+I, [2024-11-26T09:11:25.281098 #321]  INFO -- : Migrating to AddRepositoryRootUrl (31)
+I, [2024-11-26T09:11:25.291219 #321]  INFO -- : Migrating to CreateTimeEntries (32)
+I, [2024-11-26T09:11:25.305710 #321]  INFO -- : Migrating to AddTimelogPermissions (33)
+I, [2024-11-26T09:11:25.330381 #321]  INFO -- : Migrating to CreateChangesets (34)
+I, [2024-11-26T09:11:25.344386 #321]  INFO -- : Migrating to CreateChanges (35)
+I, [2024-11-26T09:11:25.358646 #321]  INFO -- : Migrating to AddChangesetCommitDate (36)
+I, [2024-11-26T09:11:25.375371 #321]  INFO -- : Migrating to AddProjectIdentifier (37)
+I, [2024-11-26T09:11:25.378375 #321]  INFO -- : Migrating to AddCustomFieldIsFilter (38)
+I, [2024-11-26T09:11:25.388847 #321]  INFO -- : Migrating to CreateWatchers (39)
+I, [2024-11-26T09:11:25.400302 #321]  INFO -- : Migrating to CreateChangesetsIssues (40)
+I, [2024-11-26T09:11:25.408038 #321]  INFO -- : Migrating to RenameCommentToComments (41)
+I, [2024-11-26T09:11:25.427894 #321]  INFO -- : Migrating to CreateIssueRelations (42)
+I, [2024-11-26T09:11:25.438963 #321]  INFO -- : Migrating to AddRelationsPermissions (43)
+I, [2024-11-26T09:11:25.449045 #321]  INFO -- : Migrating to SetLanguageLengthToFive (44)
+I, [2024-11-26T09:11:25.453208 #321]  INFO -- : Migrating to CreateBoards (45)
+I, [2024-11-26T09:11:25.469311 #321]  INFO -- : Migrating to CreateMessages (46)
+I, [2024-11-26T09:11:25.487649 #321]  INFO -- : Migrating to AddBoardsPermissions (47)
+I, [2024-11-26T09:11:25.494287 #321]  INFO -- : Migrating to AllowNullVersionEffectiveDate (48)
+I, [2024-11-26T09:11:25.498837 #321]  INFO -- : Migrating to AddWikiDestroyPagePermission (49)
+I, [2024-11-26T09:11:25.504424 #321]  INFO -- : Migrating to AddWikiAttachmentsPermissions (50)
+I, [2024-11-26T09:11:25.509907 #321]  INFO -- : Migrating to AddProjectStatus (51)
+I, [2024-11-26T09:11:25.521727 #321]  INFO -- : Migrating to AddChangesRevision (52)
+I, [2024-11-26T09:11:25.524531 #321]  INFO -- : Migrating to AddChangesBranch (53)
+I, [2024-11-26T09:11:25.527377 #321]  INFO -- : Migrating to AddChangesetsScmid (54)
+I, [2024-11-26T09:11:25.530415 #321]  INFO -- : Migrating to AddRepositoriesType (55)
+I, [2024-11-26T09:11:25.534821 #321]  INFO -- : Migrating to AddRepositoriesChangesPermission (56)
+I, [2024-11-26T09:11:25.540595 #321]  INFO -- : Migrating to AddVersionsWikiPageTitle (57)
+I, [2024-11-26T09:11:25.544257 #321]  INFO -- : Migrating to AddIssueCategoriesAssignedToId (58)
+I, [2024-11-26T09:11:25.547224 #321]  INFO -- : Migrating to AddRolesAssignable (59)
+I, [2024-11-26T09:11:25.554720 #321]  INFO -- : Migrating to ChangeChangesetsCommitterLimit (60)
+I, [2024-11-26T09:11:25.557965 #321]  INFO -- : Migrating to AddRolesBuiltin (61)
+I, [2024-11-26T09:11:25.565751 #321]  INFO -- : Migrating to InsertBuiltinRoles (62)
+I, [2024-11-26T09:11:25.934881 #321]  INFO -- : Migrating to AddRolesPermissions (63)
+I, [2024-11-26T09:11:25.941762 #321]  INFO -- : Migrating to DropPermissions (64)
+I, [2024-11-26T09:11:25.945525 #321]  INFO -- : Migrating to AddSettingsUpdatedOn (65)
+I, [2024-11-26T09:11:25.949263 #321]  INFO -- : Migrating to AddCustomValueCustomizedIndex (66)
+I, [2024-11-26T09:11:25.956427 #321]  INFO -- : Migrating to CreateWikiRedirects (67)
+I, [2024-11-26T09:11:25.970618 #321]  INFO -- : Migrating to CreateEnabledModules (68)
+I, [2024-11-26T09:11:26.000734 #321]  INFO -- : Migrating to AddIssuesEstimatedHours (69)
+I, [2024-11-26T09:11:26.003911 #321]  INFO -- : Migrating to ChangeAttachmentsContentTypeLimit (70)
+I, [2024-11-26T09:11:26.006928 #321]  INFO -- : Migrating to AddQueriesColumnNames (71)
+I, [2024-11-26T09:11:26.010117 #321]  INFO -- : Migrating to AddEnumerationsPosition (72)
+W, [2024-11-26T09:11:26.012591 #321]  WARN -- : Creating scope :system. Overwriting existing method Enumeration.system.
+I, [2024-11-26T09:11:26.020958 #321]  INFO -- : Migrating to AddEnumerationsIsDefault (73)
+I, [2024-11-26T09:11:26.028003 #321]  INFO -- : Migrating to AddAuthSourcesTls (74)
+I, [2024-11-26T09:11:26.038309 #321]  INFO -- : Migrating to AddMembersMailNotification (75)
+I, [2024-11-26T09:11:26.045399 #321]  INFO -- : Migrating to AllowNullPosition (76)
+I, [2024-11-26T09:11:26.055533 #321]  INFO -- : Migrating to RemoveIssueStatusesHtmlColor (77)
+I, [2024-11-26T09:11:26.058566 #321]  INFO -- : Migrating to AddCustomFieldsPosition (78)
+I, [2024-11-26T09:11:26.069862 #321]  INFO -- : Migrating to AddUserPreferencesTimeZone (79)
+I, [2024-11-26T09:11:26.074002 #321]  INFO -- : Migrating to AddUsersType (80)
+W, [2024-11-26T09:11:26.085804 #321]  WARN -- : Creating scope :sorted. Overwriting existing method User.sorted.
+I, [2024-11-26T09:11:26.134330 #321]  INFO -- : Migrating to CreateProjectsTrackers (81)
+I, [2024-11-26T09:11:26.142971 #321]  INFO -- : Migrating to AddMessagesLocked (82)
+I, [2024-11-26T09:11:26.169959 #321]  INFO -- : Migrating to AddMessagesSticky (83)
+I, [2024-11-26T09:11:26.220606 #321]  INFO -- : Migrating to ChangeAuthSourcesAccountLimit (84)
+I, [2024-11-26T09:11:26.223870 #321]  INFO -- : Migrating to AddRoleTrackerOldStatusIndexToWorkflows (85)
+I, [2024-11-26T09:11:26.230221 #321]  INFO -- : Migrating to AddCustomFieldsSearchable (86)
+I, [2024-11-26T09:11:26.240900 #321]  INFO -- : Migrating to ChangeProjectsDescriptionToText (87)
+I, [2024-11-26T09:11:26.244975 #321]  INFO -- : Migrating to AddCustomFieldsDefaultValue (88)
+I, [2024-11-26T09:11:26.248017 #321]  INFO -- : Migrating to AddAttachmentsDescription (89)
+I, [2024-11-26T09:11:26.251266 #321]  INFO -- : Migrating to ChangeVersionsNameLimit (90)
+I, [2024-11-26T09:11:26.254268 #321]  INFO -- : Migrating to ChangeChangesetsRevisionToString (91)
+I, [2024-11-26T09:11:26.272064 #321]  INFO -- : Migrating to ChangeChangesFromRevisionToString (92)
+I, [2024-11-26T09:11:26.286438 #321]  INFO -- : Migrating to AddWikiPagesProtected (93)
+I, [2024-11-26T09:11:26.297348 #321]  INFO -- : Migrating to ChangeProjectsHomepageLimit (94)
+I, [2024-11-26T09:11:26.301750 #321]  INFO -- : Migrating to AddWikiPagesParentId (95)
+I, [2024-11-26T09:11:26.304765 #321]  INFO -- : Migrating to AddCommitAccessPermission (96)
+I, [2024-11-26T09:11:26.307783 #321]  INFO -- : Migrating to AddViewWikiEditsPermission (97)
+I, [2024-11-26T09:11:26.310660 #321]  INFO -- : Migrating to SetTopicAuthorsAsWatchers (98)
+I, [2024-11-26T09:11:26.318919 #321]  INFO -- : Migrating to AddDeleteWikiPagesAttachmentsPermission (99)
+I, [2024-11-26T09:11:26.321894 #321]  INFO -- : Migrating to AddChangesetsUserId (100)
+I, [2024-11-26T09:11:26.325150 #321]  INFO -- : Migrating to PopulateChangesetsUserId (101)
+I, [2024-11-26T09:11:26.327886 #321]  INFO -- : Migrating to AddCustomFieldsEditable (102)
+I, [2024-11-26T09:11:26.338866 #321]  INFO -- : Migrating to SetCustomFieldsEditable (103)
+I, [2024-11-26T09:11:26.344287 #321]  INFO -- : Migrating to AddProjectsLftAndRgt (104)
+I, [2024-11-26T09:11:26.347336 #321]  INFO -- : Migrating to BuildProjectsTree (105)
+I, [2024-11-26T09:11:26.352635 #321]  INFO -- : Migrating to RemoveProjectsProjectsCount (106)
+I, [2024-11-26T09:11:26.355339 #321]  INFO -- : Migrating to AddOpenIdAuthenticationTables (107)
+I, [2024-11-26T09:11:26.373334 #321]  INFO -- : Migrating to AddIdentityUrlToUsers (108)
+I, [2024-11-26T09:11:26.376520 #321]  INFO -- : Migrating to AddWatchersUserIdTypeIndex (20090214190337)
+I, [2024-11-26T09:11:26.382934 #321]  INFO -- : Migrating to AddQueriesSortCriteria (20090312172426)
+I, [2024-11-26T09:11:26.385743 #321]  INFO -- : Migrating to AddProjectsTrackersUniqueIndex (20090312194159)
+I, [2024-11-26T09:11:26.393011 #321]  INFO -- : Migrating to ExtendSettingsName (20090318181151)
+I, [2024-11-26T09:11:26.398155 #321]  INFO -- : Migrating to AddTypeToEnumerations (20090323224724)
+I, [2024-11-26T09:11:26.405094 #321]  INFO -- : Migrating to UpdateEnumerationsToSti (20090401221305)
+I, [2024-11-26T09:11:26.415217 #321]  INFO -- : Migrating to AddActiveFieldToEnumerations (20090401231134)
+I, [2024-11-26T09:11:26.425581 #321]  INFO -- : Migrating to AddProjectToEnumerations (20090403001910)
+I, [2024-11-26T09:11:26.432267 #321]  INFO -- : Migrating to AddParentIdToEnumerations (20090406161854)
+I, [2024-11-26T09:11:26.435440 #321]  INFO -- : Migrating to AddQueriesGroupBy (20090425161243)
+I, [2024-11-26T09:11:26.438037 #321]  INFO -- : Migrating to CreateMemberRoles (20090503121501)
+I, [2024-11-26T09:11:26.444917 #321]  INFO -- : Migrating to PopulateMemberRoles (20090503121505)
+I, [2024-11-26T09:11:26.452262 #321]  INFO -- : Migrating to DropMembersRoleId (20090503121510)
+I, [2024-11-26T09:11:26.454963 #321]  INFO -- : Migrating to FixMessagesStickyNull (20090614091200)
+I, [2024-11-26T09:11:26.458653 #321]  INFO -- : Migrating to PopulateUsersType (20090704172350)
+I, [2024-11-26T09:11:26.461715 #321]  INFO -- : Migrating to CreateGroupsUsers (20090704172355)
+I, [2024-11-26T09:11:26.468266 #321]  INFO -- : Migrating to AddMemberRolesInheritedFrom (20090704172358)
+I, [2024-11-26T09:11:26.470963 #321]  INFO -- : Migrating to FixUsersCustomValues (20091010093521)
+I, [2024-11-26T09:11:26.475017 #321]  INFO -- : Migrating to AddMissingIndexesToWorkflows (20091017212227)
+I, [2024-11-26T09:11:26.489398 #321]  INFO -- : Migrating to AddMissingIndexesToCustomFieldsProjects (20091017212457)
+I, [2024-11-26T09:11:26.495794 #321]  INFO -- : Migrating to AddMissingIndexesToMessages (20091017212644)
+I, [2024-11-26T09:11:26.506455 #321]  INFO -- : Migrating to AddMissingIndexesToRepositories (20091017212938)
+I, [2024-11-26T09:11:26.513340 #321]  INFO -- : Migrating to AddMissingIndexesToComments (20091017213027)
+I, [2024-11-26T09:11:26.523088 #321]  INFO -- : Migrating to AddMissingIndexesToEnumerations (20091017213113)
+I, [2024-11-26T09:11:26.529921 #321]  INFO -- : Migrating to AddMissingIndexesToWikiPages (20091017213151)
+I, [2024-11-26T09:11:26.540359 #321]  INFO -- : Migrating to AddMissingIndexesToWatchers (20091017213228)
+I, [2024-11-26T09:11:26.551526 #321]  INFO -- : Migrating to AddMissingIndexesToAuthSources (20091017213257)
+I, [2024-11-26T09:11:26.558585 #321]  INFO -- : Migrating to AddMissingIndexesToDocuments (20091017213332)
+I, [2024-11-26T09:11:26.566220 #321]  INFO -- : Migrating to AddMissingIndexesToTokens (20091017213444)
+I, [2024-11-26T09:11:26.572602 #321]  INFO -- : Migrating to AddMissingIndexesToChangesets (20091017213536)
+I, [2024-11-26T09:11:26.582594 #321]  INFO -- : Migrating to AddMissingIndexesToIssueCategories (20091017213642)
+I, [2024-11-26T09:11:26.589163 #321]  INFO -- : Migrating to AddMissingIndexesToMemberRoles (20091017213716)
+I, [2024-11-26T09:11:26.600591 #321]  INFO -- : Migrating to AddMissingIndexesToBoards (20091017213757)
+I, [2024-11-26T09:11:26.606892 #321]  INFO -- : Migrating to AddMissingIndexesToUserPreferences (20091017213835)
+I, [2024-11-26T09:11:26.613455 #321]  INFO -- : Migrating to AddMissingIndexesToIssues (20091017213910)
+I, [2024-11-26T09:11:26.641884 #321]  INFO -- : Migrating to AddMissingIndexesToMembers (20091017214015)
+I, [2024-11-26T09:11:26.652119 #321]  INFO -- : Migrating to AddMissingIndexesToCustomFields (20091017214107)
+I, [2024-11-26T09:11:26.658235 #321]  INFO -- : Migrating to AddMissingIndexesToQueries (20091017214136)
+I, [2024-11-26T09:11:26.669055 #321]  INFO -- : Migrating to AddMissingIndexesToTimeEntries (20091017214236)
+I, [2024-11-26T09:11:26.680149 #321]  INFO -- : Migrating to AddMissingIndexesToNews (20091017214308)
+I, [2024-11-26T09:11:26.690947 #321]  INFO -- : Migrating to AddMissingIndexesToUsers (20091017214336)
+I, [2024-11-26T09:11:26.701958 #321]  INFO -- : Migrating to AddMissingIndexesToAttachments (20091017214406)
+I, [2024-11-26T09:11:26.712326 #321]  INFO -- : Migrating to AddMissingIndexesToWikiContents (20091017214440)
+I, [2024-11-26T09:11:26.718497 #321]  INFO -- : Migrating to AddMissingIndexesToCustomValues (20091017214519)
+I, [2024-11-26T09:11:26.724941 #321]  INFO -- : Migrating to AddMissingIndexesToJournals (20091017214611)
+I, [2024-11-26T09:11:26.734784 #321]  INFO -- : Migrating to AddMissingIndexesToIssueRelations (20091017214644)
+I, [2024-11-26T09:11:26.745631 #321]  INFO -- : Migrating to AddMissingIndexesToWikiRedirects (20091017214720)
+I, [2024-11-26T09:11:26.752492 #321]  INFO -- : Migrating to AddMissingIndexesToCustomFieldsTrackers (20091017214750)
+I, [2024-11-26T09:11:26.759293 #321]  INFO -- : Migrating to AddActivityIndexes (20091025163651)
+I, [2024-11-26T09:11:26.796059 #321]  INFO -- : Migrating to AddVersionsStatus (20091108092559)
+I, [2024-11-26T09:11:26.814596 #321]  INFO -- : Migrating to AddViewIssuesPermission (20091114105931)
+I, [2024-11-26T09:11:26.823439 #321]  INFO -- : Migrating to AddDefaultDoneRatioToIssueStatus (20091123212029)
+I, [2024-11-26T09:11:26.826240 #321]  INFO -- : Migrating to AddVersionsSharing (20091205124427)
+I, [2024-11-26T09:11:26.846222 #321]  INFO -- : Migrating to AddLftAndRgtIndexesToProjects (20091220183509)
+I, [2024-11-26T09:11:26.856797 #321]  INFO -- : Migrating to AddIndexToSettingsName (20091220183727)
+I, [2024-11-26T09:11:26.863802 #321]  INFO -- : Migrating to AddIndexesToIssueStatus (20091220184736)
+I, [2024-11-26T09:11:26.878909 #321]  INFO -- : Migrating to RemoveEnumerationsOpt (20091225164732)
+I, [2024-11-26T09:11:26.881939 #321]  INFO -- : Migrating to ChangeWikiContentsTextLimit (20091227112908)
+I, [2024-11-26T09:11:26.884448 #321]  INFO -- : Migrating to ChangeUsersMailNotificationToString (20100129193402)
+I, [2024-11-26T09:11:26.904572 #321]  INFO -- : Migrating to UpdateMailNotificationValues (20100129193813)
+I, [2024-11-26T09:11:26.907153 #321]  INFO -- : Migrating to AddIndexOnChangesetsScmid (20100221100219)
+I, [2024-11-26T09:11:26.913490 #321]  INFO -- : Migrating to AddIssuesNestedSetsColumns (20100313132032)
+I, [2024-11-26T09:11:26.928790 #321]  INFO -- : Migrating to AddIndexOnIssuesNestedSet (20100313171051)
+I, [2024-11-26T09:11:26.935208 #321]  INFO -- : Migrating to ChangeChangesPathLengthLimit (20100705164950)
+I, [2024-11-26T09:11:26.939779 #321]  INFO -- : Migrating to EnableCalendarAndGanttModulesWhereAppropriate (20100819172912)
+I, [2024-11-26T09:11:26.945273 #321]  INFO -- : Migrating to AddUniqueIndexOnMembers (20101104182107)
+I, [2024-11-26T09:11:26.953019 #321]  INFO -- : Migrating to AddCustomFieldsVisible (20101107130441)
+I, [2024-11-26T09:11:26.967799 #321]  INFO -- : Migrating to ChangeProjectsNameLimit (20101114115114)
+I, [2024-11-26T09:11:26.973587 #321]  INFO -- : Migrating to ChangeProjectsIdentifierLimit (20101114115359)
+I, [2024-11-26T09:11:26.976734 #321]  INFO -- : Migrating to AddWorkflowsAssigneeAndAuthor (20110220160626)
+I, [2024-11-26T09:11:27.020873 #321]  INFO -- : Migrating to AddUsersSalt (20110223180944)
+I, [2024-11-26T09:11:27.023727 #321]  INFO -- : Migrating to SaltUserPasswords (20110223180953)
+I, [2024-11-26T09:11:27.034396 #321]  INFO -- : Migrating to AddRepositoriesPathEncoding (20110224000000)
+I, [2024-11-26T09:11:27.048468 #321]  INFO -- : Migrating to ChangeRepositoriesPasswordLimit (20110226120112)
+I, [2024-11-26T09:11:27.052630 #321]  INFO -- : Migrating to ChangeAuthSourcesAccountPasswordLimit (20110226120132)
+I, [2024-11-26T09:11:27.056315 #321]  INFO -- : Migrating to ChangeJournalDetailsValuesToText (20110227125750)
+I, [2024-11-26T09:11:27.059291 #321]  INFO -- : Migrating to AddRepositoriesLogEncoding (20110228000000)
+I, [2024-11-26T09:11:27.073056 #321]  INFO -- : Migrating to CopyRepositoriesLogEncoding (20110228000100)
+I, [2024-11-26T09:11:27.076961 #321]  INFO -- : Migrating to AddIndexToUsersType (20110401192910)
+I, [2024-11-26T09:11:27.083486 #321]  INFO -- : Migrating to AddRolesIssuesVisibility (20110408103312)
+I, [2024-11-26T09:11:27.093995 #321]  INFO -- : Migrating to AddIssuesIsPrivate (20110412065600)
+I, [2024-11-26T09:11:27.138207 #321]  INFO -- : Migrating to AddRepositoriesExtraInfo (20110511000000)
+I, [2024-11-26T09:11:27.141369 #321]  INFO -- : Migrating to CreateChangesetParents (20110902000000)
+I, [2024-11-26T09:11:27.151947 #321]  INFO -- : Migrating to AddUniqueIndexToIssueRelations (20111201201315)
+I, [2024-11-26T09:11:27.159661 #321]  INFO -- : Migrating to AddRepositoriesIdentifier (20120115143024)
+I, [2024-11-26T09:11:27.162498 #321]  INFO -- : Migrating to AddRepositoriesIsDefault (20120115143100)
+I, [2024-11-26T09:11:27.176022 #321]  INFO -- : Migrating to SetDefaultRepositories (20120115143126)
+I, [2024-11-26T09:11:27.179608 #321]  INFO -- : Migrating to AddCustomFieldsMultiple (20120127174243)
+I, [2024-11-26T09:11:27.193603 #321]  INFO -- : Migrating to ChangeUsersLoginLimit (20120205111326)
+I, [2024-11-26T09:11:27.199273 #321]  INFO -- : Migrating to ChangeAttachmentsContainerDefaults (20120223110929)
+I, [2024-11-26T09:11:27.223243 #321]  INFO -- : Migrating to AddAuthSourcesFilter (20120301153455)
+I, [2024-11-26T09:11:27.226434 #321]  INFO -- : Migrating to ChangeRepositoriesToFullSti (20120422150750)
+I, [2024-11-26T09:11:27.229752 #321]  INFO -- : Migrating to AddTrackersFieldsBits (20120705074331)
+I, [2024-11-26T09:11:27.242374 #321]  INFO -- : Migrating to AddAuthSourcesTimeout (20120707064544)
+I, [2024-11-26T09:11:27.246454 #321]  INFO -- : Migrating to AddWorkflowsType (20120714122000)
+I, [2024-11-26T09:11:27.250052 #321]  INFO -- : Migrating to UpdateWorkflowsToSti (20120714122100)
+I, [2024-11-26T09:11:27.253442 #321]  INFO -- : Migrating to AddWorkflowsRuleFields (20120714122200)
+I, [2024-11-26T09:11:27.257185 #321]  INFO -- : Migrating to AddBoardsParentId (20120731164049)
+I, [2024-11-26T09:11:27.260024 #321]  INFO -- : Migrating to AddJournalsPrivateNotes (20120930112914)
+I, [2024-11-26T09:11:27.284520 #321]  INFO -- : Migrating to AddEnumerationsPositionName (20121026002032)
+I, [2024-11-26T09:11:27.287368 #321]  INFO -- : Migrating to PopulateEnumerationsPositionName (20121026003537)
+I, [2024-11-26T09:11:27.291925 #321]  INFO -- : Migrating to AddQueriesType (20121209123234)
+I, [2024-11-26T09:11:27.294544 #321]  INFO -- : Migrating to UpdateQueriesToSti (20121209123358)
+I, [2024-11-26T09:11:27.304775 #321]  INFO -- : Migrating to AddAttachmentsDiskDirectory (20121213084931)
+I, [2024-11-26T09:11:27.307587 #321]  INFO -- : Migrating to SplitDocumentsPermissions (20130110122628)
+I, [2024-11-26T09:11:27.311165 #321]  INFO -- : Migrating to AddUniqueIndexOnTokensValue (20130201184705)
+I, [2024-11-26T09:11:27.321571 #321]  INFO -- : Migrating to AddProjectsInheritMembers (20130202090625)
+I, [2024-11-26T09:11:27.339441 #321]  INFO -- : Migrating to AddUniqueIndexOnCustomFieldsTrackers (20130207175206)
+I, [2024-11-26T09:11:27.348535 #321]  INFO -- : Migrating to AddUniqueIndexOnCustomFieldsProjects (20130207181455)
+I, [2024-11-26T09:11:27.356942 #321]  INFO -- : Migrating to ChangeUsersLastnameLengthTo255 (20130215073721)
+I, [2024-11-26T09:11:27.362151 #321]  INFO -- : Migrating to AddIssuesClosedOn (20130215111127)
+I, [2024-11-26T09:11:27.365137 #321]  INFO -- : Migrating to PopulateIssuesClosedOn (20130215111141)
+I, [2024-11-26T09:11:27.369122 #321]  INFO -- : Migrating to RemoveIssuesDefaultFkValues (20130217094251)
+I, [2024-11-26T09:11:27.378165 #321]  INFO -- : Migrating to CreateQueriesRoles (20130602092539)
+I, [2024-11-26T09:11:27.386132 #321]  INFO -- : Migrating to AddQueriesVisibility (20130710182539)
+I, [2024-11-26T09:11:27.405280 #321]  INFO -- : Migrating to CreateCustomFieldsRoles (20130713104233)
+I, [2024-11-26T09:11:27.413213 #321]  INFO -- : Migrating to AddQueriesOptions (20130713111657)
+I, [2024-11-26T09:11:27.416007 #321]  INFO -- : Migrating to AddUsersMustChangePasswd (20130729070143)
+I, [2024-11-26T09:11:27.437568 #321]  INFO -- : Migrating to RemoveEolsFromAttachmentsFilename (20130911193200)
+I, [2024-11-26T09:11:27.441053 #321]  INFO -- : Migrating to SupportForMultipleCommitKeywords (20131004113137)
+I, [2024-11-26T09:11:27.444940 #321]  INFO -- : Migrating to AddRepositoriesCreatedOn (20131005100610)
+I, [2024-11-26T09:11:27.447738 #321]  INFO -- : Migrating to AddCustomFieldsFormatStore (20131124175346)
+I, [2024-11-26T09:11:27.450387 #321]  INFO -- : Migrating to AddCustomFieldsDescription (20131210180802)
+I, [2024-11-26T09:11:27.452939 #321]  INFO -- : Migrating to RemoveCustomFieldsMinMaxLengthDefaultValues (20131214094309)
+I, [2024-11-26T09:11:27.459025 #321]  INFO -- : Migrating to StoreRelationTypeInJournalDetails (20131215104612)
+I, [2024-11-26T09:11:27.466807 #321]  INFO -- : Migrating to DeleteOrphanTimeEntriesCustomValues (20131218183023)
+I, [2024-11-26T09:11:27.469772 #321]  INFO -- : Migrating to ChangeChangesetsCommentsLimit (20140228130325)
+I, [2024-11-26T09:11:27.472247 #321]  INFO -- : Migrating to AddPasswordChangedAtToUser (20140903143914)
+I, [2024-11-26T09:11:27.474906 #321]  INFO -- : Migrating to InsertBuiltinGroups (20140920094058)
+W, [2024-11-26T09:11:27.477099 #321]  WARN -- : Creating scope :sorted. Overwriting existing method Group.sorted.
+I, [2024-11-26T09:11:27.517832 #321]  INFO -- : Migrating to AddTrackersDefaultStatusId (20141029181752)
+I, [2024-11-26T09:11:27.521494 #321]  INFO -- : Migrating to RemoveIssueStatusesIsDefault (20141029181824)
+I, [2024-11-26T09:11:27.524303 #321]  INFO -- : Migrating to AddRolesUsersVisibility (20141109112308)
+I, [2024-11-26T09:11:27.535330 #321]  INFO -- : Migrating to AddWikiRedirectsRedirectsToWikiId (20141122124142)
+I, [2024-11-26T09:11:27.541530 #321]  INFO -- : Migrating to CreateEmailAddresses (20150113194759)
+I, [2024-11-26T09:11:27.552497 #321]  INFO -- : Migrating to PopulateEmailAddresses (20150113211532)
+I, [2024-11-26T09:11:27.556802 #321]  INFO -- : Migrating to RemoveUsersMail (20150113213922)
+I, [2024-11-26T09:11:27.559486 #321]  INFO -- : Migrating to AddEmailAddressesUserIdIndex (20150113213955)
+I, [2024-11-26T09:11:27.565950 #321]  INFO -- : Migrating to ReplaceMoveIssuesPermission (20150208105930)
+I, [2024-11-26T09:11:27.569388 #321]  INFO -- : Migrating to ChangeDocumentsTitleLimit (20150510083747)
+I, [2024-11-26T09:11:27.575205 #321]  INFO -- : Migrating to ClearEstimatedHoursOnParentIssues (20150525103953)
+I, [2024-11-26T09:11:27.581438 #321]  INFO -- : Migrating to AddRolesTimeEntriesVisibility (20150526183158)
+I, [2024-11-26T09:11:27.593271 #321]  INFO -- : Migrating to AddRolesAllRolesManaged (20150528084820)
+I, [2024-11-26T09:11:27.605011 #321]  INFO -- : Migrating to CreateRolesManagedRoles (20150528092912)
+I, [2024-11-26T09:11:27.608788 #321]  INFO -- : Migrating to AddUniqueIndexOnRolesManagedRoles (20150528093249)
+I, [2024-11-26T09:11:27.616339 #321]  INFO -- : Migrating to InsertAllowedStatusesForNewIssues (20150725112753)
+I, [2024-11-26T09:11:27.621506 #321]  INFO -- : Migrating to CreateImports (20150730122707)
+I, [2024-11-26T09:11:27.634148 #321]  INFO -- : Migrating to CreateImportItems (20150730122735)
+I, [2024-11-26T09:11:27.647869 #321]  INFO -- : Migrating to ChangeTimeEntriesCommentsLimitTo1024 (20150921204850)
+I, [2024-11-26T09:11:27.655239 #321]  INFO -- : Migrating to ChangeWikiContentsCommentsLimitTo1024 (20150921210243)
+I, [2024-11-26T09:11:27.661286 #321]  INFO -- : Migrating to ChangeAttachmentsFilesizeLimitTo8 (20151020182334)
+I, [2024-11-26T09:11:27.689554 #321]  INFO -- : Migrating to FixCommaInUserFormatSettingValue (20151020182731)
+I, [2024-11-26T09:11:27.694678 #321]  INFO -- : Migrating to ChangeIssueCategoriesNameLimitTo60 (20151021184614)
+I, [2024-11-26T09:11:27.708461 #321]  INFO -- : Migrating to ChangeAuthSourcesFilterToText (20151021185456)
+I, [2024-11-26T09:11:27.715812 #321]  INFO -- : Migrating to ChangeUserPreferencesHideMailDefaultToTrue (20151021190616)
+I, [2024-11-26T09:11:27.720526 #321]  INFO -- : Migrating to AddTokensUpdatedOn (20151024082034)
+I, [2024-11-26T09:11:27.724143 #321]  INFO -- : Migrating to CreateCustomFieldEnumerations (20151025072118)
+I, [2024-11-26T09:11:27.736279 #321]  INFO -- : Migrating to AddProjectsDefaultVersionId (20151031095005)
+I, [2024-11-26T09:11:27.740871 #321]  INFO -- : Migrating to ForcePasswordResetDuringSetup (20160404080304)
+I, [2024-11-26T09:11:27.744756 #321]  INFO -- : Migrating to RemovePositionDefaults (20160416072926)
+I, [2024-11-26T09:11:27.757478 #321]  INFO -- : Migrating to AddRolesSettings (20160529063352)
+I, [2024-11-26T09:11:27.761067 #321]  INFO -- : Migrating to AddTrackerIdIndexToWorkflows (20161001122012)
+I, [2024-11-26T09:11:27.768253 #321]  INFO -- : Migrating to AddIndexOnMemberRolesInheritedFrom (20161002133421)
+I, [2024-11-26T09:11:27.775402 #321]  INFO -- : Migrating to ChangeIssuesDescriptionLimit (20161010081301)
+I, [2024-11-26T09:11:27.778576 #321]  INFO -- : Migrating to ChangeJournalDetailsValueLimit (20161010081528)
+I, [2024-11-26T09:11:27.781917 #321]  INFO -- : Migrating to ChangeJournalsNotesLimit (20161010081600)
+I, [2024-11-26T09:11:27.784961 #321]  INFO -- : Migrating to AddIndexOnChangesetsIssuesIssueId (20161126094932)
+I, [2024-11-26T09:11:27.793235 #321]  INFO -- : Migrating to AddIndexOnIssuesParentId (20161220091118)
+I, [2024-11-26T09:11:27.800175 #321]  INFO -- : Migrating to AddIndexOnDiskFilenameToAttachments (20170207050700)
+I, [2024-11-26T09:11:27.807042 #321]  INFO -- : Migrating to ChangeAttachmentsDigestLimitTo64 (20170302015225)
+I, [2024-11-26T09:11:27.812487 #321]  INFO -- : Migrating to AddProjectDefaultAssignedToId (20170309214320)
+I, [2024-11-26T09:11:27.817153 #321]  INFO -- : Migrating to ChangeRepositoriesExtraInfoLimit (20170320051650)
+I, [2024-11-26T09:11:27.820075 #321]  INFO -- : Migrating to AddViewNewsToAllExistingRoles (20170418090031)
+I, [2024-11-26T09:11:27.826825 #321]  INFO -- : Migrating to AddViewMessagesToAllExistingRoles (20170419144536)
+I, [2024-11-26T09:11:27.834002 #321]  INFO -- : Migrating to RenameCommentsToContent (20170723112801)
+I, [2024-11-26T09:11:27.838355 #321]  INFO -- : Migrating to AddAuthorIdToTimeEntries (20180501132547)
+I, [2024-11-26T09:11:27.844111 #321]  INFO -- : Migrating to AddVerifyPeerToAuthSources (20180913072918)
+I, [2024-11-26T09:11:27.859249 #321]  INFO -- : Migrating to ChangeSqliteBooleansTo0And1 (20180923082945)
+I, [2024-11-26T09:11:27.875556 #321]  INFO -- : Migrating to ChangeSqliteBooleansDefault (20180923091603)
+I, [2024-11-26T09:11:27.878641 #321]  INFO -- : Migrating to ChangeCustomValuesValueLimit (20190315094151)
+I, [2024-11-26T09:11:27.884527 #321]  INFO -- : Migrating to AddTrackersDescription (20190315102101)
+I, [2024-11-26T09:11:27.891920 #321]  INFO -- : Migrating to AddUniqueIdToImportItems (20190510070108)
+I, [2024-11-26T09:11:27.899502 #321]  INFO -- : Migrating to ChangeRolesNameLimit (20190620135549)
+I, [2024-11-26T09:11:27.903332 #321]  INFO -- : Migrating to AddTwofaSchemeToUser (20200826153401)
+I, [2024-11-26T09:11:27.906510 #321]  INFO -- : Migrating to AddTotpToUser (20200826153402)
+I, [2024-11-26T09:11:27.913124 #321]  INFO -- : Migrating to AddTwofaRequiredToGroups (20210704125704)
+I, [2024-11-26T09:11:27.938217 #321]  INFO -- : Migrating to AddProjectsDefaultIssueQueryId (20210705111300)
+I, [2024-11-26T09:11:27.941893 #321]  INFO -- : Migrating to DropIsInChlogColumn (20210728131544)
+I, [2024-11-26T09:11:27.945051 #321]  INFO -- : Migrating to RemoveBccRecipientsSetting (20210801145548)
+I, [2024-11-26T09:11:27.948692 #321]  INFO -- : Migrating to RemoveOrphanedUserCustomValues (20210801211024)
+I, [2024-11-26T09:11:27.952296 #321]  INFO -- : Migrating to RemoveIdentityUrlFromUsers (20211213122100)
+I, [2024-11-26T09:11:27.955703 #321]  INFO -- : Migrating to DropOpenIdAuthenticationTables (20211213122101)
+I, [2024-11-26T09:11:27.960943 #321]  INFO -- : Migrating to RemoveOpenIdSetting (20211213122102)
+I, [2024-11-26T09:11:27.964639 #321]  INFO -- : Migrating to DeleteOrphanedTimeEntryActivities (20220224194639)
+I, [2024-11-26T09:11:27.972582 #321]  INFO -- : Migrating to AddJournalUpdatedOn (20220714093000)
+I, [2024-11-26T09:11:27.977611 #321]  INFO -- : Migrating to AddJournalUpdatedBy (20220714093010)
+I, [2024-11-26T09:11:27.981686 #321]  INFO -- : Migrating to AddDefaultTimeEntryActivityToRoles (20220806215628)
+I, [2024-11-26T09:11:27.985399 #321]  INFO -- : Migrating to DeleteOrphanedQueryAndRoleFromQueriesRoles (20221002193055)
+I, [2024-11-26T09:11:27.989532 #321]  INFO -- : Migrating to EnsureTextFormattingSettingIsStoredInDb (20221004172825)
+I, [2024-11-26T09:11:27.993355 #321]  INFO -- : Migrating to AddIndexToCustomValues (20221012135202)
+I, [2024-11-26T09:11:28.003472 #321]  INFO -- : Migrating to AddSelectProjectPublicityPermission (20221214173537)
+I, [2024-11-26T09:11:28.008096 #321]  INFO -- : Migrating to AddStatusDescription (20230818020734)
+I, [2024-11-26T09:11:28.015057 #321]  INFO -- : Migrating to RemoveMentionUsersPermission (20231012112407)
+W, [2024-11-26T09:11:54.345148 #535]  WARN -- : Creating scope :system. Overwriting existing method Enumeration.system.
+W, [2024-11-26T09:11:54.363261 #535]  WARN -- : Creating scope :sorted. Overwriting existing method User.sorted.
+W, [2024-11-26T09:11:54.363669 #535]  WARN -- : Creating scope :having_mail. Overwriting existing method User.having_mail.
+W, [2024-11-26T09:11:54.556185 #535]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:11:54.556736 #535]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:11:54.557091 #535]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:11:54.557376 #535]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:11:54.557633 #535]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:11:54.557896 #535]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:11:54.558146 #535]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+I, [2024-11-26T09:11:54.612740 #535]  INFO -- : Migrating to AddEasyBaselineForToProject (20150810233049)
+I, [2024-11-26T09:11:54.635838 #535]  INFO -- : Migrating to CreateEasyBaselineSources (20150812122322)
+I, [2024-11-26T09:11:54.667744 #535]  INFO -- : Migrating to AddDefaultPrintableTemplate (20170213152215)
+I, [2024-11-26T09:11:54.670452 #535]  INFO -- : Migrating to UpdateRestApiSettings (20170224134615)
+I, [2024-11-26T09:11:54.687107 #535]  INFO -- : Migrating to CreateChecklists (1)
+I, [2024-11-26T09:11:54.697577 #535]  INFO -- : Migrating to AddTimeStampsToChecklists (2)
+I, [2024-11-26T09:11:54.700432 #535]  INFO -- : Migrating to CreateChecklistTemplateCategory (3)
+I, [2024-11-26T09:11:54.710263 #535]  INFO -- : Migrating to CreateChecklistTemplates (4)
+I, [2024-11-26T09:11:54.720185 #535]  INFO -- : Migrating to ModifyChecklistSubjectLength (5)
+I, [2024-11-26T09:11:54.730016 #535]  INFO -- : Migrating to AddFieldsToChecklistTemplate (6)
+I, [2024-11-26T09:11:54.743803 #535]  INFO -- : Migrating to AddIsSectionToChecklists (7)
+I, [2024-11-26T09:11:54.761264 #535]  INFO -- : Migrating to CreateContacts (16)
+I, [2024-11-26T09:11:54.792121 #535]  INFO -- : Migrating to CreateContactsRelations (17)
+I, [2024-11-26T09:11:54.817112 #535]  INFO -- : Migrating to CreateDeals (18)
+I, [2024-11-26T09:11:54.847409 #535]  INFO -- : Migrating to CreateDealsRelations (19)
+I, [2024-11-26T09:11:54.886547 #535]  INFO -- : Migrating to CreateNotes (20)
+I, [2024-11-26T09:11:54.905325 #535]  INFO -- : Migrating to CreateTags (21)
+I, [2024-11-26T09:11:54.929527 #535]  INFO -- : Migrating to CreateRecentlyVieweds (22)
+I, [2024-11-26T09:11:54.950125 #535]  INFO -- : Migrating to CreateContactsSettings (23)
+I, [2024-11-26T09:11:54.963186 #535]  INFO -- : Migrating to AddTypeToNotes (24)
+I, [2024-11-26T09:11:54.969316 #535]  INFO -- : Migrating to AddFieldsToDeals (25)
+I, [2024-11-26T09:11:54.973130 #535]  INFO -- : Migrating to CreateContactsQueries (26)
+I, [2024-11-26T09:11:54.990254 #535]  INFO -- : Migrating to ChangeDealsCurrencyType (27)
+I, [2024-11-26T09:11:55.015814 #535]  INFO -- : Migrating to AddCachedTagListToContacts (28)
+I, [2024-11-26T09:11:55.018749 #535]  INFO -- : Migrating to AddVisibilityToContacts (29)
+I, [2024-11-26T09:11:55.061465 #535]  INFO -- : Migrating to ChangeDealStatusesIsClosed (30)
+I, [2024-11-26T09:11:55.071875 #535]  INFO -- : Migrating to PopulateContactsModule (31)
+I, [2024-11-26T09:11:55.077943 #535]  INFO -- : Migrating to CreateAddresses (32)
+I, [2024-11-26T09:11:55.095220 #535]  INFO -- : Migrating to CreateDealsIssues (33)
+I, [2024-11-26T09:11:55.108613 #535]  INFO -- : Migrating to ChangeDealsPricePrecision (34)
+I, [2024-11-26T09:11:55.111296 #535]  INFO -- : Migrating to DropRecentlyVieweds (35)
+I, [2024-11-26T09:11:55.114211 #535]  INFO -- : Migrating to DropContactsSettings (36)
+I, [2024-11-26T09:11:55.127447 #535]  INFO -- : Migrating to CreateDriveEntries (1)
+I, [2024-11-26T09:11:55.148874 #535]  INFO -- : Migrating to AddViewingMigration (2)
+I, [2024-11-26T09:11:55.167259 #535]  INFO -- : Migrating to CreateIssueDriveFiles (4)
+I, [2024-11-26T09:11:55.177987 #535]  INFO -- : Migrating to AddVersionToDriveEntries (5)
+I, [2024-11-26T09:11:55.198078 #535]  INFO -- : Migrating to AddCommentCountToDriveEntries (6)
+I, [2024-11-26T09:11:55.217969 #535]  INFO -- : Migrating to AddPasswordToDriveEntries (7)
+I, [2024-11-26T09:11:55.245243 #535]  INFO -- : Migrating to CreateCustomOwnerEmailField (1)
+I, [2024-11-26T09:11:55.278469 #535]  INFO -- : Migrating to CreateCustomFieldsForReply (2)
+I, [2024-11-26T09:11:55.283967 #535]  INFO -- : Migrating to CreateCustomFieldForSenderEmail (3)
+I, [2024-11-26T09:11:55.288015 #535]  INFO -- : Migrating to CreateCustomFieldForSendToOwnerDefault (4)
+I, [2024-11-26T09:11:55.291769 #535]  INFO -- : Migrating to AddTreatAsSupportclientToAnonymous (5)
+I, [2024-11-26T09:11:55.304045 #535]  INFO -- : Migrating to AppendFooterToFirstReply (6)
+I, [2024-11-26T09:11:55.314571 #535]  INFO -- : Migrating to CreateCustomCopyToField (7)
+I, [2024-11-26T09:11:55.319274 #535]  INFO -- : Migrating to CreateCustomFieldCcHandling (8)
+I, [2024-11-26T09:11:55.323332 #535]  INFO -- : Migrating to CreateCustomFieldForReopenClosedIssuesByEmail (9)
+I, [2024-11-26T09:11:55.327585 #535]  INFO -- : Migrating to CreateCustomFieldForReplySeparator (10)
+I, [2024-11-26T09:11:55.344417 #535]  INFO -- : Migrating to AppendUserFields (1)
+I, [2024-11-26T09:11:55.349797 #535]  INFO -- : Migrating to CreateDepartments (2)
+I, [2024-11-26T09:11:55.367976 #535]  INFO -- : Migrating to CreatePeopleInformation (3)
+I, [2024-11-26T09:11:55.378313 #535]  INFO -- : Migrating to PopulatePeopleInformation (4)
+I, [2024-11-26T09:11:55.382410 #535]  INFO -- : Migrating to RemoveUsersColumns (5)
+I, [2024-11-26T09:11:55.387261 #535]  INFO -- : Migrating to ActsAsTaggableMigration (6)
+I, [2024-11-26T09:11:55.390424 #535]  INFO -- : Migrating to AddIsSystemToPeopleInformation (7)
+I, [2024-11-26T09:11:55.400792 #535]  INFO -- : Migrating to AddManagerToPeopleInformation (8)
+I, [2024-11-26T09:11:55.404261 #535]  INFO -- : Migrating to CreatePeopleNotifications (9)
+I, [2024-11-26T09:11:55.415627 #535]  INFO -- : Migrating to RenamePeopleNotifications (10)
+I, [2024-11-26T09:11:55.420816 #535]  INFO -- : Migrating to CreatePeopleWorkExperiences (11)
+I, [2024-11-26T09:11:55.434434 #535]  INFO -- : Migrating to CreatePeopleHolidays (12)
+I, [2024-11-26T09:11:55.444696 #535]  INFO -- : Migrating to AddTimestampToPeopleHolidays (13)
+I, [2024-11-26T09:11:55.447717 #535]  INFO -- : Migrating to AddWorkdayLengthToPeopleInformation (14)
+I, [2024-11-26T09:11:55.454127 #535]  INFO -- : Migrating to CreatePeopleRates (15)
+I, [2024-11-26T09:11:55.456530 #535]  INFO -- : Migrating to AddMoreIndexes (16)
+I, [2024-11-26T09:11:55.465946 #535]  INFO -- : Migrating to CreateLeaveTypes (17)
+I, [2024-11-26T09:11:55.476093 #535]  INFO -- : Migrating to CreateDayoffs (18)
+I, [2024-11-26T09:11:55.493782 #535]  INFO -- : Migrating to AddDepartmentToPeopleAnnouncements (19)
+I, [2024-11-26T09:11:55.500359 #535]  INFO -- : Migrating to ChangeDescriptionToPeopleAnnouncements (20)
+I, [2024-11-26T09:11:55.510311 #535]  INFO -- : Migrating to ActsAsVotableMigration (1)
+I, [2024-11-26T09:11:55.545590 #535]  INFO -- : Migrating to AddViewingMigration (2)
+I, [2024-11-26T09:11:55.548407 #535]  INFO -- : Migrating to AddTaggingMigration (3)
+I, [2024-11-26T09:11:55.551363 #535]  INFO -- : Migrating to CreateQuestions (4)
+I, [2024-11-26T09:11:55.572082 #535]  INFO -- : Migrating to CreateQuestionsSections (5)
+I, [2024-11-26T09:11:55.589667 #535]  INFO -- : Migrating to CreateQuestionsAnswers (6)
+I, [2024-11-26T09:11:55.610328 #535]  INFO -- : Migrating to CreateQuestionsStatuses (7)
+I, [2024-11-26T09:11:55.634509 #535]  INFO -- : Migrating to CreateResourceBookings (1)
+I, [2024-11-26T09:11:55.667260 #535]  INFO -- : Migrating to CreateDrafts (1)
+I, [2024-11-26T09:11:55.688501 #535]  INFO -- : Migrating to CreateViewings (2)
+I, [2024-11-26T09:11:55.698099 #535]  INFO -- : Migrating to CreatePages (1)
+I, [2024-11-26T09:11:55.716755 #535]  INFO -- : Migrating to CreateCmsMenus (2)
+I, [2024-11-26T09:11:55.728085 #535]  INFO -- : Migrating to CreateParts (3)
+I, [2024-11-26T09:11:55.746001 #535]  INFO -- : Migrating to AddVisibilityToMenusAndPages (4)
+I, [2024-11-26T09:11:55.756215 #535]  INFO -- : Migrating to AddIsCachedToPages (5)
+I, [2024-11-26T09:11:55.776305 #535]  INFO -- : Migrating to CreateCmsContentVersions (6)
+I, [2024-11-26T09:11:55.794068 #535]  INFO -- : Migrating to AddVersionToPageAndParts (7)
+I, [2024-11-26T09:11:55.823893 #535]  INFO -- : Migrating to AddCreatedAtToCmsContentVersion (8)
+I, [2024-11-26T09:11:55.831495 #535]  INFO -- : Migrating to AddLayoutToPage (9)
+I, [2024-11-26T09:11:55.838473 #535]  INFO -- : Migrating to AddPrefixToTables (10)
+I, [2024-11-26T09:11:55.866357 #535]  INFO -- : Migrating to CreateCmsSnippets (11)
+I, [2024-11-26T09:11:55.882521 #535]  INFO -- : Migrating to CreateCmsLayouts (12)
+I, [2024-11-26T09:11:55.897184 #535]  INFO -- : Migrating to CreateCmsPageFields (13)
+I, [2024-11-26T09:11:55.912885 #535]  INFO -- : Migrating to RenameContentTypeInCmsPage (14)
+I, [2024-11-26T09:11:55.917294 #535]  INFO -- : Migrating to AddPageIdRenameFieldsToPart (15)
+I, [2024-11-26T09:11:55.933414 #535]  INFO -- : Migrating to AddSlugToCmsPages (16)
+I, [2024-11-26T09:11:55.940273 #535]  INFO -- : Migrating to PopulateSlugForCmsPages (17)
+I, [2024-11-26T09:11:55.950345 #535]  INFO -- : Migrating to AddAuthorToCmsPages (18)
+I, [2024-11-26T09:11:55.953815 #535]  INFO -- : Migrating to AddTaggingMigration (19)
+I, [2024-11-26T09:11:55.957465 #535]  INFO -- : Migrating to AddPageDateToCmsPages (20)
+I, [2024-11-26T09:11:55.960717 #535]  INFO -- : Migrating to AddCmsPagesLftAndRgt (21)
+I, [2024-11-26T09:11:55.972950 #535]  INFO -- : Migrating to BuildCmsPagesTree (22)
+I, [2024-11-26T09:11:55.979686 #535]  INFO -- : Migrating to CreateVotableMigration (23)
+I, [2024-11-26T09:11:55.993308 #535]  INFO -- : Migrating to AddLockVersionToCmsPages (24)
+I, [2024-11-26T09:11:56.029888 #535]  INFO -- : Migrating to ChangePagesContentLimit (25)
+I, [2024-11-26T09:11:56.045916 #535]  INFO -- : Migrating to AddTagsAndTaggings (1)
+I, [2024-11-26T09:11:56.049184 #535]  INFO -- : Migrating to CreateTags (2)
+W, [2024-11-26T09:11:58.922702 #541]  WARN -- : Creating scope :system. Overwriting existing method Enumeration.system.
+W, [2024-11-26T09:11:58.953877 #541]  WARN -- : Creating scope :sorted. Overwriting existing method User.sorted.
+W, [2024-11-26T09:11:58.954642 #541]  WARN -- : Creating scope :having_mail. Overwriting existing method User.having_mail.
+W, [2024-11-26T09:11:59.144354 #541]  WARN -- : Creating scope :global_or_on_project. Overwriting existing method DriveEntryQuery.global_or_on_project.
+W, [2024-11-26T09:11:59.146054 #541]  WARN -- : Creating scope :sorted. Overwriting existing method DriveEntryQuery.sorted.
+W, [2024-11-26T09:11:59.159732 #541]  WARN -- : Creating scope :visible. Overwriting existing method PeopleQuery.visible.
+W, [2024-11-26T09:11:59.331147 #541]  WARN -- : Creating scope :sorted. Overwriting existing method Group.sorted.
+W, [2024-11-26T09:12:00.062164 #541]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:12:00.062825 #541]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:12:00.063115 #541]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:12:00.063339 #541]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:12:00.063528 #541]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:12:00.063707 #541]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:12:00.063905 #541]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+I, [2024-11-26T09:12:11.828828 #546]  INFO -- : [9bf1e6e8-4644-4dbe-ba7a-c26b4a0a84c5] Started GET "/" for 172.18.0.1 at 2024-11-26 09:12:11 +0700
+I, [2024-11-26T09:12:11.830986 #546]  INFO -- : [9bf1e6e8-4644-4dbe-ba7a-c26b4a0a84c5] Processing by WelcomeController#index as HTML
+I, [2024-11-26T09:12:11.876245 #546]  INFO -- : [9bf1e6e8-4644-4dbe-ba7a-c26b4a0a84c5]   Current user: anonymous
+I, [2024-11-26T09:12:11.923095 #546]  INFO -- : [9bf1e6e8-4644-4dbe-ba7a-c26b4a0a84c5]   Rendered welcome/index.html.erb within layouts/base (Duration: 4.1ms | Allocations: 7318)
+I, [2024-11-26T09:12:11.946182 #546]  INFO -- : [9bf1e6e8-4644-4dbe-ba7a-c26b4a0a84c5]   Rendered layout layouts/base.html.erb (Duration: 27.2ms | Allocations: 28929)
+I, [2024-11-26T09:12:11.946646 #546]  INFO -- : [9bf1e6e8-4644-4dbe-ba7a-c26b4a0a84c5] Completed 200 OK in 115ms (Views: 25.6ms | ActiveRecord: 23.1ms | Allocations: 113257)
+I, [2024-11-26T09:12:13.736069 #546]  INFO -- : [e7dd1052-6d2c-417b-9159-941428cfea1f] Started GET "/login" for 172.18.0.1 at 2024-11-26 09:12:13 +0700
+I, [2024-11-26T09:12:13.736985 #546]  INFO -- : [e7dd1052-6d2c-417b-9159-941428cfea1f] Processing by AccountController#login as HTML
+I, [2024-11-26T09:12:13.739616 #546]  INFO -- : [e7dd1052-6d2c-417b-9159-941428cfea1f]   Current user: anonymous
+I, [2024-11-26T09:12:13.744028 #546]  INFO -- : [e7dd1052-6d2c-417b-9159-941428cfea1f]   Rendered plugins/redmineup_cms/app/views/account/login.html.erb within layouts/base (Duration: 2.4ms | Allocations: 1788)
+I, [2024-11-26T09:12:13.755874 #546]  INFO -- : [e7dd1052-6d2c-417b-9159-941428cfea1f]   Rendered layout layouts/base.html.erb (Duration: 14.2ms | Allocations: 11893)
+I, [2024-11-26T09:12:13.756322 #546]  INFO -- : [e7dd1052-6d2c-417b-9159-941428cfea1f] Completed 200 OK in 19ms (Views: 12.8ms | ActiveRecord: 3.3ms | Allocations: 13701)
+I, [2024-11-26T09:12:20.571344 #546]  INFO -- : [09772280-1f1e-4157-bbbc-2c600f578627] Started POST "/login" for 172.18.0.1 at 2024-11-26 09:12:20 +0700
+I, [2024-11-26T09:12:20.572073 #546]  INFO -- : [09772280-1f1e-4157-bbbc-2c600f578627] Processing by AccountController#login as HTML
+I, [2024-11-26T09:12:20.572254 #546]  INFO -- : [09772280-1f1e-4157-bbbc-2c600f578627]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"bgtdYuTvUdL2LOY1qrjBUcvlUltVJZbSMR4lQbXSQGDrvahHFvrgYXTJ97XDa+VM3gvTsxfTAaQevbUaykyKYg==", "back_url"=>"/", "username"=>"admin", "password"=>"[FILTERED]", "login"=>"Login »"}
+I, [2024-11-26T09:12:20.574319 #546]  INFO -- : [09772280-1f1e-4157-bbbc-2c600f578627]   Current user: anonymous
+I, [2024-11-26T09:12:20.579369 #546]  INFO -- : [09772280-1f1e-4157-bbbc-2c600f578627] Successful authentication for 'admin' from 172.18.0.1 at 2024-11-26 02:12:20 UTC
+I, [2024-11-26T09:12:20.587858 #546]  INFO -- : [09772280-1f1e-4157-bbbc-2c600f578627] Redirected to http://192.168.100.170:10083/
+I, [2024-11-26T09:12:20.588265 #546]  INFO -- : [09772280-1f1e-4157-bbbc-2c600f578627] Completed 302 Found in 16ms (ActiveRecord: 6.7ms | Allocations: 6401)
+I, [2024-11-26T09:12:20.593359 #546]  INFO -- : [cc80ab2c-e202-4a6f-9b39-c08519012dc8] Started GET "/" for 172.18.0.1 at 2024-11-26 09:12:20 +0700
+I, [2024-11-26T09:12:20.594011 #546]  INFO -- : [cc80ab2c-e202-4a6f-9b39-c08519012dc8] Processing by WelcomeController#index as HTML
+I, [2024-11-26T09:12:20.597507 #546]  INFO -- : [cc80ab2c-e202-4a6f-9b39-c08519012dc8]   Current user: admin (id=1)
+I, [2024-11-26T09:12:20.598409 #546]  INFO -- : [cc80ab2c-e202-4a6f-9b39-c08519012dc8] Redirected to http://192.168.100.170:10083/my/password
+I, [2024-11-26T09:12:20.598691 #546]  INFO -- : [cc80ab2c-e202-4a6f-9b39-c08519012dc8] Filter chain halted as :check_password_change rendered or redirected
+I, [2024-11-26T09:12:20.598948 #546]  INFO -- : [cc80ab2c-e202-4a6f-9b39-c08519012dc8] Completed 302 Found in 5ms (ActiveRecord: 0.8ms | Allocations: 1703)
+I, [2024-11-26T09:12:20.603577 #546]  INFO -- : [a97b482f-9739-4864-b035-82adadc5399c] Started GET "/my/password" for 172.18.0.1 at 2024-11-26 09:12:20 +0700
+I, [2024-11-26T09:12:20.604232 #546]  INFO -- : [a97b482f-9739-4864-b035-82adadc5399c] Processing by MyController#password as HTML
+I, [2024-11-26T09:12:20.617404 #546]  INFO -- : [a97b482f-9739-4864-b035-82adadc5399c]   Current user: admin (id=1)
+I, [2024-11-26T09:12:20.621844 #546]  INFO -- : [a97b482f-9739-4864-b035-82adadc5399c]   Rendered my/password.html.erb within layouts/base (Duration: 1.5ms | Allocations: 1327)
+I, [2024-11-26T09:12:20.634705 #546]  INFO -- : [a97b482f-9739-4864-b035-82adadc5399c]   Rendered layout layouts/base.html.erb (Duration: 14.4ms | Allocations: 12034)
+I, [2024-11-26T09:12:20.635020 #546]  INFO -- : [a97b482f-9739-4864-b035-82adadc5399c] Completed 200 OK in 31ms (Views: 12.8ms | ActiveRecord: 3.6ms | Allocations: 15181)
+I, [2024-11-26T09:12:33.009975 #546]  INFO -- : [e74ad38e-5d8e-473a-92eb-39ec85a432fc] Started POST "/my/password" for 172.18.0.1 at 2024-11-26 09:12:33 +0700
+I, [2024-11-26T09:12:33.010749 #546]  INFO -- : [e74ad38e-5d8e-473a-92eb-39ec85a432fc] Processing by MyController#password as HTML
+I, [2024-11-26T09:12:33.010946 #546]  INFO -- : [e74ad38e-5d8e-473a-92eb-39ec85a432fc]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"JaisZoqjGPR4Hqg3/zFR5Ms1JgtMd2KjQgw42sEHAtivab9ocH2KWK0WxyBoPP1vHbaS4JnlZoiJD9+ZzkgkPg==", "password"=>"[FILTERED]", "new_password"=>"[FILTERED]", "new_password_confirmation"=>"[FILTERED]", "commit"=>"Apply"}
+I, [2024-11-26T09:12:33.013895 #546]  INFO -- : [e74ad38e-5d8e-473a-92eb-39ec85a432fc]   Current user: admin (id=1)
+I, [2024-11-26T09:12:33.038730 #546]  INFO -- : [e74ad38e-5d8e-473a-92eb-39ec85a432fc] Redirected to http://192.168.100.170:10083/my/account
+I, [2024-11-26T09:12:33.039044 #546]  INFO -- : [e74ad38e-5d8e-473a-92eb-39ec85a432fc] Completed 302 Found in 28ms (ActiveRecord: 16.5ms | Allocations: 9390)
+I, [2024-11-26T09:12:33.043467 #546]  INFO -- : [01f0b83e-7c52-411a-88d7-51c5939d8e04] Started GET "/my/account" for 172.18.0.1 at 2024-11-26 09:12:33 +0700
+I, [2024-11-26T09:12:33.044061 #546]  INFO -- : [01f0b83e-7c52-411a-88d7-51c5939d8e04] Processing by MyController#account as HTML
+I, [2024-11-26T09:12:33.046481 #546]  INFO -- : [01f0b83e-7c52-411a-88d7-51c5939d8e04]   Current user: admin (id=1)
+I, [2024-11-26T09:12:33.134336 #546]  INFO -- : [01f0b83e-7c52-411a-88d7-51c5939d8e04]   Rendered my/account.html.erb within layouts/base (Duration: 85.2ms | Allocations: 187151)
+I, [2024-11-26T09:12:33.138831 #546]  INFO -- : [01f0b83e-7c52-411a-88d7-51c5939d8e04]   Rendered layout layouts/base.html.erb (Duration: 89.7ms | Allocations: 194532)
+I, [2024-11-26T09:12:33.139202 #546]  INFO -- : [01f0b83e-7c52-411a-88d7-51c5939d8e04] Completed 200 OK in 95ms (Views: 83.8ms | ActiveRecord: 7.4ms | Allocations: 197654)
+I, [2024-11-26T09:12:39.418384 #546]  INFO -- : [edcbe16f-ad2b-4369-8b83-881cd479d462] Started GET "/admin" for 172.18.0.1 at 2024-11-26 09:12:39 +0700
+I, [2024-11-26T09:12:39.419292 #546]  INFO -- : [edcbe16f-ad2b-4369-8b83-881cd479d462] Processing by AdminController#index as HTML
+I, [2024-11-26T09:12:39.422480 #546]  INFO -- : [edcbe16f-ad2b-4369-8b83-881cd479d462]   Current user: admin (id=1)
+I, [2024-11-26T09:12:39.433904 #546]  INFO -- : [edcbe16f-ad2b-4369-8b83-881cd479d462]   Rendered admin/index.html.erb within layouts/admin (Duration: 4.4ms | Allocations: 7781)
+I, [2024-11-26T09:12:39.440224 #546]  INFO -- : [edcbe16f-ad2b-4369-8b83-881cd479d462]   Rendered layouts/base.html.erb (Duration: 5.8ms | Allocations: 8088)
+I, [2024-11-26T09:12:39.440995 #546]  INFO -- : [edcbe16f-ad2b-4369-8b83-881cd479d462]   Rendered layout layouts/admin.html.erb (Duration: 11.5ms | Allocations: 16193)
+I, [2024-11-26T09:12:39.441734 #546]  INFO -- : [edcbe16f-ad2b-4369-8b83-881cd479d462] Completed 200 OK in 22ms (Views: 13.2ms | ActiveRecord: 2.9ms | Allocations: 22901)
+I, [2024-11-26T09:12:40.633765 #546]  INFO -- : [b01054f2-1c10-406b-ad26-71a40bf5c006] Started GET "/admin/plugins" for 172.18.0.1 at 2024-11-26 09:12:40 +0700
+I, [2024-11-26T09:12:40.634496 #546]  INFO -- : [b01054f2-1c10-406b-ad26-71a40bf5c006] Processing by AdminController#plugins as HTML
+I, [2024-11-26T09:12:40.637644 #546]  INFO -- : [b01054f2-1c10-406b-ad26-71a40bf5c006]   Current user: admin (id=1)
+I, [2024-11-26T09:12:40.640869 #546]  INFO -- : [b01054f2-1c10-406b-ad26-71a40bf5c006]   Rendered admin/plugins.html.erb within layouts/admin (Duration: 1.3ms | Allocations: 3010)
+I, [2024-11-26T09:12:40.647961 #546]  INFO -- : [b01054f2-1c10-406b-ad26-71a40bf5c006]   Rendered layouts/base.html.erb (Duration: 5.6ms | Allocations: 7912)
+I, [2024-11-26T09:12:40.648310 #546]  INFO -- : [b01054f2-1c10-406b-ad26-71a40bf5c006]   Rendered layout layouts/admin.html.erb (Duration: 8.7ms | Allocations: 13304)
+I, [2024-11-26T09:12:40.648608 #546]  INFO -- : [b01054f2-1c10-406b-ad26-71a40bf5c006] Completed 200 OK in 14ms (Views: 8.7ms | ActiveRecord: 1.4ms | Allocations: 16040)
+I, [2024-11-26T09:12:44.941433 #546]  INFO -- : [3c124b43-38fe-4571-a119-ccc68556c964] Started GET "/settings" for 172.18.0.1 at 2024-11-26 09:12:44 +0700
+I, [2024-11-26T09:12:44.942517 #546]  INFO -- : [3c124b43-38fe-4571-a119-ccc68556c964] Processing by SettingsController#index as HTML
+I, [2024-11-26T09:12:44.945382 #546]  INFO -- : [3c124b43-38fe-4571-a119-ccc68556c964]   Current user: admin (id=1)
+I, [2024-11-26T09:12:45.221207 #546]  INFO -- : [3c124b43-38fe-4571-a119-ccc68556c964]   Rendered settings/edit.html.erb within layouts/admin (Duration: 272.2ms | Allocations: 139699)
+I, [2024-11-26T09:12:45.227999 #546]  INFO -- : [3c124b43-38fe-4571-a119-ccc68556c964]   Rendered layouts/base.html.erb (Duration: 5.2ms | Allocations: 7757)
+I, [2024-11-26T09:12:45.229002 #546]  INFO -- : [3c124b43-38fe-4571-a119-ccc68556c964]   Rendered layout layouts/admin.html.erb (Duration: 280.0ms | Allocations: 149864)
+I, [2024-11-26T09:12:45.229333 #546]  INFO -- : [3c124b43-38fe-4571-a119-ccc68556c964] Completed 200 OK in 287ms (Views: 269.3ms | ActiveRecord: 13.4ms | Allocations: 153594)
+I, [2024-11-26T09:12:49.180236 #546]  INFO -- : [43e6ba4a-358b-4f77-bd66-1c7836822a5f] Started POST "/settings/edit?tab=display" for 172.18.0.1 at 2024-11-26 09:12:49 +0700
+I, [2024-11-26T09:12:49.181021 #546]  INFO -- : [43e6ba4a-358b-4f77-bd66-1c7836822a5f] Processing by SettingsController#edit as HTML
+I, [2024-11-26T09:12:49.181257 #546]  INFO -- : [43e6ba4a-358b-4f77-bd66-1c7836822a5f]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"KR/Y8siNbxjS3IFtMuXbQpWZWYzKbe9k2k4ll2FExUWj3sv8MlP9tAfU7nql6HfJQxrtZx//608RTcLUbgvjow==", "settings"=>{"ui_theme"=>"highrise", "default_language"=>"en", "force_default_language_for_anonymous"=>"0", "force_default_language_for_loggedin"=>"0", "start_of_week"=>"", "date_format"=>"", "time_format"=>"", "timespan_format"=>"minutes", "user_format"=>"firstname_lastname", "gravatar_enabled"=>"0", "thumbnails_enabled"=>"1", "thumbnails_size"=>"100", "new_item_menu_tab"=>"2"}, "commit"=>"Save", "tab"=>"display"}
+I, [2024-11-26T09:12:49.184013 #546]  INFO -- : [43e6ba4a-358b-4f77-bd66-1c7836822a5f]   Current user: admin (id=1)
+I, [2024-11-26T09:12:49.229570 #546]  INFO -- : [43e6ba4a-358b-4f77-bd66-1c7836822a5f] Redirected to http://192.168.100.170:10083/settings?tab=display
+I, [2024-11-26T09:12:49.229837 #546]  INFO -- : [43e6ba4a-358b-4f77-bd66-1c7836822a5f] Completed 302 Found in 48ms (ActiveRecord: 35.6ms | Allocations: 8569)
+I, [2024-11-26T09:12:49.234112 #546]  INFO -- : [9be2a9cc-b21d-4e5a-9641-92f1cdb79136] Started GET "/settings?tab=display" for 172.18.0.1 at 2024-11-26 09:12:49 +0700
+I, [2024-11-26T09:12:49.234655 #546]  INFO -- : [9be2a9cc-b21d-4e5a-9641-92f1cdb79136] Processing by SettingsController#index as HTML
+I, [2024-11-26T09:12:49.234792 #546]  INFO -- : [9be2a9cc-b21d-4e5a-9641-92f1cdb79136]   Parameters: {"tab"=>"display"}
+I, [2024-11-26T09:12:49.236465 #546]  INFO -- : [9be2a9cc-b21d-4e5a-9641-92f1cdb79136] Settings cache cleared.
+I, [2024-11-26T09:12:49.238013 #546]  INFO -- : [9be2a9cc-b21d-4e5a-9641-92f1cdb79136]   Current user: admin (id=1)
+I, [2024-11-26T09:12:49.299576 #546]  INFO -- : [9be2a9cc-b21d-4e5a-9641-92f1cdb79136]   Rendered settings/edit.html.erb within layouts/admin (Duration: 58.9ms | Allocations: 73408)
+I, [2024-11-26T09:12:49.306333 #546]  INFO -- : [9be2a9cc-b21d-4e5a-9641-92f1cdb79136]   Rendered layouts/base.html.erb (Duration: 5.4ms | Allocations: 8409)
+I, [2024-11-26T09:12:49.306612 #546]  INFO -- : [9be2a9cc-b21d-4e5a-9641-92f1cdb79136]   Rendered layout layouts/admin.html.erb (Duration: 65.9ms | Allocations: 84208)
+I, [2024-11-26T09:12:49.306869 #546]  INFO -- : [9be2a9cc-b21d-4e5a-9641-92f1cdb79136] Completed 200 OK in 72ms (Views: 54.4ms | ActiveRecord: 13.0ms | Allocations: 86913)
+I, [2024-11-26T09:12:49.345949 #547]  INFO -- : [ea1d10c2-8967-46c9-b21f-e8f43ba61826] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 09:12:49 +0700
+F, [2024-11-26T09:12:49.347135 #547] FATAL -- : [ea1d10c2-8967-46c9-b21f-e8f43ba61826]   
+[ea1d10c2-8967-46c9-b21f-e8f43ba61826] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[ea1d10c2-8967-46c9-b21f-e8f43ba61826]   
+I, [2024-11-26T09:12:57.650823 #546]  INFO -- : [1699166a-9a06-4320-836c-81a25fb24152] Started POST "/settings/edit?tab=display" for 172.18.0.1 at 2024-11-26 09:12:57 +0700
+I, [2024-11-26T09:12:57.651585 #546]  INFO -- : [1699166a-9a06-4320-836c-81a25fb24152] Processing by SettingsController#edit as HTML
+I, [2024-11-26T09:12:57.651883 #546]  INFO -- : [1699166a-9a06-4320-836c-81a25fb24152]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"VUNnM0XLGmuuRqJooKlV8kktFi0J3C4fG0pr18/EKpzfgnQ9vxWIx3tOzX83pPl5n66ixtxOKjTQSYyUwIsMeg==", "settings"=>{"ui_theme"=>"circle", "default_language"=>"en", "force_default_language_for_anonymous"=>"0", "force_default_language_for_loggedin"=>"0", "start_of_week"=>"", "date_format"=>"", "time_format"=>"", "timespan_format"=>"minutes", "user_format"=>"firstname_lastname", "gravatar_enabled"=>"0", "thumbnails_enabled"=>"1", "thumbnails_size"=>"100", "new_item_menu_tab"=>"2"}, "commit"=>"Save", "tab"=>"display"}
+I, [2024-11-26T09:12:57.654900 #546]  INFO -- : [1699166a-9a06-4320-836c-81a25fb24152]   Current user: admin (id=1)
+I, [2024-11-26T09:12:57.675336 #546]  INFO -- : [1699166a-9a06-4320-836c-81a25fb24152] Redirected to http://192.168.100.170:10083/settings?tab=display
+I, [2024-11-26T09:12:57.675706 #546]  INFO -- : [1699166a-9a06-4320-836c-81a25fb24152] Completed 302 Found in 24ms (ActiveRecord: 12.5ms | Allocations: 5258)
+I, [2024-11-26T09:12:57.680354 #546]  INFO -- : [b862f42e-8902-44b0-859c-40895c1e2627] Started GET "/settings?tab=display" for 172.18.0.1 at 2024-11-26 09:12:57 +0700
+I, [2024-11-26T09:12:57.681503 #546]  INFO -- : [b862f42e-8902-44b0-859c-40895c1e2627] Processing by SettingsController#index as HTML
+I, [2024-11-26T09:12:57.682167 #546]  INFO -- : [b862f42e-8902-44b0-859c-40895c1e2627]   Parameters: {"tab"=>"display"}
+I, [2024-11-26T09:12:57.684034 #546]  INFO -- : [b862f42e-8902-44b0-859c-40895c1e2627] Settings cache cleared.
+I, [2024-11-26T09:12:57.686236 #546]  INFO -- : [b862f42e-8902-44b0-859c-40895c1e2627]   Current user: admin (id=1)
+I, [2024-11-26T09:12:57.754997 #546]  INFO -- : [b862f42e-8902-44b0-859c-40895c1e2627]   Rendered settings/edit.html.erb within layouts/admin (Duration: 64.9ms | Allocations: 73350)
+I, [2024-11-26T09:12:57.763798 #546]  INFO -- : [b862f42e-8902-44b0-859c-40895c1e2627]   Rendered layouts/base.html.erb (Duration: 7.2ms | Allocations: 8402)
+I, [2024-11-26T09:12:57.764304 #546]  INFO -- : [b862f42e-8902-44b0-859c-40895c1e2627]   Rendered layout layouts/admin.html.erb (Duration: 74.2ms | Allocations: 84143)
+I, [2024-11-26T09:12:57.764688 #546]  INFO -- : [b862f42e-8902-44b0-859c-40895c1e2627] Completed 200 OK in 82ms (Views: 61.5ms | ActiveRecord: 14.3ms | Allocations: 86846)
+I, [2024-11-26T09:12:57.806723 #546]  INFO -- : [7c46d0ca-37a1-45ad-baa4-9584f0d27b7a] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 09:12:57 +0700
+F, [2024-11-26T09:12:57.807438 #546] FATAL -- : [7c46d0ca-37a1-45ad-baa4-9584f0d27b7a]   
+[7c46d0ca-37a1-45ad-baa4-9584f0d27b7a] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[7c46d0ca-37a1-45ad-baa4-9584f0d27b7a]   
+I, [2024-11-26T09:13:04.754266 #546]  INFO -- : [12cc989f-a3b7-4c83-8607-1c28fe25ebd6] Started POST "/settings/edit?tab=display" for 172.18.0.1 at 2024-11-26 09:13:04 +0700
+I, [2024-11-26T09:13:04.755078 #546]  INFO -- : [12cc989f-a3b7-4c83-8607-1c28fe25ebd6] Processing by SettingsController#edit as HTML
+I, [2024-11-26T09:13:04.755314 #546]  INFO -- : [12cc989f-a3b7-4c83-8607-1c28fe25ebd6]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"wK47CuQTmu6j4GHA/Gn6Ey1bTo3032ervZ1eT4JdpL1KbygEHs0IQnboDtdrZFaY+9j6ZiFNY4B2nrkMjRKCWw==", "settings"=>{"ui_theme"=>"highrise", "default_language"=>"en", "force_default_language_for_anonymous"=>"0", "force_default_language_for_loggedin"=>"0", "start_of_week"=>"", "date_format"=>"", "time_format"=>"", "timespan_format"=>"minutes", "user_format"=>"firstname_lastname", "gravatar_enabled"=>"0", "thumbnails_enabled"=>"1", "thumbnails_size"=>"100", "new_item_menu_tab"=>"2"}, "commit"=>"Save", "tab"=>"display"}
+I, [2024-11-26T09:13:04.758511 #546]  INFO -- : [12cc989f-a3b7-4c83-8607-1c28fe25ebd6]   Current user: admin (id=1)
+I, [2024-11-26T09:13:04.767174 #546]  INFO -- : [12cc989f-a3b7-4c83-8607-1c28fe25ebd6] Redirected to http://192.168.100.170:10083/settings?tab=display
+I, [2024-11-26T09:13:04.767451 #546]  INFO -- : [12cc989f-a3b7-4c83-8607-1c28fe25ebd6] Completed 302 Found in 12ms (ActiveRecord: 3.9ms | Allocations: 5228)
+I, [2024-11-26T09:13:04.772055 #546]  INFO -- : [0f97b75d-5629-45c7-8f9a-06a60eedee40] Started GET "/settings?tab=display" for 172.18.0.1 at 2024-11-26 09:13:04 +0700
+I, [2024-11-26T09:13:04.772724 #546]  INFO -- : [0f97b75d-5629-45c7-8f9a-06a60eedee40] Processing by SettingsController#index as HTML
+I, [2024-11-26T09:13:04.772964 #546]  INFO -- : [0f97b75d-5629-45c7-8f9a-06a60eedee40]   Parameters: {"tab"=>"display"}
+I, [2024-11-26T09:13:04.775094 #546]  INFO -- : [0f97b75d-5629-45c7-8f9a-06a60eedee40] Settings cache cleared.
+I, [2024-11-26T09:13:04.776016 #546]  INFO -- : [0f97b75d-5629-45c7-8f9a-06a60eedee40]   Current user: admin (id=1)
+I, [2024-11-26T09:13:04.839794 #546]  INFO -- : [0f97b75d-5629-45c7-8f9a-06a60eedee40]   Rendered settings/edit.html.erb within layouts/admin (Duration: 60.8ms | Allocations: 73434)
+I, [2024-11-26T09:13:04.847044 #546]  INFO -- : [0f97b75d-5629-45c7-8f9a-06a60eedee40]   Rendered layouts/base.html.erb (Duration: 5.6ms | Allocations: 8361)
+I, [2024-11-26T09:13:04.847405 #546]  INFO -- : [0f97b75d-5629-45c7-8f9a-06a60eedee40]   Rendered layout layouts/admin.html.erb (Duration: 68.4ms | Allocations: 84188)
+I, [2024-11-26T09:13:04.847816 #546]  INFO -- : [0f97b75d-5629-45c7-8f9a-06a60eedee40] Completed 200 OK in 75ms (Views: 56.9ms | ActiveRecord: 13.5ms | Allocations: 86891)
+I, [2024-11-26T09:13:04.887155 #546]  INFO -- : [48ffb2a4-f5ca-45c3-b12d-208a9a3045f2] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 09:13:04 +0700
+F, [2024-11-26T09:13:04.887754 #546] FATAL -- : [48ffb2a4-f5ca-45c3-b12d-208a9a3045f2]   
+[48ffb2a4-f5ca-45c3-b12d-208a9a3045f2] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[48ffb2a4-f5ca-45c3-b12d-208a9a3045f2]   
+I, [2024-11-26T09:13:08.167651 #546]  INFO -- : [6035432f-a968-4592-92c1-11ab986f5e13] Started GET "/easy_gantt?set_filter=0" for 172.18.0.1 at 2024-11-26 09:13:08 +0700
+I, [2024-11-26T09:13:08.168454 #546]  INFO -- : [6035432f-a968-4592-92c1-11ab986f5e13] Processing by EasyGanttController#index as HTML
+I, [2024-11-26T09:13:08.168638 #546]  INFO -- : [6035432f-a968-4592-92c1-11ab986f5e13]   Parameters: {"set_filter"=>"0"}
+I, [2024-11-26T09:13:08.171239 #546]  INFO -- : [6035432f-a968-4592-92c1-11ab986f5e13]   Current user: admin (id=1)
+I, [2024-11-26T09:13:08.174002 #546]  INFO -- : [6035432f-a968-4592-92c1-11ab986f5e13]   Rendered common/error.html.erb within layouts/base (Duration: 0.3ms | Allocations: 264)
+I, [2024-11-26T09:13:08.184306 #546]  INFO -- : [6035432f-a968-4592-92c1-11ab986f5e13]   Rendered layout layouts/base.html.erb (Duration: 10.6ms | Allocations: 10825)
+I, [2024-11-26T09:13:08.184715 #546]  INFO -- : [6035432f-a968-4592-92c1-11ab986f5e13] Filter chain halted as :check_rest_api_enabled rendered or redirected
+I, [2024-11-26T09:13:08.184971 #546]  INFO -- : [6035432f-a968-4592-92c1-11ab986f5e13] Completed 500 Internal Server Error in 16ms (Views: 10.7ms | ActiveRecord: 2.5ms | Allocations: 14045)
+I, [2024-11-26T09:13:08.221335 #546]  INFO -- : [5f0039c5-065e-43a5-9e87-6f4a025a1d52] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 09:13:08 +0700
+F, [2024-11-26T09:13:08.222111 #546] FATAL -- : [5f0039c5-065e-43a5-9e87-6f4a025a1d52]   
+[5f0039c5-065e-43a5-9e87-6f4a025a1d52] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[5f0039c5-065e-43a5-9e87-6f4a025a1d52]   
+I, [2024-11-26T09:13:10.629970 #546]  INFO -- : [4a1975d6-af5f-406d-a770-9b0edbb9a681] Started GET "/admin" for 172.18.0.1 at 2024-11-26 09:13:10 +0700
+I, [2024-11-26T09:13:10.630815 #546]  INFO -- : [4a1975d6-af5f-406d-a770-9b0edbb9a681] Processing by AdminController#index as HTML
+I, [2024-11-26T09:13:10.633470 #546]  INFO -- : [4a1975d6-af5f-406d-a770-9b0edbb9a681]   Current user: admin (id=1)
+I, [2024-11-26T09:13:10.638003 #546]  INFO -- : [4a1975d6-af5f-406d-a770-9b0edbb9a681]   Rendered admin/index.html.erb within layouts/admin (Duration: 2.3ms | Allocations: 4414)
+I, [2024-11-26T09:13:10.643867 #546]  INFO -- : [4a1975d6-af5f-406d-a770-9b0edbb9a681]   Rendered layouts/base.html.erb (Duration: 5.5ms | Allocations: 7975)
+I, [2024-11-26T09:13:10.644189 #546]  INFO -- : [4a1975d6-af5f-406d-a770-9b0edbb9a681]   Rendered layout layouts/admin.html.erb (Duration: 8.5ms | Allocations: 12515)
+I, [2024-11-26T09:13:10.644530 #546]  INFO -- : [4a1975d6-af5f-406d-a770-9b0edbb9a681] Completed 200 OK in 13ms (Views: 8.7ms | ActiveRecord: 1.4ms | Allocations: 14492)
+I, [2024-11-26T09:13:10.678572 #546]  INFO -- : [62a6ab5b-dbf0-4162-b6e9-92ed94612887] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 09:13:10 +0700
+F, [2024-11-26T09:13:10.679236 #546] FATAL -- : [62a6ab5b-dbf0-4162-b6e9-92ed94612887]   
+[62a6ab5b-dbf0-4162-b6e9-92ed94612887] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[62a6ab5b-dbf0-4162-b6e9-92ed94612887]   
+I, [2024-11-26T09:13:14.032128 #546]  INFO -- : [245215d1-4443-4feb-b6bc-d4266264a966] Started GET "/settings" for 172.18.0.1 at 2024-11-26 09:13:14 +0700
+I, [2024-11-26T09:13:14.032886 #546]  INFO -- : [245215d1-4443-4feb-b6bc-d4266264a966] Processing by SettingsController#index as HTML
+I, [2024-11-26T09:13:14.035660 #546]  INFO -- : [245215d1-4443-4feb-b6bc-d4266264a966]   Current user: admin (id=1)
+I, [2024-11-26T09:13:14.062291 #546]  INFO -- : [245215d1-4443-4feb-b6bc-d4266264a966]   Rendered settings/edit.html.erb within layouts/admin (Duration: 25.3ms | Allocations: 52556)
+I, [2024-11-26T09:13:14.068164 #546]  INFO -- : [245215d1-4443-4feb-b6bc-d4266264a966]   Rendered layouts/base.html.erb (Duration: 4.6ms | Allocations: 7795)
+I, [2024-11-26T09:13:14.068778 #546]  INFO -- : [245215d1-4443-4feb-b6bc-d4266264a966]   Rendered layout layouts/admin.html.erb (Duration: 31.7ms | Allocations: 62742)
+I, [2024-11-26T09:13:14.069803 #546]  INFO -- : [245215d1-4443-4feb-b6bc-d4266264a966] Completed 200 OK in 37ms (Views: 30.7ms | ActiveRecord: 3.0ms | Allocations: 64473)
+I, [2024-11-26T09:13:14.113215 #546]  INFO -- : [14e09961-59c5-4289-b41e-0a94fdacd01a] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 09:13:14 +0700
+F, [2024-11-26T09:13:14.113805 #546] FATAL -- : [14e09961-59c5-4289-b41e-0a94fdacd01a]   
+[14e09961-59c5-4289-b41e-0a94fdacd01a] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[14e09961-59c5-4289-b41e-0a94fdacd01a]   
+I, [2024-11-26T09:13:16.878971 #546]  INFO -- : [20202177-24df-4e82-8781-2d012e6df383] Started POST "/settings/edit?tab=api" for 172.18.0.1 at 2024-11-26 09:13:16 +0700
+I, [2024-11-26T09:13:16.879801 #546]  INFO -- : [20202177-24df-4e82-8781-2d012e6df383] Processing by SettingsController#edit as HTML
+I, [2024-11-26T09:13:16.880014 #546]  INFO -- : [20202177-24df-4e82-8781-2d012e6df383]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"K8RjlaGzVtWUC46pLNPXBoq2931K31b7lNcTNG5ZxjOhBXCbW23EeUED4b673nuNXDVDlp9NUtBf1PR3YRbg1Q==", "settings"=>{"rest_api_enabled"=>"1", "jsonp_enabled"=>"0"}, "commit"=>"Save", "tab"=>"api"}
+I, [2024-11-26T09:13:16.882688 #546]  INFO -- : [20202177-24df-4e82-8781-2d012e6df383]   Current user: admin (id=1)
+I, [2024-11-26T09:13:16.900205 #546]  INFO -- : [20202177-24df-4e82-8781-2d012e6df383] [ActiveJob] Enqueued ActionMailer::MailDeliveryJob (Job ID: 842d410b-2f5a-441f-952b-20212454f082) to Async(mailers) with arguments: "Mailer", "settings_updated", "deliver_now", {:args=>[#<GlobalID:0x00007f97732b2ea8 @uri=#<URI::GID gid://redmine-app/User/1>>, #<GlobalID:0x00007f97732b20c0 @uri=#<URI::GID gid://redmine-app/User/1>>, ["rest_api_enabled"], {:remote_ip=>"172.18.0.1"}]}
+I, [2024-11-26T09:13:16.904209 #546]  INFO -- : [20202177-24df-4e82-8781-2d012e6df383] Redirected to http://192.168.100.170:10083/settings?tab=api
+I, [2024-11-26T09:13:16.904610 #546]  INFO -- : [20202177-24df-4e82-8781-2d012e6df383] Completed 302 Found in 24ms (ActiveRecord: 13.3ms | Allocations: 5030)
+I, [2024-11-26T09:13:16.910517 #546]  INFO -- : [7fe84ca0-6296-4d92-840f-81a86ac57e72] Started GET "/settings?tab=api" for 172.18.0.1 at 2024-11-26 09:13:16 +0700
+I, [2024-11-26T09:13:16.911979 #546]  INFO -- : [7fe84ca0-6296-4d92-840f-81a86ac57e72] Processing by SettingsController#index as HTML
+I, [2024-11-26T09:13:16.912636 #546]  INFO -- : [7fe84ca0-6296-4d92-840f-81a86ac57e72]   Parameters: {"tab"=>"api"}
+I, [2024-11-26T09:13:16.911584 #546]  INFO -- : [ActiveJob] [ActionMailer::MailDeliveryJob] [842d410b-2f5a-441f-952b-20212454f082] Performing ActionMailer::MailDeliveryJob (Job ID: 842d410b-2f5a-441f-952b-20212454f082) from Async(mailers) enqueued at 2024-11-26T02:13:16Z with arguments: "Mailer", "settings_updated", "deliver_now", {:args=>[#<GlobalID:0x00007f9773561a50 @uri=#<URI::GID gid://redmine-app/User/1>>, #<GlobalID:0x00007f977357b360 @uri=#<URI::GID gid://redmine-app/User/1>>, ["rest_api_enabled"], {:remote_ip=>"172.18.0.1"}]}
+I, [2024-11-26T09:13:16.915329 #546]  INFO -- : [7fe84ca0-6296-4d92-840f-81a86ac57e72] Settings cache cleared.
+I, [2024-11-26T09:13:16.916579 #546]  INFO -- : [7fe84ca0-6296-4d92-840f-81a86ac57e72]   Current user: admin (id=1)
+I, [2024-11-26T09:13:16.935453 #546]  INFO -- : [ActiveJob] [ActionMailer::MailDeliveryJob] [842d410b-2f5a-441f-952b-20212454f082]   Rendered mailer/settings_updated.text.erb within layouts/mailer (Duration: 2.9ms | Allocations: 2870)
+I, [2024-11-26T09:13:16.938226 #546]  INFO -- : [ActiveJob] [ActionMailer::MailDeliveryJob] [842d410b-2f5a-441f-952b-20212454f082]   Rendered layout layouts/mailer.text.erb (Duration: 5.6ms | Allocations: 5329)
+I, [2024-11-26T09:13:16.950386 #546]  INFO -- : [ActiveJob] [ActionMailer::MailDeliveryJob] [842d410b-2f5a-441f-952b-20212454f082]   Rendered mailer/settings_updated.html.erb within layouts/mailer (Duration: 1.2ms | Allocations: 2004)
+I, [2024-11-26T09:13:16.953466 #546]  INFO -- : [ActiveJob] [ActionMailer::MailDeliveryJob] [842d410b-2f5a-441f-952b-20212454f082]   Rendered layout layouts/mailer.html.erb (Duration: 4.3ms | Allocations: 4300)
+I, [2024-11-26T09:13:16.998097 #546]  INFO -- : [7fe84ca0-6296-4d92-840f-81a86ac57e72]   Rendered settings/edit.html.erb within layouts/admin (Duration: 75.4ms | Allocations: 90464)
+I, [2024-11-26T09:13:17.013588 #546]  INFO -- : [7fe84ca0-6296-4d92-840f-81a86ac57e72]   Rendered layouts/base.html.erb (Duration: 12.5ms | Allocations: 8379)
+I, [2024-11-26T09:13:17.014150 #546]  INFO -- : [7fe84ca0-6296-4d92-840f-81a86ac57e72]   Rendered layout layouts/admin.html.erb (Duration: 91.5ms | Allocations: 101234)
+I, [2024-11-26T09:13:17.015143 #546]  INFO -- : [7fe84ca0-6296-4d92-840f-81a86ac57e72] Completed 200 OK in 102ms (Views: 65.9ms | ActiveRecord: 29.6ms | Allocations: 106824)
+I, [2024-11-26T09:13:17.054452 #546]  INFO -- : [16cecc84-94ab-4996-b035-64699ffb6996] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 09:13:17 +0700
+F, [2024-11-26T09:13:17.055595 #546] FATAL -- : [16cecc84-94ab-4996-b035-64699ffb6996]   
+[16cecc84-94ab-4996-b035-64699ffb6996] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[16cecc84-94ab-4996-b035-64699ffb6996]   
+I, [2024-11-26T09:13:18.492705 #546]  INFO -- : [34e8accb-c40e-4ad8-90bc-a8e0d0fbabf5] Started GET "/easy_gantt?set_filter=0" for 172.18.0.1 at 2024-11-26 09:13:18 +0700
+I, [2024-11-26T09:13:18.493411 #546]  INFO -- : [34e8accb-c40e-4ad8-90bc-a8e0d0fbabf5] Processing by EasyGanttController#index as HTML
+I, [2024-11-26T09:13:18.493603 #546]  INFO -- : [34e8accb-c40e-4ad8-90bc-a8e0d0fbabf5]   Parameters: {"set_filter"=>"0"}
+I, [2024-11-26T09:13:18.501235 #546]  INFO -- : [34e8accb-c40e-4ad8-90bc-a8e0d0fbabf5]   Current user: admin (id=1)
+I, [2024-11-26T09:13:18.581414 #546]  INFO -- : [34e8accb-c40e-4ad8-90bc-a8e0d0fbabf5]   Rendered plugins/easy_gantt/app/views/easy_gantt/index.html.erb within layouts/base (Duration: 54.9ms | Allocations: 33861)
+I, [2024-11-26T09:13:18.590101 #546]  INFO -- : [34e8accb-c40e-4ad8-90bc-a8e0d0fbabf5]   Rendered layout layouts/base.html.erb (Duration: 63.6ms | Allocations: 43467)
+I, [2024-11-26T09:13:18.590518 #546]  INFO -- : [34e8accb-c40e-4ad8-90bc-a8e0d0fbabf5] Completed 200 OK in 97ms (Views: 60.3ms | ActiveRecord: 5.9ms | Allocations: 51217)
+I, [2024-11-26T09:13:18.633641 #547]  INFO -- : [b91d70ca-488d-4c0d-9c70-e3e25e1a85cc] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 09:13:18 +0700
+F, [2024-11-26T09:13:18.634180 #547] FATAL -- : [b91d70ca-488d-4c0d-9c70-e3e25e1a85cc]   
+[b91d70ca-488d-4c0d-9c70-e3e25e1a85cc] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[b91d70ca-488d-4c0d-9c70-e3e25e1a85cc]   
+I, [2024-11-26T09:13:18.688721 #547]  INFO -- : [cb2e9bb1-49e0-4d06-9f7d-46b30b872b52] Started GET "/easy_gantt/projects.json?key=f25a8cdf87ba9bd95c89999bbac5750a0836600d&set_filter=1&type=EasyGantt%3A%3AEasyGanttProjectQuery" for 172.18.0.1 at 2024-11-26 09:13:18 +0700
+I, [2024-11-26T09:13:18.690691 #547]  INFO -- : [cb2e9bb1-49e0-4d06-9f7d-46b30b872b52] Processing by EasyGanttController#projects as JSON
+I, [2024-11-26T09:13:18.690902 #547]  INFO -- : [cb2e9bb1-49e0-4d06-9f7d-46b30b872b52]   Parameters: {"key"=>"f25a8cdf87ba9bd95c89999bbac5750a0836600d", "set_filter"=>"1", "type"=>"EasyGantt::EasyGanttProjectQuery"}
+I, [2024-11-26T09:13:18.705911 #547]  INFO -- : [cb2e9bb1-49e0-4d06-9f7d-46b30b872b52] Settings cache cleared.
+I, [2024-11-26T09:13:18.728968 #547]  INFO -- : [cb2e9bb1-49e0-4d06-9f7d-46b30b872b52]   Current user: admin (id=1)
+I, [2024-11-26T09:13:18.758146 #547]  INFO -- : [cb2e9bb1-49e0-4d06-9f7d-46b30b872b52]   Rendered plugins/easy_gantt/app/views/easy_gantt/projects.api.rsb (Duration: 0.6ms | Allocations: 387)
+I, [2024-11-26T09:13:18.758641 #547]  INFO -- : [cb2e9bb1-49e0-4d06-9f7d-46b30b872b52] Completed 200 OK in 68ms (Views: 2.4ms | ActiveRecord: 17.4ms | Allocations: 48845)
+I, [2024-11-26T09:13:19.443813 #546]  INFO -- : [ActiveJob] [ActionMailer::MailDeliveryJob] [842d410b-2f5a-441f-952b-20212454f082] Performed ActionMailer::MailDeliveryJob (Job ID: 842d410b-2f5a-441f-952b-20212454f082) from Async(mailers) in 2529.23ms
+I, [2024-11-26T09:13:22.787458 #546]  INFO -- : [fa6550c9-c3e2-4ae2-a39c-91c736c833b7] Started GET "/admin" for 172.18.0.1 at 2024-11-26 09:13:22 +0700
+I, [2024-11-26T09:13:22.788391 #546]  INFO -- : [fa6550c9-c3e2-4ae2-a39c-91c736c833b7] Processing by AdminController#index as HTML
+I, [2024-11-26T09:13:22.791928 #546]  INFO -- : [fa6550c9-c3e2-4ae2-a39c-91c736c833b7]   Current user: admin (id=1)
+I, [2024-11-26T09:13:22.796846 #546]  INFO -- : [fa6550c9-c3e2-4ae2-a39c-91c736c833b7]   Rendered admin/index.html.erb within layouts/admin (Duration: 2.4ms | Allocations: 4415)
+I, [2024-11-26T09:13:22.803171 #546]  INFO -- : [fa6550c9-c3e2-4ae2-a39c-91c736c833b7]   Rendered layouts/base.html.erb (Duration: 5.9ms | Allocations: 8000)
+I, [2024-11-26T09:13:22.803436 #546]  INFO -- : [fa6550c9-c3e2-4ae2-a39c-91c736c833b7]   Rendered layout layouts/admin.html.erb (Duration: 9.0ms | Allocations: 12541)
+I, [2024-11-26T09:13:22.803731 #546]  INFO -- : [fa6550c9-c3e2-4ae2-a39c-91c736c833b7] Completed 200 OK in 15ms (Views: 8.8ms | ActiveRecord: 2.4ms | Allocations: 14507)
+I, [2024-11-26T09:13:22.836206 #546]  INFO -- : [58e91172-e59b-4ed2-bd7d-b18b4fdb6f26] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 09:13:22 +0700
+F, [2024-11-26T09:13:22.836785 #546] FATAL -- : [58e91172-e59b-4ed2-bd7d-b18b4fdb6f26]   
+[58e91172-e59b-4ed2-bd7d-b18b4fdb6f26] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[58e91172-e59b-4ed2-bd7d-b18b4fdb6f26]   
+I, [2024-11-26T09:13:26.003187 #546]  INFO -- : [cf1b576a-efca-4d3b-aa6d-f27c9dcf4078] Started GET "/settings" for 172.18.0.1 at 2024-11-26 09:13:26 +0700
+I, [2024-11-26T09:13:26.003999 #546]  INFO -- : [cf1b576a-efca-4d3b-aa6d-f27c9dcf4078] Processing by SettingsController#index as HTML
+I, [2024-11-26T09:13:26.006796 #546]  INFO -- : [cf1b576a-efca-4d3b-aa6d-f27c9dcf4078]   Current user: admin (id=1)
+I, [2024-11-26T09:13:26.035956 #546]  INFO -- : [cf1b576a-efca-4d3b-aa6d-f27c9dcf4078]   Rendered settings/edit.html.erb within layouts/admin (Duration: 27.6ms | Allocations: 52623)
+I, [2024-11-26T09:13:26.041840 #546]  INFO -- : [cf1b576a-efca-4d3b-aa6d-f27c9dcf4078]   Rendered layouts/base.html.erb (Duration: 4.4ms | Allocations: 7795)
+I, [2024-11-26T09:13:26.042072 #546]  INFO -- : [cf1b576a-efca-4d3b-aa6d-f27c9dcf4078]   Rendered layout layouts/admin.html.erb (Duration: 33.8ms | Allocations: 62809)
+I, [2024-11-26T09:13:26.042377 #546]  INFO -- : [cf1b576a-efca-4d3b-aa6d-f27c9dcf4078] Completed 200 OK in 38ms (Views: 31.4ms | ActiveRecord: 3.7ms | Allocations: 64539)
+I, [2024-11-26T09:13:26.077221 #546]  INFO -- : [7ad9b909-801c-49ba-b27d-c3eb4e3bf91f] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 09:13:26 +0700
+F, [2024-11-26T09:13:26.077849 #546] FATAL -- : [7ad9b909-801c-49ba-b27d-c3eb4e3bf91f]   
+[7ad9b909-801c-49ba-b27d-c3eb4e3bf91f] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[7ad9b909-801c-49ba-b27d-c3eb4e3bf91f]   
+I, [2024-11-26T09:13:30.847295 #546]  INFO -- : [3e403b72-e3b6-4d15-94d1-d1a83a55cb70] Started POST "/settings/edit?tab=display" for 172.18.0.1 at 2024-11-26 09:13:30 +0700
+I, [2024-11-26T09:13:30.848075 #546]  INFO -- : [3e403b72-e3b6-4d15-94d1-d1a83a55cb70] Processing by SettingsController#edit as HTML
+I, [2024-11-26T09:13:30.848439 #546]  INFO -- : [3e403b72-e3b6-4d15-94d1-d1a83a55cb70]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"340qiBVi4nxsKt6V5UB1MSAmPTCoi7BJeo2qvGUW3f1VTDmG77xw0LkisYJyTdm69qWJ230ZtGKxjk3/aln7Gw==", "settings"=>{"ui_theme"=>"", "default_language"=>"en", "force_default_language_for_anonymous"=>"0", "force_default_language_for_loggedin"=>"0", "start_of_week"=>"", "date_format"=>"", "time_format"=>"", "timespan_format"=>"minutes", "user_format"=>"firstname_lastname", "gravatar_enabled"=>"0", "thumbnails_enabled"=>"1", "thumbnails_size"=>"100", "new_item_menu_tab"=>"2"}, "commit"=>"Save", "tab"=>"display"}
+I, [2024-11-26T09:13:30.851282 #546]  INFO -- : [3e403b72-e3b6-4d15-94d1-d1a83a55cb70]   Current user: admin (id=1)
+I, [2024-11-26T09:13:30.868955 #546]  INFO -- : [3e403b72-e3b6-4d15-94d1-d1a83a55cb70] Redirected to http://192.168.100.170:10083/settings?tab=display
+I, [2024-11-26T09:13:30.869318 #546]  INFO -- : [3e403b72-e3b6-4d15-94d1-d1a83a55cb70] Completed 302 Found in 21ms (ActiveRecord: 12.4ms | Allocations: 5252)
+I, [2024-11-26T09:13:30.873674 #546]  INFO -- : [8a0e5607-14eb-4a68-a331-5fcdb2055c2d] Started GET "/settings?tab=display" for 172.18.0.1 at 2024-11-26 09:13:30 +0700
+I, [2024-11-26T09:13:30.874274 #546]  INFO -- : [8a0e5607-14eb-4a68-a331-5fcdb2055c2d] Processing by SettingsController#index as HTML
+I, [2024-11-26T09:13:30.874478 #546]  INFO -- : [8a0e5607-14eb-4a68-a331-5fcdb2055c2d]   Parameters: {"tab"=>"display"}
+I, [2024-11-26T09:13:30.876059 #546]  INFO -- : [8a0e5607-14eb-4a68-a331-5fcdb2055c2d] Settings cache cleared.
+I, [2024-11-26T09:13:30.876947 #546]  INFO -- : [8a0e5607-14eb-4a68-a331-5fcdb2055c2d]   Current user: admin (id=1)
+I, [2024-11-26T09:13:30.944966 #546]  INFO -- : [8a0e5607-14eb-4a68-a331-5fcdb2055c2d]   Rendered settings/edit.html.erb within layouts/admin (Duration: 65.1ms | Allocations: 73248)
+I, [2024-11-26T09:13:30.954281 #546]  INFO -- : [8a0e5607-14eb-4a68-a331-5fcdb2055c2d]   Rendered layouts/base.html.erb (Duration: 7.0ms | Allocations: 8280)
+I, [2024-11-26T09:13:30.954594 #546]  INFO -- : [8a0e5607-14eb-4a68-a331-5fcdb2055c2d]   Rendered layout layouts/admin.html.erb (Duration: 74.7ms | Allocations: 83920)
+I, [2024-11-26T09:13:30.954904 #546]  INFO -- : [8a0e5607-14eb-4a68-a331-5fcdb2055c2d] Completed 200 OK in 80ms (Views: 62.2ms | ActiveRecord: 14.0ms | Allocations: 86621)
+I, [2024-11-26T09:13:32.346027 #546]  INFO -- : [4f4d7eae-ab86-4c28-aa14-f3532d6557fb] Started GET "/easy_gantt?set_filter=0" for 172.18.0.1 at 2024-11-26 09:13:32 +0700
+I, [2024-11-26T09:13:32.346815 #546]  INFO -- : [4f4d7eae-ab86-4c28-aa14-f3532d6557fb] Processing by EasyGanttController#index as HTML
+I, [2024-11-26T09:13:32.347141 #546]  INFO -- : [4f4d7eae-ab86-4c28-aa14-f3532d6557fb]   Parameters: {"set_filter"=>"0"}
+I, [2024-11-26T09:13:32.349973 #546]  INFO -- : [4f4d7eae-ab86-4c28-aa14-f3532d6557fb]   Current user: admin (id=1)
+I, [2024-11-26T09:13:32.359608 #546]  INFO -- : [4f4d7eae-ab86-4c28-aa14-f3532d6557fb]   Rendered plugins/easy_gantt/app/views/easy_gantt/index.html.erb within layouts/base (Duration: 8.2ms | Allocations: 16706)
+I, [2024-11-26T09:13:32.367557 #546]  INFO -- : [4f4d7eae-ab86-4c28-aa14-f3532d6557fb]   Rendered layout layouts/base.html.erb (Duration: 16.1ms | Allocations: 26255)
+I, [2024-11-26T09:13:32.368024 #546]  INFO -- : [4f4d7eae-ab86-4c28-aa14-f3532d6557fb] Completed 200 OK in 21ms (Views: 15.0ms | ActiveRecord: 2.5ms | Allocations: 27960)
+I, [2024-11-26T09:13:32.447616 #546]  INFO -- : [f9468828-2e4b-477a-a1b4-df14c1943925] Started GET "/easy_gantt/projects.json?key=f25a8cdf87ba9bd95c89999bbac5750a0836600d&set_filter=1&type=EasyGantt%3A%3AEasyGanttProjectQuery" for 172.18.0.1 at 2024-11-26 09:13:32 +0700
+I, [2024-11-26T09:13:32.448487 #546]  INFO -- : [f9468828-2e4b-477a-a1b4-df14c1943925] Processing by EasyGanttController#projects as JSON
+I, [2024-11-26T09:13:32.448694 #546]  INFO -- : [f9468828-2e4b-477a-a1b4-df14c1943925]   Parameters: {"key"=>"f25a8cdf87ba9bd95c89999bbac5750a0836600d", "set_filter"=>"1", "type"=>"EasyGantt::EasyGanttProjectQuery"}
+I, [2024-11-26T09:13:32.452357 #546]  INFO -- : [f9468828-2e4b-477a-a1b4-df14c1943925]   Current user: admin (id=1)
+I, [2024-11-26T09:13:32.461522 #546]  INFO -- : [f9468828-2e4b-477a-a1b4-df14c1943925]   Rendered plugins/easy_gantt/app/views/easy_gantt/projects.api.rsb (Duration: 0.3ms | Allocations: 259)
+I, [2024-11-26T09:13:32.462152 #546]  INFO -- : [f9468828-2e4b-477a-a1b4-df14c1943925] Completed 200 OK in 13ms (Views: 1.1ms | ActiveRecord: 4.4ms | Allocations: 6098)
+I, [2024-11-26T09:13:34.711338 #546]  INFO -- : [a0576aed-15d0-4308-af87-05005a0ed936] Started GET "/admin" for 172.18.0.1 at 2024-11-26 09:13:34 +0700
+I, [2024-11-26T09:13:34.712203 #546]  INFO -- : [a0576aed-15d0-4308-af87-05005a0ed936] Processing by AdminController#index as HTML
+I, [2024-11-26T09:13:34.726007 #546]  INFO -- : [a0576aed-15d0-4308-af87-05005a0ed936]   Current user: admin (id=1)
+I, [2024-11-26T09:13:34.730745 #546]  INFO -- : [a0576aed-15d0-4308-af87-05005a0ed936]   Rendered admin/index.html.erb within layouts/admin (Duration: 2.4ms | Allocations: 4413)
+I, [2024-11-26T09:13:34.736806 #546]  INFO -- : [a0576aed-15d0-4308-af87-05005a0ed936]   Rendered layouts/base.html.erb (Duration: 5.8ms | Allocations: 7914)
+I, [2024-11-26T09:13:34.737017 #546]  INFO -- : [a0576aed-15d0-4308-af87-05005a0ed936]   Rendered layout layouts/admin.html.erb (Duration: 8.7ms | Allocations: 12453)
+I, [2024-11-26T09:13:34.737231 #546]  INFO -- : [a0576aed-15d0-4308-af87-05005a0ed936] Completed 200 OK in 25ms (Views: 8.5ms | ActiveRecord: 12.5ms | Allocations: 14532)
+I, [2024-11-26T09:13:36.726030 #546]  INFO -- : [62b5aeb5-d7f6-4d3d-a27a-a11800738c67] Started GET "/settings" for 172.18.0.1 at 2024-11-26 09:13:36 +0700
+I, [2024-11-26T09:13:36.726812 #546]  INFO -- : [62b5aeb5-d7f6-4d3d-a27a-a11800738c67] Processing by SettingsController#index as HTML
+I, [2024-11-26T09:13:36.729861 #546]  INFO -- : [62b5aeb5-d7f6-4d3d-a27a-a11800738c67]   Current user: admin (id=1)
+I, [2024-11-26T09:13:36.756904 #546]  INFO -- : [62b5aeb5-d7f6-4d3d-a27a-a11800738c67]   Rendered settings/edit.html.erb within layouts/admin (Duration: 25.7ms | Allocations: 52473)
+I, [2024-11-26T09:13:36.762778 #546]  INFO -- : [62b5aeb5-d7f6-4d3d-a27a-a11800738c67]   Rendered layouts/base.html.erb (Duration: 4.2ms | Allocations: 7714)
+I, [2024-11-26T09:13:36.763188 #546]  INFO -- : [62b5aeb5-d7f6-4d3d-a27a-a11800738c67]   Rendered layout layouts/admin.html.erb (Duration: 32.0ms | Allocations: 62578)
+I, [2024-11-26T09:13:36.763611 #546]  INFO -- : [62b5aeb5-d7f6-4d3d-a27a-a11800738c67] Completed 200 OK in 37ms (Views: 30.2ms | ActiveRecord: 3.1ms | Allocations: 64308)
+I, [2024-11-26T09:13:44.694838 #546]  INFO -- : [534799ce-fcb8-4c85-b3d5-1dd799170cf9] Started POST "/settings/edit?tab=display" for 172.18.0.1 at 2024-11-26 09:13:44 +0700
+I, [2024-11-26T09:13:44.695708 #546]  INFO -- : [534799ce-fcb8-4c85-b3d5-1dd799170cf9] Processing by SettingsController#edit as HTML
+I, [2024-11-26T09:13:44.695995 #546]  INFO -- : [534799ce-fcb8-4c85-b3d5-1dd799170cf9]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"fWValAogb0AE5Fgkxak9FsIzH/ZqYraVvuhzDOzIRaz3pEma8P797NHsNzNSpJGdFLCrHb/wsr5165RP44djSg==", "settings"=>{"ui_theme"=>"highrise", "default_language"=>"en", "force_default_language_for_anonymous"=>"0", "force_default_language_for_loggedin"=>"0", "start_of_week"=>"", "date_format"=>"", "time_format"=>"", "timespan_format"=>"minutes", "user_format"=>"firstname_lastname", "gravatar_enabled"=>"0", "thumbnails_enabled"=>"1", "thumbnails_size"=>"100", "new_item_menu_tab"=>"2"}, "commit"=>"Save", "tab"=>"display"}
+I, [2024-11-26T09:13:44.698801 #546]  INFO -- : [534799ce-fcb8-4c85-b3d5-1dd799170cf9]   Current user: admin (id=1)
+I, [2024-11-26T09:13:44.708299 #546]  INFO -- : [534799ce-fcb8-4c85-b3d5-1dd799170cf9] Redirected to http://192.168.100.170:10083/settings?tab=display
+I, [2024-11-26T09:13:44.708634 #546]  INFO -- : [534799ce-fcb8-4c85-b3d5-1dd799170cf9] Completed 302 Found in 12ms (ActiveRecord: 4.3ms | Allocations: 5252)
+I, [2024-11-26T09:13:44.713616 #546]  INFO -- : [3fb848f0-8c9a-48d0-92c8-49e671060b44] Started GET "/settings?tab=display" for 172.18.0.1 at 2024-11-26 09:13:44 +0700
+I, [2024-11-26T09:13:44.714223 #546]  INFO -- : [3fb848f0-8c9a-48d0-92c8-49e671060b44] Processing by SettingsController#index as HTML
+I, [2024-11-26T09:13:44.714452 #546]  INFO -- : [3fb848f0-8c9a-48d0-92c8-49e671060b44]   Parameters: {"tab"=>"display"}
+I, [2024-11-26T09:13:44.716050 #546]  INFO -- : [3fb848f0-8c9a-48d0-92c8-49e671060b44] Settings cache cleared.
+I, [2024-11-26T09:13:44.716989 #546]  INFO -- : [3fb848f0-8c9a-48d0-92c8-49e671060b44]   Current user: admin (id=1)
+I, [2024-11-26T09:13:44.780952 #546]  INFO -- : [3fb848f0-8c9a-48d0-92c8-49e671060b44]   Rendered settings/edit.html.erb within layouts/admin (Duration: 61.1ms | Allocations: 73383)
+I, [2024-11-26T09:13:44.788715 #546]  INFO -- : [3fb848f0-8c9a-48d0-92c8-49e671060b44]   Rendered layouts/base.html.erb (Duration: 6.1ms | Allocations: 8361)
+I, [2024-11-26T09:13:44.789138 #546]  INFO -- : [3fb848f0-8c9a-48d0-92c8-49e671060b44]   Rendered layout layouts/admin.html.erb (Duration: 69.3ms | Allocations: 84136)
+I, [2024-11-26T09:13:44.789455 #546]  INFO -- : [3fb848f0-8c9a-48d0-92c8-49e671060b44] Completed 200 OK in 75ms (Views: 58.4ms | ActiveRecord: 12.4ms | Allocations: 86837)
+I, [2024-11-26T09:13:44.828668 #546]  INFO -- : [b707d8f7-d505-47e0-ad76-15e76744356f] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 09:13:44 +0700
+F, [2024-11-26T09:13:44.829492 #546] FATAL -- : [b707d8f7-d505-47e0-ad76-15e76744356f]   
+[b707d8f7-d505-47e0-ad76-15e76744356f] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[b707d8f7-d505-47e0-ad76-15e76744356f]   
+I, [2024-11-26T09:13:47.049294 #546]  INFO -- : [81bc3b8f-5e49-4cbf-8e46-41d6457f6c01] Started GET "/people" for 172.18.0.1 at 2024-11-26 09:13:47 +0700
+I, [2024-11-26T09:13:47.050308 #546]  INFO -- : [81bc3b8f-5e49-4cbf-8e46-41d6457f6c01] Processing by PeopleController#index as HTML
+I, [2024-11-26T09:13:47.053078 #546]  INFO -- : [81bc3b8f-5e49-4cbf-8e46-41d6457f6c01]   Current user: admin (id=1)
+I, [2024-11-26T09:13:47.089485 #546]  INFO -- : [81bc3b8f-5e49-4cbf-8e46-41d6457f6c01]   Rendered plugins/redmine_people/app/views/people/index.html.erb within layouts/base (Duration: 25.3ms | Allocations: 28322)
+I, [2024-11-26T09:13:47.098337 #546]  INFO -- : [81bc3b8f-5e49-4cbf-8e46-41d6457f6c01]   Rendered layout layouts/base.html.erb (Duration: 34.2ms | Allocations: 38075)
+I, [2024-11-26T09:13:47.099227 #546]  INFO -- : [81bc3b8f-5e49-4cbf-8e46-41d6457f6c01] Completed 200 OK in 49ms (Views: 29.0ms | ActiveRecord: 9.2ms | Allocations: 48988)
+I, [2024-11-26T09:13:47.133275 #546]  INFO -- : [27a76d66-d805-4446-be32-444ac70fea49] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 09:13:47 +0700
+F, [2024-11-26T09:13:47.133974 #546] FATAL -- : [27a76d66-d805-4446-be32-444ac70fea49]   
+[27a76d66-d805-4446-be32-444ac70fea49] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[27a76d66-d805-4446-be32-444ac70fea49]   
+I, [2024-11-26T09:13:49.548804 #546]  INFO -- : [f16318ef-31cc-4c4f-97ad-d496bced0674] Started GET "/resource_bookings" for 172.18.0.1 at 2024-11-26 09:13:49 +0700
+I, [2024-11-26T09:13:49.549643 #546]  INFO -- : [f16318ef-31cc-4c4f-97ad-d496bced0674] Processing by ResourceBookingsController#index as HTML
+I, [2024-11-26T09:13:49.552633 #546]  INFO -- : [f16318ef-31cc-4c4f-97ad-d496bced0674]   Current user: admin (id=1)
+I, [2024-11-26T09:13:49.581036 #546]  INFO -- : [f16318ef-31cc-4c4f-97ad-d496bced0674]   Rendered plugins/redmine_resources/app/views/resource_bookings/index.html.erb within layouts/base (Duration: 13.6ms | Allocations: 16326)
+I, [2024-11-26T09:13:49.588753 #546]  INFO -- : [f16318ef-31cc-4c4f-97ad-d496bced0674]   Rendered layout layouts/base.html.erb (Duration: 21.3ms | Allocations: 25933)
+I, [2024-11-26T09:13:49.589017 #546]  INFO -- : [f16318ef-31cc-4c4f-97ad-d496bced0674] Completed 200 OK in 39ms (Views: 18.0ms | ActiveRecord: 8.5ms | Allocations: 40513)
+I, [2024-11-26T09:13:49.622257 #546]  INFO -- : [6a4d3f5b-d382-418d-baf5-60541b80456d] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 09:13:49 +0700
+F, [2024-11-26T09:13:49.622825 #546] FATAL -- : [6a4d3f5b-d382-418d-baf5-60541b80456d]   
+[6a4d3f5b-d382-418d-baf5-60541b80456d] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[6a4d3f5b-d382-418d-baf5-60541b80456d]   
+I, [2024-11-26T09:13:52.391052 #546]  INFO -- : [cd6a7a5b-a4ee-4694-9e82-a13200ee3693] Started GET "/admin" for 172.18.0.1 at 2024-11-26 09:13:52 +0700
+I, [2024-11-26T09:13:52.391846 #546]  INFO -- : [cd6a7a5b-a4ee-4694-9e82-a13200ee3693] Processing by AdminController#index as HTML
+I, [2024-11-26T09:13:52.394841 #546]  INFO -- : [cd6a7a5b-a4ee-4694-9e82-a13200ee3693]   Current user: admin (id=1)
+I, [2024-11-26T09:13:52.399777 #546]  INFO -- : [cd6a7a5b-a4ee-4694-9e82-a13200ee3693]   Rendered admin/index.html.erb within layouts/admin (Duration: 2.4ms | Allocations: 4414)
+I, [2024-11-26T09:13:52.405337 #546]  INFO -- : [cd6a7a5b-a4ee-4694-9e82-a13200ee3693]   Rendered layouts/base.html.erb (Duration: 5.2ms | Allocations: 7994)
+I, [2024-11-26T09:13:52.405553 #546]  INFO -- : [cd6a7a5b-a4ee-4694-9e82-a13200ee3693]   Rendered layout layouts/admin.html.erb (Duration: 8.2ms | Allocations: 12534)
+I, [2024-11-26T09:13:52.405842 #546]  INFO -- : [cd6a7a5b-a4ee-4694-9e82-a13200ee3693] Completed 200 OK in 14ms (Views: 8.4ms | ActiveRecord: 1.6ms | Allocations: 14533)
+I, [2024-11-26T09:13:52.438455 #546]  INFO -- : [acff8edf-9fca-4231-9ad3-f78a5745cb05] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 09:13:52 +0700
+F, [2024-11-26T09:13:52.439256 #546] FATAL -- : [acff8edf-9fca-4231-9ad3-f78a5745cb05]   
+[acff8edf-9fca-4231-9ad3-f78a5745cb05] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[acff8edf-9fca-4231-9ad3-f78a5745cb05]   
+I, [2024-11-26T09:14:25.008401 #546]  INFO -- : [96088a0b-3c51-489c-8bf9-ececb9e761c3] Started POST "/admin/default_configuration" for 172.18.0.1 at 2024-11-26 09:14:25 +0700
+I, [2024-11-26T09:14:25.009246 #546]  INFO -- : [96088a0b-3c51-489c-8bf9-ececb9e761c3] Processing by AdminController#default_configuration as HTML
+I, [2024-11-26T09:14:25.009481 #546]  INFO -- : [96088a0b-3c51-489c-8bf9-ececb9e761c3]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"onIAIbAYHTwCpfCCMCbg00aTBfQiqHJrx65RIiu6kfEosxMvSsaPkNetn5WnK0xYkBCxH/c6dkAMrbZhJPW3Fw==", "lang"=>"en", "commit"=>"Load the default configuration"}
+I, [2024-11-26T09:14:25.012419 #546]  INFO -- : [96088a0b-3c51-489c-8bf9-ececb9e761c3]   Current user: admin (id=1)
+I, [2024-11-26T09:14:25.353267 #546]  INFO -- : [96088a0b-3c51-489c-8bf9-ececb9e761c3] Redirected to http://192.168.100.170:10083/admin
+I, [2024-11-26T09:14:25.354332 #546]  INFO -- : [96088a0b-3c51-489c-8bf9-ececb9e761c3] Completed 302 Found in 345ms (ActiveRecord: 106.7ms | Allocations: 213640)
+I, [2024-11-26T09:14:25.364461 #546]  INFO -- : [b5eeadfe-0a65-4339-9ae4-8f7f8532e56b] Started GET "/admin" for 172.18.0.1 at 2024-11-26 09:14:25 +0700
+I, [2024-11-26T09:14:25.365282 #546]  INFO -- : [b5eeadfe-0a65-4339-9ae4-8f7f8532e56b] Processing by AdminController#index as HTML
+I, [2024-11-26T09:14:25.367221 #546]  INFO -- : [b5eeadfe-0a65-4339-9ae4-8f7f8532e56b] Settings cache cleared.
+I, [2024-11-26T09:14:25.368178 #546]  INFO -- : [b5eeadfe-0a65-4339-9ae4-8f7f8532e56b]   Current user: admin (id=1)
+I, [2024-11-26T09:14:25.371762 #546]  INFO -- : [b5eeadfe-0a65-4339-9ae4-8f7f8532e56b]   Rendered admin/index.html.erb within layouts/admin (Duration: 1.1ms | Allocations: 2276)
+I, [2024-11-26T09:14:25.379204 #546]  INFO -- : [b5eeadfe-0a65-4339-9ae4-8f7f8532e56b]   Rendered layouts/base.html.erb (Duration: 7.2ms | Allocations: 9127)
+I, [2024-11-26T09:14:25.379383 #546]  INFO -- : [b5eeadfe-0a65-4339-9ae4-8f7f8532e56b]   Rendered layout layouts/admin.html.erb (Duration: 8.7ms | Allocations: 11529)
+I, [2024-11-26T09:14:25.379648 #546]  INFO -- : [b5eeadfe-0a65-4339-9ae4-8f7f8532e56b] Completed 200 OK in 14ms (Views: 8.2ms | ActiveRecord: 1.9ms | Allocations: 13819)
+I, [2024-11-26T09:14:25.429923 #546]  INFO -- : [252f73e3-251e-45ce-90e9-f59a36662563] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 09:14:25 +0700
+F, [2024-11-26T09:14:25.430556 #546] FATAL -- : [252f73e3-251e-45ce-90e9-f59a36662563]   
+[252f73e3-251e-45ce-90e9-f59a36662563] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[252f73e3-251e-45ce-90e9-f59a36662563]   
+I, [2024-11-26T09:14:27.881731 #546]  INFO -- : [4ad4d9fe-102f-4973-bf7d-9eb49218456d] Started GET "/easy_gantt?set_filter=0" for 172.18.0.1 at 2024-11-26 09:14:27 +0700
+I, [2024-11-26T09:14:27.882504 #546]  INFO -- : [4ad4d9fe-102f-4973-bf7d-9eb49218456d] Processing by EasyGanttController#index as HTML
+I, [2024-11-26T09:14:27.882767 #546]  INFO -- : [4ad4d9fe-102f-4973-bf7d-9eb49218456d]   Parameters: {"set_filter"=>"0"}
+I, [2024-11-26T09:14:27.886037 #546]  INFO -- : [4ad4d9fe-102f-4973-bf7d-9eb49218456d]   Current user: admin (id=1)
+I, [2024-11-26T09:14:27.897659 #546]  INFO -- : [4ad4d9fe-102f-4973-bf7d-9eb49218456d]   Rendered plugins/easy_gantt/app/views/easy_gantt/index.html.erb within layouts/base (Duration: 9.9ms | Allocations: 17787)
+I, [2024-11-26T09:14:27.909895 #546]  INFO -- : [4ad4d9fe-102f-4973-bf7d-9eb49218456d]   Rendered layout layouts/base.html.erb (Duration: 22.1ms | Allocations: 27392)
+I, [2024-11-26T09:14:27.910238 #546]  INFO -- : [4ad4d9fe-102f-4973-bf7d-9eb49218456d] Completed 200 OK in 27ms (Views: 20.4ms | ActiveRecord: 3.1ms | Allocations: 29702)
+I, [2024-11-26T09:14:27.971224 #547]  INFO -- : [4e81cf43-e6f8-41a2-b98b-bfe034fcfea9] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 09:14:27 +0700
+F, [2024-11-26T09:14:27.971790 #547] FATAL -- : [4e81cf43-e6f8-41a2-b98b-bfe034fcfea9]   
+[4e81cf43-e6f8-41a2-b98b-bfe034fcfea9] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[4e81cf43-e6f8-41a2-b98b-bfe034fcfea9]   
+I, [2024-11-26T09:14:28.026375 #546]  INFO -- : [7c747822-7e60-4ac0-ad27-1c11938d301a] Started GET "/easy_gantt/projects.json?key=f25a8cdf87ba9bd95c89999bbac5750a0836600d&set_filter=1&type=EasyGantt%3A%3AEasyGanttProjectQuery" for 172.18.0.1 at 2024-11-26 09:14:28 +0700
+I, [2024-11-26T09:14:28.027161 #546]  INFO -- : [7c747822-7e60-4ac0-ad27-1c11938d301a] Processing by EasyGanttController#projects as JSON
+I, [2024-11-26T09:14:28.027410 #546]  INFO -- : [7c747822-7e60-4ac0-ad27-1c11938d301a]   Parameters: {"key"=>"f25a8cdf87ba9bd95c89999bbac5750a0836600d", "set_filter"=>"1", "type"=>"EasyGantt::EasyGanttProjectQuery"}
+I, [2024-11-26T09:14:28.030482 #546]  INFO -- : [7c747822-7e60-4ac0-ad27-1c11938d301a]   Current user: admin (id=1)
+I, [2024-11-26T09:14:28.033959 #546]  INFO -- : [7c747822-7e60-4ac0-ad27-1c11938d301a]   Rendered plugins/easy_gantt/app/views/easy_gantt/projects.api.rsb (Duration: 0.1ms | Allocations: 130)
+I, [2024-11-26T09:14:28.034302 #546]  INFO -- : [7c747822-7e60-4ac0-ad27-1c11938d301a] Completed 200 OK in 7ms (Views: 0.6ms | ActiveRecord: 1.6ms | Allocations: 2597)
+W, [2024-11-26T09:15:00.067620 #619]  WARN -- : Creating scope :system. Overwriting existing method Enumeration.system.
+W, [2024-11-26T09:19:08.530489 #630]  WARN -- : Creating scope :system. Overwriting existing method Enumeration.system.
+W, [2024-11-26T09:19:52.372066 #668]  WARN -- : Creating scope :system. Overwriting existing method Enumeration.system.
+W, [2024-11-26T09:19:52.392008 #668]  WARN -- : Creating scope :sorted. Overwriting existing method User.sorted.
+W, [2024-11-26T09:19:52.392533 #668]  WARN -- : Creating scope :having_mail. Overwriting existing method User.having_mail.
+W, [2024-11-26T09:19:52.588583 #668]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:19:52.589210 #668]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:19:52.589616 #668]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:19:52.589948 #668]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:19:52.590297 #668]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:19:52.590568 #668]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:19:52.590792 #668]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:19:54.503728 #671]  WARN -- : Creating scope :system. Overwriting existing method Enumeration.system.
+W, [2024-11-26T09:19:54.525730 #671]  WARN -- : Creating scope :sorted. Overwriting existing method User.sorted.
+W, [2024-11-26T09:19:54.526146 #671]  WARN -- : Creating scope :having_mail. Overwriting existing method User.having_mail.
+W, [2024-11-26T09:19:54.708003 #671]  WARN -- : Creating scope :global_or_on_project. Overwriting existing method DriveEntryQuery.global_or_on_project.
+W, [2024-11-26T09:19:54.708356 #671]  WARN -- : Creating scope :sorted. Overwriting existing method DriveEntryQuery.sorted.
+W, [2024-11-26T09:19:54.721226 #671]  WARN -- : Creating scope :visible. Overwriting existing method PeopleQuery.visible.
+W, [2024-11-26T09:19:54.879845 #671]  WARN -- : Creating scope :sorted. Overwriting existing method Group.sorted.
+W, [2024-11-26T09:19:55.527793 #671]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:19:55.528632 #671]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:19:55.528977 #671]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:19:55.529222 #671]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:19:55.529504 #671]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:19:55.529764 #671]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:19:55.530058 #671]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+I, [2024-11-26T09:20:04.539687 #673]  INFO -- : [0bc298e2-05e7-40f3-9375-add02e1e3904] Started GET "/easy_gantt?set_filter=0" for 172.18.0.1 at 2024-11-26 09:20:04 +0700
+I, [2024-11-26T09:20:04.542154 #673]  INFO -- : [0bc298e2-05e7-40f3-9375-add02e1e3904] Processing by EasyGanttController#index as HTML
+I, [2024-11-26T09:20:04.542490 #673]  INFO -- : [0bc298e2-05e7-40f3-9375-add02e1e3904]   Parameters: {"set_filter"=>"0"}
+I, [2024-11-26T09:20:04.576714 #673]  INFO -- : [0bc298e2-05e7-40f3-9375-add02e1e3904]   Current user: admin (id=1)
+I, [2024-11-26T09:20:04.631433 #673]  INFO -- : [0bc298e2-05e7-40f3-9375-add02e1e3904]   Rendered plugins/easy_gantt/app/views/easy_gantt/index.html.erb within layouts/base (Duration: 36.6ms | Allocations: 49488)
+I, [2024-11-26T09:20:04.656117 #673]  INFO -- : [0bc298e2-05e7-40f3-9375-add02e1e3904]   Rendered layout layouts/base.html.erb (Duration: 61.3ms | Allocations: 71303)
+I, [2024-11-26T09:20:04.657431 #673]  INFO -- : [0bc298e2-05e7-40f3-9375-add02e1e3904] Completed 200 OK in 115ms (Views: 55.7ms | ActiveRecord: 21.5ms | Allocations: 113426)
+I, [2024-11-26T09:20:04.732007 #675]  INFO -- : [2efe156e-b42f-40f7-9b65-a330fdada5f1] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 09:20:04 +0700
+F, [2024-11-26T09:20:04.733418 #675] FATAL -- : [2efe156e-b42f-40f7-9b65-a330fdada5f1]   
+[2efe156e-b42f-40f7-9b65-a330fdada5f1] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[2efe156e-b42f-40f7-9b65-a330fdada5f1]   
+I, [2024-11-26T09:20:04.818130 #673]  INFO -- : [e21f53cf-02d2-4b62-80b8-753c91c954d3] Started GET "/easy_gantt/projects.json?key=f25a8cdf87ba9bd95c89999bbac5750a0836600d&set_filter=1&type=EasyGantt%3A%3AEasyGanttProjectQuery" for 172.18.0.1 at 2024-11-26 09:20:04 +0700
+I, [2024-11-26T09:20:04.818885 #673]  INFO -- : [e21f53cf-02d2-4b62-80b8-753c91c954d3] Processing by EasyGanttController#projects as JSON
+I, [2024-11-26T09:20:04.819055 #673]  INFO -- : [e21f53cf-02d2-4b62-80b8-753c91c954d3]   Parameters: {"key"=>"f25a8cdf87ba9bd95c89999bbac5750a0836600d", "set_filter"=>"1", "type"=>"EasyGantt::EasyGanttProjectQuery"}
+I, [2024-11-26T09:20:04.822845 #673]  INFO -- : [e21f53cf-02d2-4b62-80b8-753c91c954d3]   Current user: admin (id=1)
+I, [2024-11-26T09:20:04.831624 #673]  INFO -- : [e21f53cf-02d2-4b62-80b8-753c91c954d3]   Rendered plugins/easy_gantt/app/views/easy_gantt/projects.api.rsb (Duration: 0.5ms | Allocations: 258)
+I, [2024-11-26T09:20:04.832058 #673]  INFO -- : [e21f53cf-02d2-4b62-80b8-753c91c954d3] Completed 200 OK in 13ms (Views: 1.0ms | ActiveRecord: 4.1ms | Allocations: 7101)
+I, [2024-11-26T09:20:06.092296 #673]  INFO -- : [eb70a928-5d96-4348-9006-980f53a4f4cc] Started GET "/admin" for 172.18.0.1 at 2024-11-26 09:20:06 +0700
+I, [2024-11-26T09:20:06.093052 #673]  INFO -- : [eb70a928-5d96-4348-9006-980f53a4f4cc] Processing by AdminController#index as HTML
+I, [2024-11-26T09:20:06.095729 #673]  INFO -- : [eb70a928-5d96-4348-9006-980f53a4f4cc]   Current user: admin (id=1)
+I, [2024-11-26T09:20:06.113745 #673]  INFO -- : [eb70a928-5d96-4348-9006-980f53a4f4cc]   Rendered admin/index.html.erb within layouts/admin (Duration: 13.2ms | Allocations: 3983)
+I, [2024-11-26T09:20:06.121795 #673]  INFO -- : [eb70a928-5d96-4348-9006-980f53a4f4cc]   Rendered layouts/base.html.erb (Duration: 7.4ms | Allocations: 8833)
+I, [2024-11-26T09:20:06.122242 #673]  INFO -- : [eb70a928-5d96-4348-9006-980f53a4f4cc]   Rendered layout layouts/admin.html.erb (Duration: 21.7ms | Allocations: 13145)
+I, [2024-11-26T09:20:06.122723 #673]  INFO -- : [eb70a928-5d96-4348-9006-980f53a4f4cc] Completed 200 OK in 29ms (Views: 23.1ms | ActiveRecord: 2.3ms | Allocations: 18635)
+I, [2024-11-26T09:20:06.158325 #673]  INFO -- : [1c786bdf-e8c2-4272-89c3-b7e321a38cf5] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 09:20:06 +0700
+F, [2024-11-26T09:20:06.159274 #673] FATAL -- : [1c786bdf-e8c2-4272-89c3-b7e321a38cf5]   
+[1c786bdf-e8c2-4272-89c3-b7e321a38cf5] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[1c786bdf-e8c2-4272-89c3-b7e321a38cf5]   
+I, [2024-11-26T09:20:08.237979 #673]  INFO -- : [070a10d7-0252-406b-9474-64168674c31c] Started GET "/admin/plugins" for 172.18.0.1 at 2024-11-26 09:20:08 +0700
+I, [2024-11-26T09:20:08.238649 #673]  INFO -- : [070a10d7-0252-406b-9474-64168674c31c] Processing by AdminController#plugins as HTML
+I, [2024-11-26T09:20:08.241881 #673]  INFO -- : [070a10d7-0252-406b-9474-64168674c31c]   Current user: admin (id=1)
+I, [2024-11-26T09:20:08.245108 #673]  INFO -- : [070a10d7-0252-406b-9474-64168674c31c]   Rendered admin/plugins.html.erb within layouts/admin (Duration: 1.6ms | Allocations: 3203)
+I, [2024-11-26T09:20:08.252747 #673]  INFO -- : [070a10d7-0252-406b-9474-64168674c31c]   Rendered layouts/base.html.erb (Duration: 6.0ms | Allocations: 8624)
+I, [2024-11-26T09:20:08.253054 #673]  INFO -- : [070a10d7-0252-406b-9474-64168674c31c]   Rendered layout layouts/admin.html.erb (Duration: 9.5ms | Allocations: 14215)
+I, [2024-11-26T09:20:08.253420 #673]  INFO -- : [070a10d7-0252-406b-9474-64168674c31c] Completed 200 OK in 15ms (Views: 9.6ms | ActiveRecord: 1.3ms | Allocations: 17091)
+I, [2024-11-26T09:20:08.286460 #673]  INFO -- : [30963718-ac6c-4a54-b366-6c41ad91a941] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 09:20:08 +0700
+F, [2024-11-26T09:20:08.286959 #673] FATAL -- : [30963718-ac6c-4a54-b366-6c41ad91a941]   
+[30963718-ac6c-4a54-b366-6c41ad91a941] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[30963718-ac6c-4a54-b366-6c41ad91a941]   
+I, [2024-11-26T09:20:13.922376 #673]  INFO -- : [e137d59f-360f-4d25-920c-ce828dbe1157] Started GET "/settings/plugin/redmica_ui_extension" for 172.18.0.1 at 2024-11-26 09:20:13 +0700
+I, [2024-11-26T09:20:13.923224 #673]  INFO -- : [e137d59f-360f-4d25-920c-ce828dbe1157] Processing by SettingsController#plugin as HTML
+I, [2024-11-26T09:20:13.923512 #673]  INFO -- : [e137d59f-360f-4d25-920c-ce828dbe1157]   Parameters: {"id"=>"redmica_ui_extension"}
+I, [2024-11-26T09:20:13.926401 #673]  INFO -- : [e137d59f-360f-4d25-920c-ce828dbe1157]   Current user: admin (id=1)
+I, [2024-11-26T09:20:13.930750 #673]  INFO -- : [e137d59f-360f-4d25-920c-ce828dbe1157]   Rendered settings/plugin.html.erb within layouts/admin (Duration: 1.9ms | Allocations: 2952)
+I, [2024-11-26T09:20:13.937974 #673]  INFO -- : [e137d59f-360f-4d25-920c-ce828dbe1157]   Rendered layouts/base.html.erb (Duration: 5.8ms | Allocations: 8919)
+I, [2024-11-26T09:20:13.938207 #673]  INFO -- : [e137d59f-360f-4d25-920c-ce828dbe1157]   Rendered layout layouts/admin.html.erb (Duration: 9.4ms | Allocations: 14360)
+I, [2024-11-26T09:20:13.938476 #673]  INFO -- : [e137d59f-360f-4d25-920c-ce828dbe1157] Completed 200 OK in 15ms (Views: 10.2ms | ActiveRecord: 1.2ms | Allocations: 17611)
+I, [2024-11-26T09:20:13.975536 #673]  INFO -- : [a543c27f-c40c-4e9e-aaaa-35959238e4cf] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 09:20:13 +0700
+F, [2024-11-26T09:20:13.976076 #673] FATAL -- : [a543c27f-c40c-4e9e-aaaa-35959238e4cf]   
+[a543c27f-c40c-4e9e-aaaa-35959238e4cf] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[a543c27f-c40c-4e9e-aaaa-35959238e4cf]   
+I, [2024-11-26T09:20:23.715562 #673]  INFO -- : [5590d927-172c-4ebb-8895-5790851cb6ea] Started GET "/admin/projects" for 172.18.0.1 at 2024-11-26 09:20:23 +0700
+I, [2024-11-26T09:20:23.716320 #673]  INFO -- : [5590d927-172c-4ebb-8895-5790851cb6ea] Processing by AdminController#projects as HTML
+I, [2024-11-26T09:20:23.720452 #673]  INFO -- : [5590d927-172c-4ebb-8895-5790851cb6ea]   Current user: admin (id=1)
+I, [2024-11-26T09:20:23.753437 #673]  INFO -- : [5590d927-172c-4ebb-8895-5790851cb6ea]   Rendered admin/projects.html.erb within layouts/admin (Duration: 8.4ms | Allocations: 11452)
+I, [2024-11-26T09:20:23.760570 #673]  INFO -- : [5590d927-172c-4ebb-8895-5790851cb6ea]   Rendered layouts/base.html.erb (Duration: 5.0ms | Allocations: 8301)
+I, [2024-11-26T09:20:23.760959 #673]  INFO -- : [5590d927-172c-4ebb-8895-5790851cb6ea]   Rendered layout layouts/admin.html.erb (Duration: 15.9ms | Allocations: 22139)
+I, [2024-11-26T09:20:23.761354 #673]  INFO -- : [5590d927-172c-4ebb-8895-5790851cb6ea] Completed 200 OK in 45ms (Views: 15.3ms | ActiveRecord: 5.7ms | Allocations: 50087)
+I, [2024-11-26T09:20:23.798718 #673]  INFO -- : [73c90ad5-ebe9-40d9-8958-94be4d23cd10] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 09:20:23 +0700
+F, [2024-11-26T09:20:23.799303 #673] FATAL -- : [73c90ad5-ebe9-40d9-8958-94be4d23cd10]   
+[73c90ad5-ebe9-40d9-8958-94be4d23cd10] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[73c90ad5-ebe9-40d9-8958-94be4d23cd10]   
+I, [2024-11-26T09:20:25.682687 #673]  INFO -- : [062dd5d5-060c-4310-84c9-7daad69694b2] Started GET "/projects/new" for 172.18.0.1 at 2024-11-26 09:20:25 +0700
+I, [2024-11-26T09:20:25.683604 #673]  INFO -- : [062dd5d5-060c-4310-84c9-7daad69694b2] Processing by ProjectsController#new as HTML
+I, [2024-11-26T09:20:25.686351 #673]  INFO -- : [062dd5d5-060c-4310-84c9-7daad69694b2]   Current user: admin (id=1)
+I, [2024-11-26T09:20:25.724547 #673]  INFO -- : [062dd5d5-060c-4310-84c9-7daad69694b2]   Rendered projects/new.html.erb within layouts/base (Duration: 12.7ms | Allocations: 14672)
+I, [2024-11-26T09:20:25.732578 #673]  INFO -- : [062dd5d5-060c-4310-84c9-7daad69694b2]   Rendered layout layouts/base.html.erb (Duration: 20.7ms | Allocations: 25246)
+I, [2024-11-26T09:20:25.733472 #673]  INFO -- : [062dd5d5-060c-4310-84c9-7daad69694b2] Completed 200 OK in 50ms (Views: 19.1ms | ActiveRecord: 9.2ms | Allocations: 53279)
+I, [2024-11-26T09:20:25.766091 #673]  INFO -- : [43132c34-28b6-4497-83f7-3139e52cb529] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 09:20:25 +0700
+F, [2024-11-26T09:20:25.766678 #673] FATAL -- : [43132c34-28b6-4497-83f7-3139e52cb529]   
+[43132c34-28b6-4497-83f7-3139e52cb529] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[43132c34-28b6-4497-83f7-3139e52cb529]   
+I, [2024-11-26T09:20:45.490995 #673]  INFO -- : [cd33643b-a051-4f57-b91b-2fc0eb61163a] Started GET "/admin" for 172.18.0.1 at 2024-11-26 09:20:45 +0700
+I, [2024-11-26T09:20:45.491794 #673]  INFO -- : [cd33643b-a051-4f57-b91b-2fc0eb61163a] Processing by AdminController#index as HTML
+I, [2024-11-26T09:20:45.494494 #673]  INFO -- : [cd33643b-a051-4f57-b91b-2fc0eb61163a]   Current user: admin (id=1)
+I, [2024-11-26T09:20:45.497121 #673]  INFO -- : [cd33643b-a051-4f57-b91b-2fc0eb61163a]   Rendered admin/index.html.erb within layouts/admin (Duration: 1.4ms | Allocations: 2279)
+I, [2024-11-26T09:20:45.502944 #673]  INFO -- : [cd33643b-a051-4f57-b91b-2fc0eb61163a]   Rendered layouts/base.html.erb (Duration: 5.6ms | Allocations: 8623)
+I, [2024-11-26T09:20:45.503226 #673]  INFO -- : [cd33643b-a051-4f57-b91b-2fc0eb61163a]   Rendered layout layouts/admin.html.erb (Duration: 7.5ms | Allocations: 11031)
+I, [2024-11-26T09:20:45.503680 #673]  INFO -- : [cd33643b-a051-4f57-b91b-2fc0eb61163a] Completed 200 OK in 12ms (Views: 7.8ms | ActiveRecord: 1.0ms | Allocations: 12630)
+I, [2024-11-26T09:20:45.544948 #673]  INFO -- : [2b2764f9-e742-43ff-aabe-45522092b058] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 09:20:45 +0700
+F, [2024-11-26T09:20:45.545519 #673] FATAL -- : [2b2764f9-e742-43ff-aabe-45522092b058]   
+[2b2764f9-e742-43ff-aabe-45522092b058] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[2b2764f9-e742-43ff-aabe-45522092b058]   
+I, [2024-11-26T09:20:48.194241 #673]  INFO -- : [61c852a3-7dd4-44c2-9258-a89dcc6af5fd] Started GET "/settings" for 172.18.0.1 at 2024-11-26 09:20:48 +0700
+I, [2024-11-26T09:20:48.195030 #673]  INFO -- : [61c852a3-7dd4-44c2-9258-a89dcc6af5fd] Processing by SettingsController#index as HTML
+I, [2024-11-26T09:20:48.197684 #673]  INFO -- : [61c852a3-7dd4-44c2-9258-a89dcc6af5fd]   Current user: admin (id=1)
+I, [2024-11-26T09:20:48.517720 #673]  INFO -- : [61c852a3-7dd4-44c2-9258-a89dcc6af5fd]   Rendered settings/edit.html.erb within layouts/admin (Duration: 317.5ms | Allocations: 274006)
+I, [2024-11-26T09:20:48.524533 #673]  INFO -- : [61c852a3-7dd4-44c2-9258-a89dcc6af5fd]   Rendered layouts/base.html.erb (Duration: 5.2ms | Allocations: 8424)
+I, [2024-11-26T09:20:48.525635 #673]  INFO -- : [61c852a3-7dd4-44c2-9258-a89dcc6af5fd]   Rendered layout layouts/admin.html.erb (Duration: 325.4ms | Allocations: 284828)
+I, [2024-11-26T09:20:48.526891 #673]  INFO -- : [61c852a3-7dd4-44c2-9258-a89dcc6af5fd] Completed 200 OK in 332ms (Views: 311.5ms | ActiveRecord: 16.8ms | Allocations: 288288)
+I, [2024-11-26T09:20:48.566496 #673]  INFO -- : [1c91c962-b5d5-42e2-a1a4-a9a1afe6a5e0] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 09:20:48 +0700
+F, [2024-11-26T09:20:48.567102 #673] FATAL -- : [1c91c962-b5d5-42e2-a1a4-a9a1afe6a5e0]   
+[1c91c962-b5d5-42e2-a1a4-a9a1afe6a5e0] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[1c91c962-b5d5-42e2-a1a4-a9a1afe6a5e0]   
+I, [2024-11-26T09:20:58.798931 #673]  INFO -- : [e42e8a7c-abf5-45f9-a73d-138462e6adde] Started POST "/settings/edit" for 172.18.0.1 at 2024-11-26 09:20:58 +0700
+I, [2024-11-26T09:20:58.799729 #673]  INFO -- : [e42e8a7c-abf5-45f9-a73d-138462e6adde] Processing by SettingsController#edit as HTML
+I, [2024-11-26T09:20:58.799903 #673]  INFO -- : [e42e8a7c-abf5-45f9-a73d-138462e6adde]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"Tl0b+YwBptOr44hwb+YOyeHOSzA8T/Ld1clKcXQw4V7EnAj3dt80f37r52f466JCN03/2+nd9vYeyq0ye3/HuA==", "settings"=>{"app_title"=>"DN LOGISTICS", "welcome_text"=>"", "per_page_options"=>"25,50,100", "search_results_per_page"=>"10", "activity_days_default"=>"10", "host_name"=>"localhost:3000", "protocol"=>"http", "text_formatting"=>"common_mark", "cache_formatted_text"=>"0", "wiki_compression"=>"", "feeds_limit"=>"15"}, "commit"=>"Save"}
+I, [2024-11-26T09:20:58.802560 #673]  INFO -- : [e42e8a7c-abf5-45f9-a73d-138462e6adde]   Current user: admin (id=1)
+I, [2024-11-26T09:20:58.832572 #673]  INFO -- : [e42e8a7c-abf5-45f9-a73d-138462e6adde] Redirected to http://192.168.100.170:10083/settings
+I, [2024-11-26T09:20:58.832982 #673]  INFO -- : [e42e8a7c-abf5-45f9-a73d-138462e6adde] Completed 302 Found in 33ms (ActiveRecord: 21.0ms | Allocations: 7814)
+I, [2024-11-26T09:20:58.838332 #673]  INFO -- : [d2011095-0614-46b1-84f8-8ac881f990f7] Started GET "/settings" for 172.18.0.1 at 2024-11-26 09:20:58 +0700
+I, [2024-11-26T09:20:58.838838 #673]  INFO -- : [d2011095-0614-46b1-84f8-8ac881f990f7] Processing by SettingsController#index as HTML
+I, [2024-11-26T09:20:58.840427 #673]  INFO -- : [d2011095-0614-46b1-84f8-8ac881f990f7] Settings cache cleared.
+I, [2024-11-26T09:20:58.841242 #673]  INFO -- : [d2011095-0614-46b1-84f8-8ac881f990f7]   Current user: admin (id=1)
+I, [2024-11-26T09:20:58.908321 #673]  INFO -- : [d2011095-0614-46b1-84f8-8ac881f990f7]   Rendered settings/edit.html.erb within layouts/admin (Duration: 64.3ms | Allocations: 74433)
+I, [2024-11-26T09:20:58.917657 #673]  INFO -- : [d2011095-0614-46b1-84f8-8ac881f990f7]   Rendered layouts/base.html.erb (Duration: 7.6ms | Allocations: 9343)
+I, [2024-11-26T09:20:58.917901 #673]  INFO -- : [d2011095-0614-46b1-84f8-8ac881f990f7]   Rendered layout layouts/admin.html.erb (Duration: 73.9ms | Allocations: 86176)
+I, [2024-11-26T09:20:58.918119 #673]  INFO -- : [d2011095-0614-46b1-84f8-8ac881f990f7] Completed 200 OK in 79ms (Views: 61.7ms | ActiveRecord: 13.7ms | Allocations: 88928)
+I, [2024-11-26T09:20:58.957872 #673]  INFO -- : [6e40b260-02df-49fe-a391-154ebe0d5b85] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 09:20:58 +0700
+F, [2024-11-26T09:20:58.958491 #673] FATAL -- : [6e40b260-02df-49fe-a391-154ebe0d5b85]   
+[6e40b260-02df-49fe-a391-154ebe0d5b85] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[6e40b260-02df-49fe-a391-154ebe0d5b85]   
+I, [2024-11-26T09:21:24.585702 #673]  INFO -- : [d5b14107-fe19-4c79-b239-382f048ee465] Started POST "/settings/edit?tab=projects" for 172.18.0.1 at 2024-11-26 09:21:24 +0700
+I, [2024-11-26T09:21:24.587044 #673]  INFO -- : [d5b14107-fe19-4c79-b239-382f048ee465] Processing by SettingsController#edit as HTML
+I, [2024-11-26T09:21:24.588031 #673]  INFO -- : [d5b14107-fe19-4c79-b239-382f048ee465]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"/FkzfbXgnxuDP9DpA2wY45DVTQ6EIyX/HOYOGpnbnX52mCBzTz4Nt1Y3v/6UYbRoRlb55VGxIdTX5elZlpS7mA==", "settings"=>{"default_projects_public"=>"1", "default_projects_modules"=>["", "issue_tracking", "news", "documents", "files", "wiki", "boards", "calendar", "gantt", "easy_baselines", "easy_gantt", "contacts", "drive", "questions", "resources", "cms"], "default_projects_tracker_ids"=>["", "1", "2", "3"], "sequential_project_identifiers"=>"0", "new_project_user_role_id"=>"", "project_list_display_type"=>"board", "project_list_defaults"=>{"column_names"=>["name", "identifier", "short_description"]}, "default_project_query"=>""}, "commit"=>"Save", "tab"=>"projects"}
+I, [2024-11-26T09:21:24.593467 #673]  INFO -- : [d5b14107-fe19-4c79-b239-382f048ee465]   Current user: admin (id=1)
+I, [2024-11-26T09:21:24.614661 #673]  INFO -- : [d5b14107-fe19-4c79-b239-382f048ee465] Redirected to http://192.168.100.170:10083/settings?tab=projects
+I, [2024-11-26T09:21:24.615022 #673]  INFO -- : [d5b14107-fe19-4c79-b239-382f048ee465] Completed 302 Found in 27ms (ActiveRecord: 16.1ms | Allocations: 6120)
+I, [2024-11-26T09:21:24.619954 #673]  INFO -- : [c2226e94-e3fc-4d3e-a482-c42d5e08e897] Started GET "/settings?tab=projects" for 172.18.0.1 at 2024-11-26 09:21:24 +0700
+I, [2024-11-26T09:21:24.620613 #673]  INFO -- : [c2226e94-e3fc-4d3e-a482-c42d5e08e897] Processing by SettingsController#index as HTML
+I, [2024-11-26T09:21:24.620764 #673]  INFO -- : [c2226e94-e3fc-4d3e-a482-c42d5e08e897]   Parameters: {"tab"=>"projects"}
+I, [2024-11-26T09:21:24.622552 #673]  INFO -- : [c2226e94-e3fc-4d3e-a482-c42d5e08e897] Settings cache cleared.
+I, [2024-11-26T09:21:24.623547 #673]  INFO -- : [c2226e94-e3fc-4d3e-a482-c42d5e08e897]   Current user: admin (id=1)
+I, [2024-11-26T09:21:24.689590 #673]  INFO -- : [c2226e94-e3fc-4d3e-a482-c42d5e08e897]   Rendered settings/edit.html.erb within layouts/admin (Duration: 62.4ms | Allocations: 74372)
+I, [2024-11-26T09:21:24.697413 #673]  INFO -- : [c2226e94-e3fc-4d3e-a482-c42d5e08e897]   Rendered layouts/base.html.erb (Duration: 6.3ms | Allocations: 9340)
+I, [2024-11-26T09:21:24.697585 #673]  INFO -- : [c2226e94-e3fc-4d3e-a482-c42d5e08e897]   Rendered layout layouts/admin.html.erb (Duration: 70.4ms | Allocations: 86109)
+I, [2024-11-26T09:21:24.697859 #673]  INFO -- : [c2226e94-e3fc-4d3e-a482-c42d5e08e897] Completed 200 OK in 77ms (Views: 58.6ms | ActiveRecord: 13.4ms | Allocations: 88857)
+I, [2024-11-26T09:21:24.738951 #673]  INFO -- : [844a9f92-e1e6-440f-9dd9-0ecada3beaf3] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 09:21:24 +0700
+F, [2024-11-26T09:21:24.739576 #673] FATAL -- : [844a9f92-e1e6-440f-9dd9-0ecada3beaf3]   
+[844a9f92-e1e6-440f-9dd9-0ecada3beaf3] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[844a9f92-e1e6-440f-9dd9-0ecada3beaf3]   
+W, [2024-11-26T09:22:00.722005 #304]  WARN -- : Creating scope :system. Overwriting existing method Enumeration.system.
+W, [2024-11-26T09:22:00.755414 #304]  WARN -- : Creating scope :sorted. Overwriting existing method User.sorted.
+W, [2024-11-26T09:22:00.756123 #304]  WARN -- : Creating scope :having_mail. Overwriting existing method User.having_mail.
+W, [2024-11-26T09:22:00.965118 #304]  WARN -- : Creating scope :global_or_on_project. Overwriting existing method DriveEntryQuery.global_or_on_project.
+W, [2024-11-26T09:22:00.966372 #304]  WARN -- : Creating scope :sorted. Overwriting existing method DriveEntryQuery.sorted.
+W, [2024-11-26T09:22:01.023277 #304]  WARN -- : Creating scope :visible. Overwriting existing method PeopleQuery.visible.
+W, [2024-11-26T09:22:01.166796 #304]  WARN -- : Creating scope :sorted. Overwriting existing method Group.sorted.
+W, [2024-11-26T09:22:01.920400 #304]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:22:01.921146 #304]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:22:01.921705 #304]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:22:01.922195 #304]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:22:01.922540 #304]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:22:01.922840 #304]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:22:01.923127 #304]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+I, [2024-11-26T09:22:23.388456 #309]  INFO -- : [35686aac-022d-4b75-a6ce-ba5a59f02fec] Started GET "/settings?tab=issues" for 172.18.0.1 at 2024-11-26 09:22:23 +0700
+I, [2024-11-26T09:22:23.390952 #309]  INFO -- : [35686aac-022d-4b75-a6ce-ba5a59f02fec] Processing by SettingsController#index as HTML
+I, [2024-11-26T09:22:23.391220 #309]  INFO -- : [35686aac-022d-4b75-a6ce-ba5a59f02fec]   Parameters: {"tab"=>"issues"}
+I, [2024-11-26T09:22:23.424313 #309]  INFO -- : [35686aac-022d-4b75-a6ce-ba5a59f02fec]   Current user: anonymous
+I, [2024-11-26T09:22:23.429561 #309]  INFO -- : [35686aac-022d-4b75-a6ce-ba5a59f02fec] Redirected to http://192.168.100.170:10083/login?back_url=http%3A%2F%2F192.168.100.170%3A10083%2Fsettings%3Ftab%3Dissues
+I, [2024-11-26T09:22:23.430268 #309]  INFO -- : [35686aac-022d-4b75-a6ce-ba5a59f02fec] Filter chain halted as :require_admin rendered or redirected
+I, [2024-11-26T09:22:23.430956 #309]  INFO -- : [35686aac-022d-4b75-a6ce-ba5a59f02fec] Completed 302 Found in 39ms (ActiveRecord: 6.0ms | Allocations: 36070)
+I, [2024-11-26T09:22:23.437331 #309]  INFO -- : [583d2992-5a40-4834-888e-1bd44e91e43b] Started GET "/login?back_url=http%3A%2F%2F192.168.100.170%3A10083%2Fsettings%3Ftab%3Dissues" for 172.18.0.1 at 2024-11-26 09:22:23 +0700
+I, [2024-11-26T09:22:23.438000 #309]  INFO -- : [583d2992-5a40-4834-888e-1bd44e91e43b] Processing by AccountController#login as HTML
+I, [2024-11-26T09:22:23.438132 #309]  INFO -- : [583d2992-5a40-4834-888e-1bd44e91e43b]   Parameters: {"back_url"=>"http://192.168.100.170:10083/settings?tab=issues"}
+I, [2024-11-26T09:22:23.440242 #309]  INFO -- : [583d2992-5a40-4834-888e-1bd44e91e43b]   Current user: anonymous
+I, [2024-11-26T09:22:23.448750 #309]  INFO -- : [583d2992-5a40-4834-888e-1bd44e91e43b]   Rendered plugins/redmineup_cms/app/views/account/login.html.erb within layouts/base (Duration: 3.2ms | Allocations: 2146)
+I, [2024-11-26T09:22:23.508542 #309]  INFO -- : [583d2992-5a40-4834-888e-1bd44e91e43b]   Rendered layout layouts/base.html.erb (Duration: 63.1ms | Allocations: 63090)
+I, [2024-11-26T09:22:23.508945 #309]  INFO -- : [583d2992-5a40-4834-888e-1bd44e91e43b] Completed 200 OK in 71ms (Views: 54.0ms | ActiveRecord: 12.2ms | Allocations: 67221)
+I, [2024-11-26T09:22:23.552359 #309]  INFO -- : [05583829-d786-4ead-954c-13eecc681c9b] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 09:22:23 +0700
+F, [2024-11-26T09:22:23.553104 #309] FATAL -- : [05583829-d786-4ead-954c-13eecc681c9b]   
+[05583829-d786-4ead-954c-13eecc681c9b] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[05583829-d786-4ead-954c-13eecc681c9b]   
+I, [2024-11-26T09:22:30.183131 #309]  INFO -- : [58a366ef-403b-4595-9ab2-88de49f63986] Started POST "/login" for 172.18.0.1 at 2024-11-26 09:22:30 +0700
+I, [2024-11-26T09:22:30.183871 #309]  INFO -- : [58a366ef-403b-4595-9ab2-88de49f63986] Processing by AccountController#login as HTML
+I, [2024-11-26T09:22:30.184034 #309]  INFO -- : [58a366ef-403b-4595-9ab2-88de49f63986]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"Lu286hHXyeZImPMLEFfmJvCc7eaDAz7HQUw4jIY4rjh9P1awyj2/N0GACRWGG+4isBngnosCvz1hcVD/f2KiCA==", "back_url"=>"/settings?tab=issues", "username"=>"admin", "password"=>"[FILTERED]", "login"=>"Login »"}
+I, [2024-11-26T09:22:30.186130 #309]  INFO -- : [58a366ef-403b-4595-9ab2-88de49f63986]   Current user: anonymous
+I, [2024-11-26T09:22:30.190190 #309]  INFO -- : [58a366ef-403b-4595-9ab2-88de49f63986] Successful authentication for 'admin' from 172.18.0.1 at 2024-11-26 02:22:30 UTC
+I, [2024-11-26T09:22:30.201768 #309]  INFO -- : [58a366ef-403b-4595-9ab2-88de49f63986] Redirected to http://192.168.100.170:10083/settings?tab=issues
+I, [2024-11-26T09:22:30.202435 #309]  INFO -- : [58a366ef-403b-4595-9ab2-88de49f63986] Completed 302 Found in 18ms (ActiveRecord: 7.5ms | Allocations: 7451)
+I, [2024-11-26T09:22:30.207267 #309]  INFO -- : [f038518c-8506-445f-abeb-f07a7d295154] Started GET "/settings?tab=issues" for 172.18.0.1 at 2024-11-26 09:22:30 +0700
+I, [2024-11-26T09:22:30.207854 #309]  INFO -- : [f038518c-8506-445f-abeb-f07a7d295154] Processing by SettingsController#index as HTML
+I, [2024-11-26T09:22:30.207995 #309]  INFO -- : [f038518c-8506-445f-abeb-f07a7d295154]   Parameters: {"tab"=>"issues"}
+I, [2024-11-26T09:22:30.211365 #309]  INFO -- : [f038518c-8506-445f-abeb-f07a7d295154]   Current user: admin (id=1)
+I, [2024-11-26T09:22:30.652023 #309]  INFO -- : [f038518c-8506-445f-abeb-f07a7d295154]   Rendered settings/edit.html.erb within layouts/admin (Duration: 435.9ms | Allocations: 318877)
+I, [2024-11-26T09:22:30.661443 #309]  INFO -- : [f038518c-8506-445f-abeb-f07a7d295154]   Rendered layouts/base.html.erb (Duration: 6.5ms | Allocations: 9227)
+I, [2024-11-26T09:22:30.661729 #309]  INFO -- : [f038518c-8506-445f-abeb-f07a7d295154]   Rendered layout layouts/admin.html.erb (Duration: 445.6ms | Allocations: 332262)
+I, [2024-11-26T09:22:30.662013 #309]  INFO -- : [f038518c-8506-445f-abeb-f07a7d295154] Completed 200 OK in 454ms (Views: 425.7ms | ActiveRecord: 23.8ms | Allocations: 337918)
+I, [2024-11-26T09:22:30.702186 #309]  INFO -- : [cbe29115-af6d-4a15-a44c-2024e3c171ed] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 09:22:30 +0700
+F, [2024-11-26T09:22:30.702862 #309] FATAL -- : [cbe29115-af6d-4a15-a44c-2024e3c171ed]   
+[cbe29115-af6d-4a15-a44c-2024e3c171ed] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[cbe29115-af6d-4a15-a44c-2024e3c171ed]   
+I, [2024-11-26T09:22:53.658612 #309]  INFO -- : [d57caebb-9e07-4b79-8e0f-00e50bb104a3] Started POST "/settings/edit?tab=issues" for 172.18.0.1 at 2024-11-26 09:22:53 +0700
+I, [2024-11-26T09:22:53.659784 #309]  INFO -- : [d57caebb-9e07-4b79-8e0f-00e50bb104a3] Processing by SettingsController#edit as HTML
+I, [2024-11-26T09:22:53.660055 #309]  INFO -- : [d57caebb-9e07-4b79-8e0f-00e50bb104a3]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZK7mKLlYLxr/mnq9Qijrqvp9cYpUNroDeQSib22JC4W6nn/ed27N7h00gQKJFsjdx4k2/+rchalgj0S07BB/9g==", "settings"=>{"cross_project_issue_relations"=>"0", "link_copied_issue"=>"ask", "cross_project_subtasks"=>"tree", "close_duplicate_issues"=>"1", "issue_group_assignment"=>"0", "default_issue_start_date_to_creation_date"=>"1", "display_subprojects_issues"=>"1", "issue_done_ratio"=>"issue_field", "non_working_week_days"=>["", "7"], "issues_export_limit"=>"500", "gantt_items_limit"=>"500", "gantt_months_limit"=>"24", "parent_issue_dates"=>"derived", "parent_issue_priority"=>"derived", "parent_issue_done_ratio"=>"derived", "issue_list_default_columns"=>["tracker", "status", "priority", "subject", "assigned_to", "updated_on"], "issue_list_default_totals"=>[""], "default_issue_query"=>""}, "commit"=>"Save", "tab"=>"issues"}
+I, [2024-11-26T09:22:53.663601 #309]  INFO -- : [d57caebb-9e07-4b79-8e0f-00e50bb104a3]   Current user: admin (id=1)
+I, [2024-11-26T09:22:53.725223 #309]  INFO -- : [d57caebb-9e07-4b79-8e0f-00e50bb104a3] Redirected to http://192.168.100.170:10083/settings?tab=issues
+I, [2024-11-26T09:22:53.725467 #309]  INFO -- : [d57caebb-9e07-4b79-8e0f-00e50bb104a3] Completed 302 Found in 65ms (ActiveRecord: 46.9ms | Allocations: 11708)
+I, [2024-11-26T09:22:53.730980 #309]  INFO -- : [82345bd5-4f1a-4705-a20c-713c246585d1] Started GET "/settings?tab=issues" for 172.18.0.1 at 2024-11-26 09:22:53 +0700
+I, [2024-11-26T09:22:53.731622 #309]  INFO -- : [82345bd5-4f1a-4705-a20c-713c246585d1] Processing by SettingsController#index as HTML
+I, [2024-11-26T09:22:53.731777 #309]  INFO -- : [82345bd5-4f1a-4705-a20c-713c246585d1]   Parameters: {"tab"=>"issues"}
+I, [2024-11-26T09:22:53.733492 #309]  INFO -- : [82345bd5-4f1a-4705-a20c-713c246585d1] Settings cache cleared.
+I, [2024-11-26T09:22:53.734264 #309]  INFO -- : [82345bd5-4f1a-4705-a20c-713c246585d1]   Current user: admin (id=1)
+I, [2024-11-26T09:22:53.805374 #309]  INFO -- : [82345bd5-4f1a-4705-a20c-713c246585d1]   Rendered settings/edit.html.erb within layouts/admin (Duration: 67.7ms | Allocations: 74130)
+I, [2024-11-26T09:22:53.814976 #309]  INFO -- : [82345bd5-4f1a-4705-a20c-713c246585d1]   Rendered layouts/base.html.erb (Duration: 8.0ms | Allocations: 9344)
+I, [2024-11-26T09:22:53.815221 #309]  INFO -- : [82345bd5-4f1a-4705-a20c-713c246585d1]   Rendered layout layouts/admin.html.erb (Duration: 77.5ms | Allocations: 85872)
+I, [2024-11-26T09:22:53.815437 #309]  INFO -- : [82345bd5-4f1a-4705-a20c-713c246585d1] Completed 200 OK in 84ms (Views: 64.5ms | ActiveRecord: 14.7ms | Allocations: 88582)
+I, [2024-11-26T09:22:53.857375 #309]  INFO -- : [50f0a0d2-d1fb-4bd1-928c-41d4aecd6bff] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 09:22:53 +0700
+F, [2024-11-26T09:22:53.857942 #309] FATAL -- : [50f0a0d2-d1fb-4bd1-928c-41d4aecd6bff]   
+[50f0a0d2-d1fb-4bd1-928c-41d4aecd6bff] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[50f0a0d2-d1fb-4bd1-928c-41d4aecd6bff]   
+I, [2024-11-26T09:22:57.789378 #309]  INFO -- : [ae7fd75a-56b5-459e-802c-1ba48c32dc15] Started GET "/admin" for 172.18.0.1 at 2024-11-26 09:22:57 +0700
+I, [2024-11-26T09:22:57.790152 #309]  INFO -- : [ae7fd75a-56b5-459e-802c-1ba48c32dc15] Processing by AdminController#index as HTML
+I, [2024-11-26T09:22:57.793493 #309]  INFO -- : [ae7fd75a-56b5-459e-802c-1ba48c32dc15]   Current user: admin (id=1)
+I, [2024-11-26T09:22:57.799115 #309]  INFO -- : [ae7fd75a-56b5-459e-802c-1ba48c32dc15]   Rendered admin/index.html.erb within layouts/admin (Duration: 1.9ms | Allocations: 2492)
+I, [2024-11-26T09:22:57.805796 #309]  INFO -- : [ae7fd75a-56b5-459e-802c-1ba48c32dc15]   Rendered layouts/base.html.erb (Duration: 6.3ms | Allocations: 8833)
+I, [2024-11-26T09:22:57.806054 #309]  INFO -- : [ae7fd75a-56b5-459e-802c-1ba48c32dc15]   Rendered layout layouts/admin.html.erb (Duration: 8.9ms | Allocations: 11461)
+I, [2024-11-26T09:22:57.806301 #309]  INFO -- : [ae7fd75a-56b5-459e-802c-1ba48c32dc15] Completed 200 OK in 16ms (Views: 9.5ms | ActiveRecord: 1.6ms | Allocations: 14822)
+I, [2024-11-26T09:22:57.838513 #309]  INFO -- : [596459ef-f0a8-4e13-9f8c-95d1a187dda0] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 09:22:57 +0700
+F, [2024-11-26T09:22:57.839341 #309] FATAL -- : [596459ef-f0a8-4e13-9f8c-95d1a187dda0]   
+[596459ef-f0a8-4e13-9f8c-95d1a187dda0] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[596459ef-f0a8-4e13-9f8c-95d1a187dda0]   
+I, [2024-11-26T09:22:59.965331 #309]  INFO -- : [b6b7cb58-7f65-471f-8554-54605e97a87e] Started GET "/cms/settings" for 172.18.0.1 at 2024-11-26 09:22:59 +0700
+I, [2024-11-26T09:22:59.966191 #309]  INFO -- : [b6b7cb58-7f65-471f-8554-54605e97a87e] Processing by CmsSettingsController#index as HTML
+I, [2024-11-26T09:22:59.969138 #309]  INFO -- : [b6b7cb58-7f65-471f-8554-54605e97a87e]   Current user: admin (id=1)
+I, [2024-11-26T09:22:59.984426 #309]  INFO -- : [b6b7cb58-7f65-471f-8554-54605e97a87e]   Rendered plugins/redmineup_cms/app/views/cms_settings/index.html.erb within layouts/base (Duration: 12.7ms | Allocations: 10084)
+I, [2024-11-26T09:22:59.994286 #309]  INFO -- : [b6b7cb58-7f65-471f-8554-54605e97a87e]   Rendered layout layouts/base.html.erb (Duration: 22.5ms | Allocations: 20988)
+I, [2024-11-26T09:22:59.994735 #309]  INFO -- : [b6b7cb58-7f65-471f-8554-54605e97a87e] Completed 200 OK in 28ms (Views: 17.6ms | ActiveRecord: 7.1ms | Allocations: 22928)
+I, [2024-11-26T09:23:00.033171 #310]  INFO -- : [934c48a2-6349-4a65-b49f-95b04a95d539] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 09:23:00 +0700
+F, [2024-11-26T09:23:00.034471 #310] FATAL -- : [934c48a2-6349-4a65-b49f-95b04a95d539]   
+[934c48a2-6349-4a65-b49f-95b04a95d539] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[934c48a2-6349-4a65-b49f-95b04a95d539]   
+W, [2024-11-26T09:25:24.822676 #330]  WARN -- : Creating scope :system. Overwriting existing method Enumeration.system.
+W, [2024-11-26T09:25:24.850418 #330]  WARN -- : Creating scope :sorted. Overwriting existing method User.sorted.
+W, [2024-11-26T09:25:24.850902 #330]  WARN -- : Creating scope :having_mail. Overwriting existing method User.having_mail.
+W, [2024-11-26T09:25:25.095748 #330]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:25:25.096284 #330]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:25:25.096689 #330]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:25:25.097070 #330]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:25:25.097446 #330]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:25:25.097814 #330]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:25:25.098068 #330]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+I, [2024-11-26T09:25:25.154979 #330]  INFO -- : Migrating to CreateCustomFieldForReplySeparator (10)
+I, [2024-11-26T09:25:25.175136 #330]  INFO -- : Migrating to CreateCustomFieldForReopenClosedIssuesByEmail (9)
+I, [2024-11-26T09:25:25.178855 #330]  INFO -- : Migrating to CreateCustomFieldCcHandling (8)
+I, [2024-11-26T09:25:25.182185 #330]  INFO -- : Migrating to CreateCustomCopyToField (7)
+I, [2024-11-26T09:25:25.194280 #330]  INFO -- : Migrating to AppendFooterToFirstReply (6)
+I, [2024-11-26T09:25:25.196970 #330]  INFO -- : Migrating to AddTreatAsSupportclientToAnonymous (5)
+I, [2024-11-26T09:25:25.688673 #330]  INFO -- : Migrating to CreateCustomFieldForSendToOwnerDefault (4)
+I, [2024-11-26T09:25:25.692898 #330]  INFO -- : Migrating to CreateCustomFieldForSenderEmail (3)
+I, [2024-11-26T09:25:25.696529 #330]  INFO -- : Migrating to CreateCustomFieldsForReply (2)
+I, [2024-11-26T09:25:25.700943 #330]  INFO -- : Migrating to CreateCustomOwnerEmailField (1)
+I, [2024-11-26T09:25:31.619503 #309]  INFO -- : [3c04c651-0007-4b8b-bd84-725665bbfded] Started GET "/cms/settings" for 172.18.0.1 at 2024-11-26 09:25:31 +0700
+I, [2024-11-26T09:25:31.620461 #309]  INFO -- : [3c04c651-0007-4b8b-bd84-725665bbfded] Processing by CmsSettingsController#index as HTML
+I, [2024-11-26T09:25:31.633859 #309]  INFO -- : [3c04c651-0007-4b8b-bd84-725665bbfded]   Current user: admin (id=1)
+I, [2024-11-26T09:25:31.639132 #309]  INFO -- : [3c04c651-0007-4b8b-bd84-725665bbfded]   Rendered plugins/redmineup_cms/app/views/cms_settings/index.html.erb within layouts/base (Duration: 4.2ms | Allocations: 4814)
+I, [2024-11-26T09:25:31.648235 #309]  INFO -- : [3c04c651-0007-4b8b-bd84-725665bbfded]   Rendered layout layouts/base.html.erb (Duration: 13.3ms | Allocations: 15158)
+I, [2024-11-26T09:25:31.648609 #309]  INFO -- : [3c04c651-0007-4b8b-bd84-725665bbfded] Completed 200 OK in 28ms (Views: 11.4ms | ActiveRecord: 13.3ms | Allocations: 16635)
+I, [2024-11-26T09:25:31.702632 #309]  INFO -- : [b9329f92-05ec-4798-9a37-e1b115977f51] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 09:25:31 +0700
+F, [2024-11-26T09:25:31.703278 #309] FATAL -- : [b9329f92-05ec-4798-9a37-e1b115977f51]   
+[b9329f92-05ec-4798-9a37-e1b115977f51] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[b9329f92-05ec-4798-9a37-e1b115977f51]   
+I, [2024-11-26T09:25:35.897756 #309]  INFO -- : [76bc45ab-55c5-4ea6-b6ff-f5ee75b1b877] Started GET "/admin" for 172.18.0.1 at 2024-11-26 09:25:35 +0700
+I, [2024-11-26T09:25:35.898399 #309]  INFO -- : [76bc45ab-55c5-4ea6-b6ff-f5ee75b1b877] Processing by AdminController#index as HTML
+I, [2024-11-26T09:25:35.901247 #309]  INFO -- : [76bc45ab-55c5-4ea6-b6ff-f5ee75b1b877]   Current user: admin (id=1)
+I, [2024-11-26T09:25:35.903856 #309]  INFO -- : [76bc45ab-55c5-4ea6-b6ff-f5ee75b1b877]   Rendered admin/index.html.erb within layouts/admin (Duration: 1.3ms | Allocations: 2279)
+I, [2024-11-26T09:25:35.909861 #309]  INFO -- : [76bc45ab-55c5-4ea6-b6ff-f5ee75b1b877]   Rendered layouts/base.html.erb (Duration: 5.7ms | Allocations: 8625)
+I, [2024-11-26T09:25:35.910066 #309]  INFO -- : [76bc45ab-55c5-4ea6-b6ff-f5ee75b1b877]   Rendered layout layouts/admin.html.erb (Duration: 7.5ms | Allocations: 11033)
+I, [2024-11-26T09:25:35.910378 #309]  INFO -- : [76bc45ab-55c5-4ea6-b6ff-f5ee75b1b877] Completed 200 OK in 12ms (Views: 7.5ms | ActiveRecord: 1.3ms | Allocations: 12590)
+I, [2024-11-26T09:25:35.953379 #309]  INFO -- : [12be238f-4e95-4cb8-99c7-8ee8dae558aa] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 09:25:35 +0700
+F, [2024-11-26T09:25:35.953987 #309] FATAL -- : [12be238f-4e95-4cb8-99c7-8ee8dae558aa]   
+[12be238f-4e95-4cb8-99c7-8ee8dae558aa] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[12be238f-4e95-4cb8-99c7-8ee8dae558aa]   
+I, [2024-11-26T09:25:37.268764 #309]  INFO -- : [200b93d3-f12c-4dbd-a216-1f26cdc9f236] Started GET "/admin/plugins" for 172.18.0.1 at 2024-11-26 09:25:37 +0700
+I, [2024-11-26T09:25:37.269432 #309]  INFO -- : [200b93d3-f12c-4dbd-a216-1f26cdc9f236] Processing by AdminController#plugins as HTML
+I, [2024-11-26T09:25:37.272454 #309]  INFO -- : [200b93d3-f12c-4dbd-a216-1f26cdc9f236]   Current user: admin (id=1)
+I, [2024-11-26T09:25:37.275924 #309]  INFO -- : [200b93d3-f12c-4dbd-a216-1f26cdc9f236]   Rendered admin/plugins.html.erb within layouts/admin (Duration: 1.8ms | Allocations: 3197)
+I, [2024-11-26T09:25:37.283348 #309]  INFO -- : [200b93d3-f12c-4dbd-a216-1f26cdc9f236]   Rendered layouts/base.html.erb (Duration: 6.0ms | Allocations: 8620)
+I, [2024-11-26T09:25:37.283680 #309]  INFO -- : [200b93d3-f12c-4dbd-a216-1f26cdc9f236]   Rendered layout layouts/admin.html.erb (Duration: 9.5ms | Allocations: 14205)
+I, [2024-11-26T09:25:37.283929 #309]  INFO -- : [200b93d3-f12c-4dbd-a216-1f26cdc9f236] Completed 200 OK in 14ms (Views: 9.5ms | ActiveRecord: 1.2ms | Allocations: 17044)
+I, [2024-11-26T09:25:37.314051 #309]  INFO -- : [e0fff066-c5c4-49a5-a6fe-d911dadf44d0] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 09:25:37 +0700
+F, [2024-11-26T09:25:37.314583 #309] FATAL -- : [e0fff066-c5c4-49a5-a6fe-d911dadf44d0]   
+[e0fff066-c5c4-49a5-a6fe-d911dadf44d0] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[e0fff066-c5c4-49a5-a6fe-d911dadf44d0]   
+W, [2024-11-26T09:26:10.039792 #312]  WARN -- : Creating scope :system. Overwriting existing method Enumeration.system.
+W, [2024-11-26T09:26:10.059312 #312]  WARN -- : Creating scope :sorted. Overwriting existing method User.sorted.
+W, [2024-11-26T09:26:10.059696 #312]  WARN -- : Creating scope :having_mail. Overwriting existing method User.having_mail.
+W, [2024-11-26T09:26:10.258791 #312]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:26:10.259620 #312]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:26:10.260036 #312]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:26:10.260463 #312]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:26:10.260968 #312]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:26:10.261421 #312]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:26:10.261840 #312]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:26:13.272516 #318]  WARN -- : Creating scope :system. Overwriting existing method Enumeration.system.
+W, [2024-11-26T09:26:13.294627 #318]  WARN -- : Creating scope :sorted. Overwriting existing method User.sorted.
+W, [2024-11-26T09:26:13.295815 #318]  WARN -- : Creating scope :having_mail. Overwriting existing method User.having_mail.
+W, [2024-11-26T09:26:13.485520 #318]  WARN -- : Creating scope :global_or_on_project. Overwriting existing method DriveEntryQuery.global_or_on_project.
+W, [2024-11-26T09:26:13.485796 #318]  WARN -- : Creating scope :sorted. Overwriting existing method DriveEntryQuery.sorted.
+W, [2024-11-26T09:26:13.504918 #318]  WARN -- : Creating scope :visible. Overwriting existing method PeopleQuery.visible.
+W, [2024-11-26T09:26:13.700557 #318]  WARN -- : Creating scope :sorted. Overwriting existing method Group.sorted.
+W, [2024-11-26T09:26:14.397601 #318]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:26:14.401590 #318]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:26:14.403055 #318]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:26:14.403373 #318]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:26:14.403730 #318]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:26:14.404080 #318]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:26:14.404356 #318]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:27:01.074787 #303]  WARN -- : Creating scope :system. Overwriting existing method Enumeration.system.
+W, [2024-11-26T09:27:01.103062 #303]  WARN -- : Creating scope :sorted. Overwriting existing method User.sorted.
+W, [2024-11-26T09:27:01.103472 #303]  WARN -- : Creating scope :having_mail. Overwriting existing method User.having_mail.
+W, [2024-11-26T09:27:01.322975 #303]  WARN -- : Creating scope :global_or_on_project. Overwriting existing method DriveEntryQuery.global_or_on_project.
+W, [2024-11-26T09:27:01.323380 #303]  WARN -- : Creating scope :sorted. Overwriting existing method DriveEntryQuery.sorted.
+W, [2024-11-26T09:27:01.341674 #303]  WARN -- : Creating scope :visible. Overwriting existing method PeopleQuery.visible.
+W, [2024-11-26T09:27:01.522918 #303]  WARN -- : Creating scope :sorted. Overwriting existing method Group.sorted.
+W, [2024-11-26T09:27:02.239365 #303]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:27:02.239921 #303]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:27:02.240281 #303]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:27:02.240635 #303]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:27:02.240975 #303]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:27:02.241286 #303]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:27:02.241609 #303]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+I, [2024-11-26T09:27:03.775370 #308]  INFO -- : [f3e9d4e1-4a67-4f65-9eac-2e068cb143e5] Started GET "/admin/plugins" for 172.18.0.1 at 2024-11-26 09:27:03 +0700
+I, [2024-11-26T09:27:03.777529 #308]  INFO -- : [f3e9d4e1-4a67-4f65-9eac-2e068cb143e5] Processing by AdminController#plugins as HTML
+I, [2024-11-26T09:27:03.811920 #308]  INFO -- : [f3e9d4e1-4a67-4f65-9eac-2e068cb143e5]   Current user: anonymous
+I, [2024-11-26T09:27:03.817086 #308]  INFO -- : [f3e9d4e1-4a67-4f65-9eac-2e068cb143e5] Redirected to http://192.168.100.170:10083/login?back_url=http%3A%2F%2F192.168.100.170%3A10083%2Fadmin%2Fplugins
+I, [2024-11-26T09:27:03.817403 #308]  INFO -- : [f3e9d4e1-4a67-4f65-9eac-2e068cb143e5] Filter chain halted as :require_admin rendered or redirected
+I, [2024-11-26T09:27:03.817744 #308]  INFO -- : [f3e9d4e1-4a67-4f65-9eac-2e068cb143e5] Completed 302 Found in 40ms (ActiveRecord: 6.7ms | Allocations: 36062)
+I, [2024-11-26T09:27:03.822490 #308]  INFO -- : [50ecbdbf-1523-4f35-8cdc-7189e060eca3] Started GET "/login?back_url=http%3A%2F%2F192.168.100.170%3A10083%2Fadmin%2Fplugins" for 172.18.0.1 at 2024-11-26 09:27:03 +0700
+I, [2024-11-26T09:27:03.823295 #308]  INFO -- : [50ecbdbf-1523-4f35-8cdc-7189e060eca3] Processing by AccountController#login as HTML
+I, [2024-11-26T09:27:03.823522 #308]  INFO -- : [50ecbdbf-1523-4f35-8cdc-7189e060eca3]   Parameters: {"back_url"=>"http://192.168.100.170:10083/admin/plugins"}
+I, [2024-11-26T09:27:03.826026 #308]  INFO -- : [50ecbdbf-1523-4f35-8cdc-7189e060eca3]   Current user: anonymous
+I, [2024-11-26T09:27:03.834910 #308]  INFO -- : [50ecbdbf-1523-4f35-8cdc-7189e060eca3]   Rendered plugins/redmineup_cms/app/views/account/login.html.erb within layouts/base (Duration: 4.1ms | Allocations: 2138)
+I, [2024-11-26T09:27:03.895886 #308]  INFO -- : [50ecbdbf-1523-4f35-8cdc-7189e060eca3]   Rendered layout layouts/base.html.erb (Duration: 65.1ms | Allocations: 62887)
+I, [2024-11-26T09:27:03.896493 #308]  INFO -- : [50ecbdbf-1523-4f35-8cdc-7189e060eca3] Completed 200 OK in 73ms (Views: 55.9ms | ActiveRecord: 12.8ms | Allocations: 66925)
+I, [2024-11-26T09:27:03.946981 #309]  INFO -- : [1d3c176a-9ab8-439a-bfe6-85fd9f3018db] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 09:27:03 +0700
+F, [2024-11-26T09:27:03.948305 #309] FATAL -- : [1d3c176a-9ab8-439a-bfe6-85fd9f3018db]   
+[1d3c176a-9ab8-439a-bfe6-85fd9f3018db] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[1d3c176a-9ab8-439a-bfe6-85fd9f3018db]   
+I, [2024-11-26T09:27:14.985996 #308]  INFO -- : [bc573c08-4498-4aa0-9b77-28b8569c57c6] Started POST "/login" for 172.18.0.1 at 2024-11-26 09:27:14 +0700
+I, [2024-11-26T09:27:14.986775 #308]  INFO -- : [bc573c08-4498-4aa0-9b77-28b8569c57c6] Processing by AccountController#login as HTML
+I, [2024-11-26T09:27:14.986932 #308]  INFO -- : [bc573c08-4498-4aa0-9b77-28b8569c57c6]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"fCYCsFVFNghMnwxClVrNT8OU1s74qgN2epSmTl37MfLLfzBCiL9QKwvaD/wVEBx7wnsw4NZlqAPeL+0UOpcGEA==", "back_url"=>"/admin/plugins", "username"=>"admin", "password"=>"[FILTERED]", "login"=>"Login »"}
+I, [2024-11-26T09:27:14.989276 #308]  INFO -- : [bc573c08-4498-4aa0-9b77-28b8569c57c6]   Current user: anonymous
+I, [2024-11-26T09:27:14.993752 #308]  INFO -- : [bc573c08-4498-4aa0-9b77-28b8569c57c6] Successful authentication for 'admin' from 172.18.0.1 at 2024-11-26 02:27:14 UTC
+I, [2024-11-26T09:27:15.004994 #308]  INFO -- : [bc573c08-4498-4aa0-9b77-28b8569c57c6] Redirected to http://192.168.100.170:10083/admin/plugins
+I, [2024-11-26T09:27:15.005353 #308]  INFO -- : [bc573c08-4498-4aa0-9b77-28b8569c57c6] Completed 302 Found in 18ms (ActiveRecord: 7.3ms | Allocations: 7448)
+I, [2024-11-26T09:27:15.010950 #308]  INFO -- : [ce02b0f8-27cc-49cd-871b-b6252159bed3] Started GET "/admin/plugins" for 172.18.0.1 at 2024-11-26 09:27:15 +0700
+I, [2024-11-26T09:27:15.011742 #308]  INFO -- : [ce02b0f8-27cc-49cd-871b-b6252159bed3] Processing by AdminController#plugins as HTML
+I, [2024-11-26T09:27:15.015207 #308]  INFO -- : [ce02b0f8-27cc-49cd-871b-b6252159bed3]   Current user: admin (id=1)
+I, [2024-11-26T09:27:15.020601 #308]  INFO -- : [ce02b0f8-27cc-49cd-871b-b6252159bed3]   Rendered admin/plugins.html.erb within layouts/admin (Duration: 1.7ms | Allocations: 3160)
+I, [2024-11-26T09:27:15.045932 #308]  INFO -- : [ce02b0f8-27cc-49cd-871b-b6252159bed3]   Rendered layouts/base.html.erb (Duration: 20.5ms | Allocations: 10000)
+I, [2024-11-26T09:27:15.046572 #308]  INFO -- : [ce02b0f8-27cc-49cd-871b-b6252159bed3]   Rendered layout layouts/admin.html.erb (Duration: 27.7ms | Allocations: 23068)
+I, [2024-11-26T09:27:15.046996 #308]  INFO -- : [ce02b0f8-27cc-49cd-871b-b6252159bed3] Completed 200 OK in 35ms (Views: 28.8ms | ActiveRecord: 1.8ms | Allocations: 27951)
+I, [2024-11-26T09:27:15.094748 #308]  INFO -- : [2c08b135-2b65-4b8f-91c9-098db11b8cca] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 09:27:15 +0700
+F, [2024-11-26T09:27:15.095711 #308] FATAL -- : [2c08b135-2b65-4b8f-91c9-098db11b8cca]   
+[2c08b135-2b65-4b8f-91c9-098db11b8cca] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[2c08b135-2b65-4b8f-91c9-098db11b8cca]   
+I, [2024-11-26T09:27:28.721642 #308]  INFO -- : [d4b8632f-dad0-495a-96f5-03b8b2fc1e84] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 09:27:28 +0700
+F, [2024-11-26T09:27:28.722168 #308] FATAL -- : [d4b8632f-dad0-495a-96f5-03b8b2fc1e84]   
+[d4b8632f-dad0-495a-96f5-03b8b2fc1e84] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[d4b8632f-dad0-495a-96f5-03b8b2fc1e84]   
+I, [2024-11-26T09:28:31.166168 #308]  INFO -- : [211f7535-7484-424c-b9e3-9044c9d92398] Started GET "/admin/plugins" for 172.18.0.1 at 2024-11-26 09:28:31 +0700
+I, [2024-11-26T09:28:31.166952 #308]  INFO -- : [211f7535-7484-424c-b9e3-9044c9d92398] Processing by AdminController#plugins as HTML
+I, [2024-11-26T09:28:31.180428 #308]  INFO -- : [211f7535-7484-424c-b9e3-9044c9d92398]   Current user: admin (id=1)
+I, [2024-11-26T09:28:31.182631 #308]  INFO -- : [211f7535-7484-424c-b9e3-9044c9d92398]   Rendered admin/plugins.html.erb within layouts/admin (Duration: 1.0ms | Allocations: 2539)
+I, [2024-11-26T09:28:31.190550 #308]  INFO -- : [211f7535-7484-424c-b9e3-9044c9d92398]   Rendered layouts/base.html.erb (Duration: 6.2ms | Allocations: 8604)
+I, [2024-11-26T09:28:31.190805 #308]  INFO -- : [211f7535-7484-424c-b9e3-9044c9d92398]   Rendered layout layouts/admin.html.erb (Duration: 9.2ms | Allocations: 13524)
+I, [2024-11-26T09:28:31.191104 #308]  INFO -- : [211f7535-7484-424c-b9e3-9044c9d92398] Completed 200 OK in 24ms (Views: 9.2ms | ActiveRecord: 11.2ms | Allocations: 15104)
+I, [2024-11-26T09:28:31.258291 #308]  INFO -- : [6d309e50-91e2-416d-8ab0-95b5f6a6419a] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 09:28:31 +0700
+F, [2024-11-26T09:28:31.258936 #308] FATAL -- : [6d309e50-91e2-416d-8ab0-95b5f6a6419a]   
+[6d309e50-91e2-416d-8ab0-95b5f6a6419a] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[6d309e50-91e2-416d-8ab0-95b5f6a6419a]   
+I, [2024-11-26T09:31:04.714004 #308]  INFO -- : [e0ddf589-da98-494c-bd09-ac96763ad1b7] Started GET "/admin/plugins" for 172.18.0.1 at 2024-11-26 09:31:04 +0700
+I, [2024-11-26T09:31:04.715070 #308]  INFO -- : [e0ddf589-da98-494c-bd09-ac96763ad1b7] Processing by AdminController#plugins as HTML
+I, [2024-11-26T09:31:04.720422 #308]  INFO -- : [e0ddf589-da98-494c-bd09-ac96763ad1b7]   Current user: admin (id=1)
+I, [2024-11-26T09:31:04.722776 #308]  INFO -- : [e0ddf589-da98-494c-bd09-ac96763ad1b7]   Rendered admin/plugins.html.erb within layouts/admin (Duration: 1.0ms | Allocations: 2539)
+I, [2024-11-26T09:31:04.730086 #308]  INFO -- : [e0ddf589-da98-494c-bd09-ac96763ad1b7]   Rendered layouts/base.html.erb (Duration: 5.9ms | Allocations: 8604)
+I, [2024-11-26T09:31:04.730324 #308]  INFO -- : [e0ddf589-da98-494c-bd09-ac96763ad1b7]   Rendered layout layouts/admin.html.erb (Duration: 8.6ms | Allocations: 13524)
+I, [2024-11-26T09:31:04.730571 #308]  INFO -- : [e0ddf589-da98-494c-bd09-ac96763ad1b7] Completed 200 OK in 15ms (Views: 8.4ms | ActiveRecord: 3.4ms | Allocations: 15087)
+I, [2024-11-26T09:31:04.798152 #308]  INFO -- : [b832fcc8-91f2-417d-9cd1-2b54c59301f4] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 09:31:04 +0700
+F, [2024-11-26T09:31:04.798786 #308] FATAL -- : [b832fcc8-91f2-417d-9cd1-2b54c59301f4]   
+[b832fcc8-91f2-417d-9cd1-2b54c59301f4] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[b832fcc8-91f2-417d-9cd1-2b54c59301f4]   
+I, [2024-11-26T09:32:22.099624 #308]  INFO -- : [28b92020-13d3-49a8-9715-b238c55ddcb7] Started GET "/themes/highrise/stylesheets/your-logo.png" for 172.18.0.1 at 2024-11-26 09:32:22 +0700
+F, [2024-11-26T09:32:22.100239 #308] FATAL -- : [28b92020-13d3-49a8-9715-b238c55ddcb7]   
+[28b92020-13d3-49a8-9715-b238c55ddcb7] ActionController::RoutingError (No route matches [GET] "/themes/highrise/stylesheets/your-logo.png"):
+[28b92020-13d3-49a8-9715-b238c55ddcb7]   
+W, [2024-11-26T09:34:04.363350 #303]  WARN -- : Creating scope :system. Overwriting existing method Enumeration.system.
+W, [2024-11-26T09:34:04.394135 #303]  WARN -- : Creating scope :sorted. Overwriting existing method User.sorted.
+W, [2024-11-26T09:34:04.395406 #303]  WARN -- : Creating scope :having_mail. Overwriting existing method User.having_mail.
+W, [2024-11-26T09:34:04.617199 #303]  WARN -- : Creating scope :global_or_on_project. Overwriting existing method DriveEntryQuery.global_or_on_project.
+W, [2024-11-26T09:34:04.623383 #303]  WARN -- : Creating scope :sorted. Overwriting existing method DriveEntryQuery.sorted.
+W, [2024-11-26T09:34:04.643784 #303]  WARN -- : Creating scope :visible. Overwriting existing method PeopleQuery.visible.
+W, [2024-11-26T09:34:04.835682 #303]  WARN -- : Creating scope :sorted. Overwriting existing method Group.sorted.
+W, [2024-11-26T09:34:05.582739 #303]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:34:05.583563 #303]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:34:05.584079 #303]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:34:05.584559 #303]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:34:05.584960 #303]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:34:05.585404 #303]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T09:34:05.585772 #303]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+I, [2024-11-26T09:34:06.175738 #308]  INFO -- : [ef36a275-c476-45bd-8e53-f18a2fcdf3f0] Started GET "/admin/plugins" for 172.18.0.1 at 2024-11-26 09:34:06 +0700
+I, [2024-11-26T09:34:06.178536 #308]  INFO -- : [ef36a275-c476-45bd-8e53-f18a2fcdf3f0] Processing by AdminController#plugins as HTML
+I, [2024-11-26T09:34:06.216037 #308]  INFO -- : [ef36a275-c476-45bd-8e53-f18a2fcdf3f0]   Current user: anonymous
+I, [2024-11-26T09:34:06.223621 #308]  INFO -- : [ef36a275-c476-45bd-8e53-f18a2fcdf3f0] Redirected to http://192.168.100.170:10083/login?back_url=http%3A%2F%2F192.168.100.170%3A10083%2Fadmin%2Fplugins
+I, [2024-11-26T09:34:06.223913 #308]  INFO -- : [ef36a275-c476-45bd-8e53-f18a2fcdf3f0] Filter chain halted as :require_admin rendered or redirected
+I, [2024-11-26T09:34:06.224545 #308]  INFO -- : [ef36a275-c476-45bd-8e53-f18a2fcdf3f0] Completed 302 Found in 46ms (ActiveRecord: 6.4ms | Allocations: 36062)
+I, [2024-11-26T09:34:06.231826 #308]  INFO -- : [3f81d4df-d67c-484e-a611-cf8aabae3b75] Started GET "/login?back_url=http%3A%2F%2F192.168.100.170%3A10083%2Fadmin%2Fplugins" for 172.18.0.1 at 2024-11-26 09:34:06 +0700
+I, [2024-11-26T09:34:06.232740 #308]  INFO -- : [3f81d4df-d67c-484e-a611-cf8aabae3b75] Processing by AccountController#login as HTML
+I, [2024-11-26T09:34:06.232970 #308]  INFO -- : [3f81d4df-d67c-484e-a611-cf8aabae3b75]   Parameters: {"back_url"=>"http://192.168.100.170:10083/admin/plugins"}
+I, [2024-11-26T09:34:06.235020 #308]  INFO -- : [3f81d4df-d67c-484e-a611-cf8aabae3b75]   Current user: anonymous
+I, [2024-11-26T09:34:06.243050 #308]  INFO -- : [3f81d4df-d67c-484e-a611-cf8aabae3b75]   Rendered plugins/redmineup_cms/app/views/account/login.html.erb within layouts/base (Duration: 3.3ms | Allocations: 2138)
+I, [2024-11-26T09:34:06.308341 #308]  INFO -- : [3f81d4df-d67c-484e-a611-cf8aabae3b75]   Rendered layout layouts/base.html.erb (Duration: 68.6ms | Allocations: 62887)
+I, [2024-11-26T09:34:06.308920 #308]  INFO -- : [3f81d4df-d67c-484e-a611-cf8aabae3b75] Completed 200 OK in 76ms (Views: 57.7ms | ActiveRecord: 14.2ms | Allocations: 66925)
+I, [2024-11-26T09:34:06.374090 #308]  INFO -- : [d903e941-9efc-4274-87d4-a78586bca533] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 09:34:06 +0700
+F, [2024-11-26T09:34:06.375010 #308] FATAL -- : [d903e941-9efc-4274-87d4-a78586bca533]   
+[d903e941-9efc-4274-87d4-a78586bca533] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[d903e941-9efc-4274-87d4-a78586bca533]   
+I, [2024-11-26T09:34:15.138351 #308]  INFO -- : [4eefcdd4-f372-47fc-b2ba-d81a21a85f21] Started POST "/login" for 172.18.0.1 at 2024-11-26 09:34:15 +0700
+I, [2024-11-26T09:34:15.139323 #308]  INFO -- : [4eefcdd4-f372-47fc-b2ba-d81a21a85f21] Processing by AccountController#login as HTML
+I, [2024-11-26T09:34:15.139570 #308]  INFO -- : [4eefcdd4-f372-47fc-b2ba-d81a21a85f21]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"R3a8MAX7XazXCBCp0OMF7b70BKeDZWP2Pphao++QRrAY/M/8PoDa3YDDLG3Ga/N9panHyqxBUIYnSAWviaOOqw==", "back_url"=>"/admin/plugins", "username"=>"admin", "password"=>"[FILTERED]", "login"=>"Login »"}
+I, [2024-11-26T09:34:15.141783 #308]  INFO -- : [4eefcdd4-f372-47fc-b2ba-d81a21a85f21]   Current user: anonymous
+I, [2024-11-26T09:34:15.145791 #308]  INFO -- : [4eefcdd4-f372-47fc-b2ba-d81a21a85f21] Successful authentication for 'admin' from 172.18.0.1 at 2024-11-26 02:34:15 UTC
+I, [2024-11-26T09:34:15.157413 #308]  INFO -- : [4eefcdd4-f372-47fc-b2ba-d81a21a85f21] Redirected to http://192.168.100.170:10083/admin/plugins
+I, [2024-11-26T09:34:15.157808 #308]  INFO -- : [4eefcdd4-f372-47fc-b2ba-d81a21a85f21] Completed 302 Found in 18ms (ActiveRecord: 7.4ms | Allocations: 7448)
+I, [2024-11-26T09:34:15.162955 #308]  INFO -- : [4a689248-9256-40cd-a5a5-459a3a60f462] Started GET "/admin/plugins" for 172.18.0.1 at 2024-11-26 09:34:15 +0700
+I, [2024-11-26T09:34:15.163604 #308]  INFO -- : [4a689248-9256-40cd-a5a5-459a3a60f462] Processing by AdminController#plugins as HTML
+I, [2024-11-26T09:34:15.167101 #308]  INFO -- : [4a689248-9256-40cd-a5a5-459a3a60f462]   Current user: admin (id=1)
+I, [2024-11-26T09:34:15.172510 #308]  INFO -- : [4a689248-9256-40cd-a5a5-459a3a60f462]   Rendered admin/plugins.html.erb within layouts/admin (Duration: 1.7ms | Allocations: 3160)
+I, [2024-11-26T09:34:15.197461 #308]  INFO -- : [4a689248-9256-40cd-a5a5-459a3a60f462]   Rendered layouts/base.html.erb (Duration: 20.0ms | Allocations: 9999)
+I, [2024-11-26T09:34:15.198207 #308]  INFO -- : [4a689248-9256-40cd-a5a5-459a3a60f462]   Rendered layout layouts/admin.html.erb (Duration: 27.4ms | Allocations: 23067)
+I, [2024-11-26T09:34:15.199073 #308]  INFO -- : [4a689248-9256-40cd-a5a5-459a3a60f462] Completed 200 OK in 35ms (Views: 28.9ms | ActiveRecord: 1.9ms | Allocations: 27950)
+I, [2024-11-26T09:34:15.273833 #308]  INFO -- : [bca90d3e-d076-4b44-ab12-c2ffc6fc6c6b] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 09:34:15 +0700
+F, [2024-11-26T09:34:15.274711 #308] FATAL -- : [bca90d3e-d076-4b44-ab12-c2ffc6fc6c6b]   
+[bca90d3e-d076-4b44-ab12-c2ffc6fc6c6b] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[bca90d3e-d076-4b44-ab12-c2ffc6fc6c6b]   
+I, [2024-11-26T11:33:17.717243 #308]  INFO -- : [ac4aeda6-1bf5-4ad6-b811-d5abe1c9c3f7] Started GET "/admin" for 172.18.0.1 at 2024-11-26 11:33:17 +0700
+I, [2024-11-26T11:33:17.720742 #308]  INFO -- : [ac4aeda6-1bf5-4ad6-b811-d5abe1c9c3f7] Processing by AdminController#index as HTML
+I, [2024-11-26T11:33:17.747070 #308]  INFO -- : [ac4aeda6-1bf5-4ad6-b811-d5abe1c9c3f7]   Current user: admin (id=1)
+I, [2024-11-26T11:33:17.757598 #308]  INFO -- : [ac4aeda6-1bf5-4ad6-b811-d5abe1c9c3f7]   Rendered admin/index.html.erb within layouts/admin (Duration: 5.5ms | Allocations: 2431)
+I, [2024-11-26T11:33:17.773705 #308]  INFO -- : [ac4aeda6-1bf5-4ad6-b811-d5abe1c9c3f7]   Rendered layouts/base.html.erb (Duration: 15.6ms | Allocations: 8656)
+I, [2024-11-26T11:33:17.774022 #308]  INFO -- : [ac4aeda6-1bf5-4ad6-b811-d5abe1c9c3f7]   Rendered layout layouts/admin.html.erb (Duration: 21.9ms | Allocations: 11213)
+I, [2024-11-26T11:33:17.774475 #308]  INFO -- : [ac4aeda6-1bf5-4ad6-b811-d5abe1c9c3f7] Completed 200 OK in 53ms (Views: 21.7ms | ActiveRecord: 8.2ms | Allocations: 17599)
+I, [2024-11-26T11:33:17.834633 #309]  INFO -- : [01ab2bc2-3a74-414b-8d5d-b4a5567d8dcb] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 11:33:17 +0700
+F, [2024-11-26T11:33:17.837096 #309] FATAL -- : [01ab2bc2-3a74-414b-8d5d-b4a5567d8dcb]   
+[01ab2bc2-3a74-414b-8d5d-b4a5567d8dcb] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[01ab2bc2-3a74-414b-8d5d-b4a5567d8dcb]   
+I, [2024-11-26T11:33:19.498001 #308]  INFO -- : [4461573e-43c7-4511-bfc7-d91d298283eb] Started GET "/settings" for 172.18.0.1 at 2024-11-26 11:33:19 +0700
+I, [2024-11-26T11:33:19.499355 #308]  INFO -- : [4461573e-43c7-4511-bfc7-d91d298283eb] Processing by SettingsController#index as HTML
+I, [2024-11-26T11:33:19.502321 #308]  INFO -- : [4461573e-43c7-4511-bfc7-d91d298283eb]   Current user: admin (id=1)
+I, [2024-11-26T11:33:20.012104 #308]  INFO -- : [4461573e-43c7-4511-bfc7-d91d298283eb]   Rendered settings/edit.html.erb within layouts/admin (Duration: 501.4ms | Allocations: 285672)
+I, [2024-11-26T11:33:20.019197 #308]  INFO -- : [4461573e-43c7-4511-bfc7-d91d298283eb]   Rendered layouts/base.html.erb (Duration: 5.5ms | Allocations: 8450)
+I, [2024-11-26T11:33:20.019510 #308]  INFO -- : [4461573e-43c7-4511-bfc7-d91d298283eb]   Rendered layout layouts/admin.html.erb (Duration: 508.8ms | Allocations: 296529)
+I, [2024-11-26T11:33:20.019838 #308]  INFO -- : [4461573e-43c7-4511-bfc7-d91d298283eb] Completed 200 OK in 520ms (Views: 489.9ms | ActiveRecord: 24.9ms | Allocations: 300258)
+I, [2024-11-26T11:33:20.057512 #308]  INFO -- : [31c1b161-fbb5-405c-a65b-529ca734d30a] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 11:33:20 +0700
+F, [2024-11-26T11:33:20.058140 #308] FATAL -- : [31c1b161-fbb5-405c-a65b-529ca734d30a]   
+[31c1b161-fbb5-405c-a65b-529ca734d30a] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[31c1b161-fbb5-405c-a65b-529ca734d30a]   
+I, [2024-11-26T11:33:24.928949 #308]  INFO -- : [25f4e3f8-42e8-412f-a793-02d85142068a] Started POST "/settings/edit" for 172.18.0.1 at 2024-11-26 11:33:24 +0700
+I, [2024-11-26T11:33:24.929736 #308]  INFO -- : [25f4e3f8-42e8-412f-a793-02d85142068a] Processing by SettingsController#edit as HTML
+I, [2024-11-26T11:33:24.930047 #308]  INFO -- : [25f4e3f8-42e8-412f-a793-02d85142068a]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"4c++MV2D1fcxL7d+7EcGTiYAd83wFceXafJS3lvkwRR/LPcFJOk3iMvBF88ElSdXbpbJt902PGLG4VAAYkoxGg==", "settings"=>{"app_title"=>"LOGISTICS", "welcome_text"=>"", "per_page_options"=>"25,50,100", "search_results_per_page"=>"10", "activity_days_default"=>"10", "host_name"=>"localhost:3000", "protocol"=>"http", "text_formatting"=>"common_mark", "cache_formatted_text"=>"0", "wiki_compression"=>"", "feeds_limit"=>"15"}, "commit"=>"Save"}
+I, [2024-11-26T11:33:24.933108 #308]  INFO -- : [25f4e3f8-42e8-412f-a793-02d85142068a]   Current user: admin (id=1)
+I, [2024-11-26T11:33:24.942506 #308]  INFO -- : [25f4e3f8-42e8-412f-a793-02d85142068a] Redirected to http://192.168.100.170:10083/settings
+I, [2024-11-26T11:33:24.942847 #308]  INFO -- : [25f4e3f8-42e8-412f-a793-02d85142068a] Completed 302 Found in 13ms (ActiveRecord: 4.0ms | Allocations: 5133)
+I, [2024-11-26T11:33:24.947540 #308]  INFO -- : [32eb7d15-527f-4d8f-84a6-885913b4cb1d] Started GET "/settings" for 172.18.0.1 at 2024-11-26 11:33:24 +0700
+I, [2024-11-26T11:33:24.948119 #308]  INFO -- : [32eb7d15-527f-4d8f-84a6-885913b4cb1d] Processing by SettingsController#index as HTML
+I, [2024-11-26T11:33:24.950051 #308]  INFO -- : [32eb7d15-527f-4d8f-84a6-885913b4cb1d] Settings cache cleared.
+I, [2024-11-26T11:33:24.950928 #308]  INFO -- : [32eb7d15-527f-4d8f-84a6-885913b4cb1d]   Current user: admin (id=1)
+I, [2024-11-26T11:33:25.016643 #308]  INFO -- : [32eb7d15-527f-4d8f-84a6-885913b4cb1d]   Rendered settings/edit.html.erb within layouts/admin (Duration: 62.6ms | Allocations: 72729)
+I, [2024-11-26T11:33:25.029080 #308]  INFO -- : [32eb7d15-527f-4d8f-84a6-885913b4cb1d]   Rendered layouts/base.html.erb (Duration: 7.6ms | Allocations: 9328)
+I, [2024-11-26T11:33:25.029423 #308]  INFO -- : [32eb7d15-527f-4d8f-84a6-885913b4cb1d]   Rendered layout layouts/admin.html.erb (Duration: 75.4ms | Allocations: 84449)
+I, [2024-11-26T11:33:25.029686 #308]  INFO -- : [32eb7d15-527f-4d8f-84a6-885913b4cb1d] Completed 200 OK in 81ms (Views: 62.9ms | ActiveRecord: 14.2ms | Allocations: 87155)
+I, [2024-11-26T11:33:25.067707 #308]  INFO -- : [28973924-3669-4746-837c-7885e5769570] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 11:33:25 +0700
+F, [2024-11-26T11:33:25.068465 #308] FATAL -- : [28973924-3669-4746-837c-7885e5769570]   
+[28973924-3669-4746-837c-7885e5769570] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[28973924-3669-4746-837c-7885e5769570]   
+W, [2024-11-26T11:35:39.157016 #359]  WARN -- : Creating scope :system. Overwriting existing method Enumeration.system.
+W, [2024-11-26T11:35:39.184557 #359]  WARN -- : Creating scope :sorted. Overwriting existing method User.sorted.
+W, [2024-11-26T11:35:39.184918 #359]  WARN -- : Creating scope :having_mail. Overwriting existing method User.having_mail.
+W, [2024-11-26T11:35:39.425132 #359]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T11:35:39.425656 #359]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T11:35:39.425925 #359]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T11:35:39.426208 #359]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T11:35:39.426454 #359]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T11:35:39.426696 #359]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T11:35:39.426933 #359]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T11:35:41.410515 #362]  WARN -- : Creating scope :system. Overwriting existing method Enumeration.system.
+W, [2024-11-26T11:35:41.435635 #362]  WARN -- : Creating scope :sorted. Overwriting existing method User.sorted.
+W, [2024-11-26T11:35:41.436576 #362]  WARN -- : Creating scope :having_mail. Overwriting existing method User.having_mail.
+W, [2024-11-26T11:35:41.624907 #362]  WARN -- : Creating scope :global_or_on_project. Overwriting existing method DriveEntryQuery.global_or_on_project.
+W, [2024-11-26T11:35:41.625194 #362]  WARN -- : Creating scope :sorted. Overwriting existing method DriveEntryQuery.sorted.
+W, [2024-11-26T11:35:41.645845 #362]  WARN -- : Creating scope :visible. Overwriting existing method PeopleQuery.visible.
+W, [2024-11-26T11:35:41.839484 #362]  WARN -- : Creating scope :sorted. Overwriting existing method Group.sorted.
+W, [2024-11-26T11:35:42.589951 #362]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T11:35:42.590613 #362]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T11:35:42.591041 #362]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T11:35:42.591405 #362]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T11:35:42.591693 #362]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T11:35:42.591961 #362]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+W, [2024-11-26T11:35:42.592247 #362]  WARN -- : DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 7.0. (called from instance_eval at /home/redmine/redmine/config/routes.rb:410)
+I, [2024-11-26T11:35:45.638155 #364]  INFO -- : [331a88ca-db02-4c8d-804b-197210ca933b] Started GET "/settings" for 172.18.0.1 at 2024-11-26 11:35:45 +0700
+I, [2024-11-26T11:35:45.640943 #364]  INFO -- : [331a88ca-db02-4c8d-804b-197210ca933b] Processing by SettingsController#index as HTML
+I, [2024-11-26T11:35:45.680627 #364]  INFO -- : [331a88ca-db02-4c8d-804b-197210ca933b]   Current user: admin (id=1)
+I, [2024-11-26T11:35:46.059271 #364]  INFO -- : [331a88ca-db02-4c8d-804b-197210ca933b]   Rendered settings/edit.html.erb within layouts/admin (Duration: 367.1ms | Allocations: 305797)
+I, [2024-11-26T11:35:46.086067 #364]  INFO -- : [331a88ca-db02-4c8d-804b-197210ca933b]   Rendered layouts/base.html.erb (Duration: 18.6ms | Allocations: 18089)
+I, [2024-11-26T11:35:46.086412 #364]  INFO -- : [331a88ca-db02-4c8d-804b-197210ca933b]   Rendered layout layouts/admin.html.erb (Duration: 394.3ms | Allocations: 329572)
+I, [2024-11-26T11:35:46.086859 #364]  INFO -- : [331a88ca-db02-4c8d-804b-197210ca933b] Completed 200 OK in 446ms (Views: 368.8ms | ActiveRecord: 42.4ms | Allocations: 361613)
+I, [2024-11-26T11:35:46.148253 #364]  INFO -- : [142911a1-149d-40a8-9789-3af21e9c0c5e] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 11:35:46 +0700
+F, [2024-11-26T11:35:46.149008 #364] FATAL -- : [142911a1-149d-40a8-9789-3af21e9c0c5e]   
+[142911a1-149d-40a8-9789-3af21e9c0c5e] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[142911a1-149d-40a8-9789-3af21e9c0c5e]   
+I, [2024-11-26T11:35:48.569533 #364]  INFO -- : [2bdbd0ab-2bc0-4c54-98ea-5847b1ddc7f4] Started GET "/admin" for 172.18.0.1 at 2024-11-26 11:35:48 +0700
+I, [2024-11-26T11:35:48.570424 #364]  INFO -- : [2bdbd0ab-2bc0-4c54-98ea-5847b1ddc7f4] Processing by AdminController#index as HTML
+I, [2024-11-26T11:35:48.573398 #364]  INFO -- : [2bdbd0ab-2bc0-4c54-98ea-5847b1ddc7f4]   Current user: admin (id=1)
+I, [2024-11-26T11:35:48.577940 #364]  INFO -- : [2bdbd0ab-2bc0-4c54-98ea-5847b1ddc7f4]   Rendered admin/index.html.erb within layouts/admin (Duration: 1.6ms | Allocations: 2598)
+I, [2024-11-26T11:35:48.584330 #364]  INFO -- : [2bdbd0ab-2bc0-4c54-98ea-5847b1ddc7f4]   Rendered layouts/base.html.erb (Duration: 5.9ms | Allocations: 8906)
+I, [2024-11-26T11:35:48.584603 #364]  INFO -- : [2bdbd0ab-2bc0-4c54-98ea-5847b1ddc7f4]   Rendered layout layouts/admin.html.erb (Duration: 8.3ms | Allocations: 11640)
+I, [2024-11-26T11:35:48.584918 #364]  INFO -- : [2bdbd0ab-2bc0-4c54-98ea-5847b1ddc7f4] Completed 200 OK in 14ms (Views: 8.9ms | ActiveRecord: 1.6ms | Allocations: 15026)
+I, [2024-11-26T11:35:48.620221 #364]  INFO -- : [a66c3eb6-66a6-4036-a772-4716a9b589e8] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 11:35:48 +0700
+F, [2024-11-26T11:35:48.620830 #364] FATAL -- : [a66c3eb6-66a6-4036-a772-4716a9b589e8]   
+[a66c3eb6-66a6-4036-a772-4716a9b589e8] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[a66c3eb6-66a6-4036-a772-4716a9b589e8]   
+I, [2024-11-26T11:35:50.973361 #364]  INFO -- : [3822bb88-ba03-4fe3-b387-f41f0025dfd7] Started GET "/admin/plugins" for 172.18.0.1 at 2024-11-26 11:35:50 +0700
+I, [2024-11-26T11:35:50.974213 #364]  INFO -- : [3822bb88-ba03-4fe3-b387-f41f0025dfd7] Processing by AdminController#plugins as HTML
+I, [2024-11-26T11:35:50.977035 #364]  INFO -- : [3822bb88-ba03-4fe3-b387-f41f0025dfd7]   Current user: admin (id=1)
+I, [2024-11-26T11:35:50.988918 #364]  INFO -- : [3822bb88-ba03-4fe3-b387-f41f0025dfd7]   Rendered admin/plugins.html.erb within layouts/admin (Duration: 10.1ms | Allocations: 3241)
+I, [2024-11-26T11:35:50.996478 #364]  INFO -- : [3822bb88-ba03-4fe3-b387-f41f0025dfd7]   Rendered layouts/base.html.erb (Duration: 5.8ms | Allocations: 8693)
+I, [2024-11-26T11:35:50.997262 #364]  INFO -- : [3822bb88-ba03-4fe3-b387-f41f0025dfd7]   Rendered layout layouts/admin.html.erb (Duration: 18.5ms | Allocations: 14433)
+I, [2024-11-26T11:35:50.998492 #364]  INFO -- : [3822bb88-ba03-4fe3-b387-f41f0025dfd7] Completed 200 OK in 24ms (Views: 19.3ms | ActiveRecord: 1.2ms | Allocations: 17272)
+I, [2024-11-26T11:35:51.037395 #364]  INFO -- : [c1939894-c6aa-4d62-9d88-0c37d5ddc952] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 11:35:51 +0700
+F, [2024-11-26T11:35:51.037903 #364] FATAL -- : [c1939894-c6aa-4d62-9d88-0c37d5ddc952]   
+[c1939894-c6aa-4d62-9d88-0c37d5ddc952] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[c1939894-c6aa-4d62-9d88-0c37d5ddc952]   
+I, [2024-11-26T11:36:28.635805 #364]  INFO -- : [007e18ed-4dfa-41ac-b6e4-371fe2ff56e3] Started GET "/admin" for 172.18.0.1 at 2024-11-26 11:36:28 +0700
+I, [2024-11-26T11:36:28.636701 #364]  INFO -- : [007e18ed-4dfa-41ac-b6e4-371fe2ff56e3] Processing by AdminController#index as HTML
+I, [2024-11-26T11:36:28.639877 #364]  INFO -- : [007e18ed-4dfa-41ac-b6e4-371fe2ff56e3]   Current user: admin (id=1)
+I, [2024-11-26T11:36:28.643163 #364]  INFO -- : [007e18ed-4dfa-41ac-b6e4-371fe2ff56e3]   Rendered admin/index.html.erb within layouts/admin (Duration: 1.6ms | Allocations: 2390)
+I, [2024-11-26T11:36:28.651013 #364]  INFO -- : [007e18ed-4dfa-41ac-b6e4-371fe2ff56e3]   Rendered layouts/base.html.erb (Duration: 7.4ms | Allocations: 8693)
+I, [2024-11-26T11:36:28.651278 #364]  INFO -- : [007e18ed-4dfa-41ac-b6e4-371fe2ff56e3]   Rendered layout layouts/admin.html.erb (Duration: 9.8ms | Allocations: 11212)
+I, [2024-11-26T11:36:28.651543 #364]  INFO -- : [007e18ed-4dfa-41ac-b6e4-371fe2ff56e3] Completed 200 OK in 15ms (Views: 9.5ms | ActiveRecord: 1.9ms | Allocations: 12768)
+I, [2024-11-26T11:36:28.691084 #364]  INFO -- : [f46500ab-c06d-41c3-be2e-5a322599263a] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 11:36:28 +0700
+F, [2024-11-26T11:36:28.691654 #364] FATAL -- : [f46500ab-c06d-41c3-be2e-5a322599263a]   
+[f46500ab-c06d-41c3-be2e-5a322599263a] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[f46500ab-c06d-41c3-be2e-5a322599263a]   
+I, [2024-11-26T11:36:32.454069 #364]  INFO -- : [9bded828-d9d8-48d8-993e-c241baf75eb4] Started GET "/logs/index" for 172.18.0.1 at 2024-11-26 11:36:32 +0700
+I, [2024-11-26T11:36:32.454757 #364]  INFO -- : [9bded828-d9d8-48d8-993e-c241baf75eb4] Processing by LogsController#index as HTML
+I, [2024-11-26T11:36:32.457474 #364]  INFO -- : [9bded828-d9d8-48d8-993e-c241baf75eb4]   Current user: admin (id=1)
+I, [2024-11-26T11:36:32.464229 #364]  INFO -- : [9bded828-d9d8-48d8-993e-c241baf75eb4]   Rendered plugins/redmine_logs/app/views/logs/index.html.erb within layouts/admin (Duration: 3.6ms | Allocations: 3076)
+I, [2024-11-26T11:36:32.474943 #364]  INFO -- : [9bded828-d9d8-48d8-993e-c241baf75eb4]   Rendered layouts/base.html.erb (Duration: 9.1ms | Allocations: 10972)
+I, [2024-11-26T11:36:32.475210 #364]  INFO -- : [9bded828-d9d8-48d8-993e-c241baf75eb4]   Rendered layout layouts/admin.html.erb (Duration: 14.5ms | Allocations: 16592)
+I, [2024-11-26T11:36:32.475447 #364]  INFO -- : [9bded828-d9d8-48d8-993e-c241baf75eb4] Completed 200 OK in 21ms (Views: 13.6ms | ActiveRecord: 2.8ms | Allocations: 19059)
+I, [2024-11-26T11:36:32.521590 #364]  INFO -- : [05af2300-bd23-4d7f-bb23-4c270e896fec] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 11:36:32 +0700
+F, [2024-11-26T11:36:32.522170 #364] FATAL -- : [05af2300-bd23-4d7f-bb23-4c270e896fec]   
+[05af2300-bd23-4d7f-bb23-4c270e896fec] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[05af2300-bd23-4d7f-bb23-4c270e896fec]   
+I, [2024-11-26T11:36:35.016741 #364]  INFO -- : [d5d265df-6f26-41f6-be2d-bf692d4a12ed] Started POST "/logs/show" for 172.18.0.1 at 2024-11-26 11:36:35 +0700
+I, [2024-11-26T11:36:35.017578 #364]  INFO -- : [d5d265df-6f26-41f6-be2d-bf692d4a12ed] Processing by LogsController#show as HTML
+I, [2024-11-26T11:36:35.017866 #364]  INFO -- : [d5d265df-6f26-41f6-be2d-bf692d4a12ed]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"z4s0cTZsOfzo82bEzJkW8pECsn9HqN1LigNmvFnzkp9RaH1FTwbbgxIdxnUkSzfr2ZQMBWqLJr4lEGRiYF1ikQ==", "path"=>"/home/redmine/redmine/log/production.log"}
+I, [2024-11-26T11:36:35.020664 #364]  INFO -- : [d5d265df-6f26-41f6-be2d-bf692d4a12ed]   Current user: admin (id=1)
+I, [2024-11-26T11:36:35.024287 #364]  INFO -- : [d5d265df-6f26-41f6-be2d-bf692d4a12ed]   Rendered plugins/redmine_logs/app/views/logs/show.html.erb within layouts/admin (Duration: 0.7ms | Allocations: 773)
+I, [2024-11-26T11:36:35.033883 #364]  INFO -- : [d5d265df-6f26-41f6-be2d-bf692d4a12ed]   Rendered layouts/base.html.erb (Duration: 8.2ms | Allocations: 10483)
+I, [2024-11-26T11:36:35.034544 #364]  INFO -- : [d5d265df-6f26-41f6-be2d-bf692d4a12ed]   Rendered layout layouts/admin.html.erb (Duration: 11.0ms | Allocations: 13761)
+I, [2024-11-26T11:36:35.035278 #364]  INFO -- : [d5d265df-6f26-41f6-be2d-bf692d4a12ed] Completed 200 OK in 17ms (Views: 10.4ms | ActiveRecord: 2.0ms | Allocations: 15982)
+I, [2024-11-26T11:36:35.073459 #366]  INFO -- : [a92352f5-17ec-48db-9d69-ced948432d7f] Started GET "/application.css" for 172.18.0.1 at 2024-11-26 11:36:35 +0700
+F, [2024-11-26T11:36:35.074629 #366] FATAL -- : [a92352f5-17ec-48db-9d69-ced948432d7f]   
+[a92352f5-17ec-48db-9d69-ced948432d7f] ActionController::RoutingError (No route matches [GET] "/application.css"):
+[a92352f5-17ec-48db-9d69-ced948432d7f]   
