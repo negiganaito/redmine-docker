@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class DashboardRole < ApplicationRecord
+class DashboardRole < AdditionalsApplicationRecord
   include Redmine::SafeAttributes
 
   belongs_to :dashboard

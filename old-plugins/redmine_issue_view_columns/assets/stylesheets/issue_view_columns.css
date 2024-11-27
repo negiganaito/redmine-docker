@@ -1,0 +1,37 @@
+#issue_tree .view-columns .issue > td.subject,
+#relations .view-columns .issue > td.subject {
+  min-width: 300px !important;
+  padding-right: 5px !important;
+}
+
+#available_settings_issue_view_columns,
+#selected_settings_issue_view_columns,
+#available_c,
+#selected_c {
+    width: 250px !important;
+}
+
+@media screen and (max-width: 899px) {
+  #issue_tree .view-columns .issue > td:not(.checkbox),
+  #relations .view-columns .issue > td:not(.checkbox) {
+    display: revert;
+    float: none;
+  }
+
+  #issue_tree .issues.view-columns,
+  #relations .issues.view-columns {
+    border-spacing: 0 0;
+  }
+
+  #issue_tree .view-columns .issue > td.subject,
+  #relations .view-columns .issue > td.subject {
+    min-width: 290px !important;
+    padding-right: 5px !important;
+  }
+
+  #issue_tree .view-columns .issue > td.buttons,
+  #relations .view-columns .issue > td.buttons {
+    position: relative !important;
+    padding: 5px !important;
+  }
+}

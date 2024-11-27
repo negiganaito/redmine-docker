@@ -1,18 +1,10 @@
 # Changelog
 
-## 4.0.0
-
-- Support for Redmine 6
-- Redmine 5 support dropped
-- Gemify support dropped
-- switch icons from fontawesome to tabler
-- broken tradingview macro removed
-
-## 3.4.0
-
 - Move assign to me button to assign to block
 - svg icons support for Redmine 6
 - remove tooltip css style, which overwrote default redmine style
+
+## 3.4.0
 
 ## 3.3.2
 

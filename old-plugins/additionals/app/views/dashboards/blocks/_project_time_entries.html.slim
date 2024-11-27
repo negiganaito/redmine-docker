@@ -1,6 +1,5 @@
 h3.icon.icon-time
-  = svg_icon_tag 'time', label: block_definition[:label], plugin: ''
-
+  = block_definition[:label]
 ul
   - if @total_estimated_hours.present?
     li

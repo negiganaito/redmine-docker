@@ -1,7 +1,6 @@
 - if @subprojects.any?
-  h3.icon
-    = svg_icon_tag 'projects', label: :label_subproject_plural, plugin: ''
-
+  h3.icon.icon-projects
+    = l :label_subproject_plural
   ul.subprojects
     - @subprojects.each do |project|
       li

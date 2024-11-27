@@ -8,12 +8,11 @@ module Additionals
       included do
         include InstanceMethods
         before_action :enable_smileys
-        helper :additionals_js_heads
       end
 
       module InstanceMethods
         def render_flash_mail(mail, name = nil)
-          content = "#{name} (#{mail})"
+          content = "#{name} <span class=\"icon icon-email\">#{mail}</span>"
           return content if name.blank?
 
           "#{name} #{content}"

@@ -169,6 +169,10 @@ class ProjectTest < Additionals::TestCase
   def test_available_status_ids
     ids = Project.available_status_ids
 
-    assert_operator ids.count, :>, 3
+    if Redmine::VERSION.to_s < '5.1'
+      assert_equal 3, ids.count
+    else
+      assert_operator ids.count, :>, 3
+    end
   end
 end

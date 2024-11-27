@@ -64,7 +64,7 @@ docker exec -it redmine bash
 2. Rollback the plugin migration:
 
 ```bash
-bundle exec rake redmine:plugins:migrate NAME=redmine_people VERSION=0
+bundle exec rake redmine:plugins:migrate NAME=redmine_issue_view_columns VERSION=0
 ```
 
 3. Restart

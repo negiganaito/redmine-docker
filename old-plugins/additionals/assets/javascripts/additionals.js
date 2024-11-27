@@ -55,7 +55,7 @@ function formatFontawesomeText(icon) {
 function observeLiveSearchField(fieldId, targetId, target_url) {
   $('#'+fieldId).each(function() {
     var $this = $(this);
-    $this.addClass('livesearch');
+    $this.addClass('autocomplete');
     $this.attr('data-search-was', $this.val());
     var check = function() {
       var val = $this.val();

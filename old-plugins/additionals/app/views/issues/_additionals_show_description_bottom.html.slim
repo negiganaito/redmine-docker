@@ -1,12 +1,8 @@
 - if @issue.editable? && Additionals.setting?(:issue_fast_description_edit)
-  - desc_link = link_to sprite_icon('edit', l(:button_edit)),
-                        edit_issue_path(@issue),
-                        class: 'icon icon-edit',
-                        id: 'fast-desc-link'
   javascript:
     $(function() {
       $('.issue .description .contextual')
-        .prepend("#{escape_javascript desc_link}");
+        .prepend("#{escape_javascript link_to(l(:button_edit), edit_issue_path(@issue), class: 'icon icon-edit', id: 'fast-desc-link')} ");
 
       $("#fast-desc-link").click(function() {
         $("#issue_description_and_toolbar").parent().find('a').first().hide();
